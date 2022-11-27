@@ -1,0 +1,99 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+body{
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+.box:hover span{
+  color:yellow
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+body::-webkit-scrollbar {
+  width: 8px;
+}
+
+body::-webkit-scrollbar-track {
+  background: rgb(243, 233, 233); 
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: rgba(116, 19, 101, 0.312);
+  border-radius: 20px; 
+}
+
+.box:hover button {
+  background: rgb(255, 255, 255);
+  color:purple;
+  transition: all 0.3s ease-in-out;
+}
+.bx:hover .bf{
+  background-color: rgba(237, 112, 237, 0.316);
+  transition: all 0.2s ease-in-out;
+}
+/* .slick-prev {
+  left: -5% !important;
+  z-index: 1;
+ 
+}
+
+.slick-prev:before {
+  content: '←';
+  color: #000000;
+  height: 100%;
+   width: 100%;
+   border-radius: 100%;
+    background: #000;
+    
+    padding-top: 1px;
+    padding-right: 1px;
+}
+.slick-next:before {
+  content: '←';
+  color: #000000;
+  background: #000;
+}
+
+.slick-next {
+  right: -5% !important;
+  z-index: 1;
+} */
+
+
+
+
