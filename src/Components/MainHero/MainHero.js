@@ -6,7 +6,7 @@ const MainHero = () => {
     return (
         <div className=' relative'>
             <Hero />
-            <div className=' absolute -bottom-[22rem]  w-screen mx-auto left-0'>
+            <div className=' absolute lg:-bottom-[22rem] md:-bottom-[30rem] -bottom-[55rem]   w-screen mx-auto left-0 px-5'>
                 <Upcomming />
             </div>
         </div>

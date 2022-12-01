@@ -13,16 +13,12 @@ import Students from './Components/Dashboard/Students/Students';
 import AddQuiz from './Components/Dashboard/AddQuiz/AddQuiz';
 import AddBlog from './Components/Dashboard/AddBlog/AddBlog';
 import QuizRoom from './Components/QuizRoom/QuizRoom';
-
-
+import "@fontsource/noto-serif-bengali";
 
 function App() {
   return (
-    <div className='app '>
+    <div style={{ fontFamily: "Noto Serif Bengali" }} className='app '>
       <Navbar />
-
-
-
       <Routes>
         <Route path='/' element={<Home />}></Route>
         <Route path='/signup' element={<SignUp />}></Route>
@@ -39,11 +35,6 @@ function App() {
           <Route path='addquiz' element={<AddQuiz></AddQuiz>}></Route>
           <Route path='addblog' element={<AddBlog></AddBlog>}></Route>
         </Route>
-
-
-
-
-
       </Routes>
       <Footer />
     </div>

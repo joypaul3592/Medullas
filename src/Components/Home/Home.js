@@ -1,9 +1,9 @@
 import React from 'react';
 import About from '../About/About';
+import Course from '../Course/Course';
 import Faq from '../Faq/Faq';
 import MainHero from '../MainHero/MainHero';
 import PlanCard from '../PlanCard/PlanCard';
-import Carosule from '../Sheard/Carosule/Carosule';
 import Team from '../Team/Team';
 import Testmonial from '../Testmonial/Testmonial';
 import Timeline from '../Timeline/Timeline';
@@ -12,7 +12,7 @@ const Home = () => {
         <div>
             <MainHero />
             <About />
-            <Carosule />
+            <Course />
             <Timeline />
             <Faq />
             <Testmonial />

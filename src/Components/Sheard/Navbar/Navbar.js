@@ -54,7 +54,7 @@ const Navbar = () => {
                 <div className={`${scroll ? ' h-10 md:h-14 xl:h-26' : ' h-16 md:h-18 xl:h-20'}   flex justify-between items-center  transition-all duration-300 ease-in-out  `}>
                     <div className={`transition-all duration-300 ease-in-out`}>
                         <NavLink to={'/'}>
-                            <img className=' w-20 h-10' src={logo} alt="logo" />
+                            <h1 className=' text-3xl font-bold text-purple-600'>মেডুলা'স</h1>
                         </NavLink>
                     </div>
 
@@ -72,88 +72,75 @@ const Navbar = () => {
                     {/* website */}
                     <div className='w-full hidden md:flex items-center justify-around '>
                         <div className="hidden ml-auto md:block  w-full ">
-                            <div className=' flex w-full  justify-end  items-center pl-10 xl:pl-52'>
-                                <div className="h-full flex md:gap-x-6 lg:gap-x-8 xl:gap-x-10 justify-between items-center relative xl:mr-20" >
+                            <div className=' flex w-full  justify-end  items-center pl-10 '>
+                                <div className="h-full flex md:gap-x-6 lg:gap-x-8 xl:gap-x-10 justify-between items-center relative xl:mr-10" >
 
 
                                     <NavLink
                                         onClick={() => setLearn(!learn)}
                                         to={'quizroom'}
-                                        className={({ isActive }) => (` rounded-md text-[13px] hover:text-purple-500 font-semibold  ${isActive ? 'text-purple-500' : 'text-black'}`)}
-                                    >QuizRoom
+                                        className={({ isActive }) => (` rounded-md text-[15px] hover:text-purple-500 font-semibold  ${isActive ? 'text-purple-500' : 'text-gray-700'}`)}
+                                    >ভর্তি ফরম
                                     </NavLink>
 
 
                                     <NavLink
                                         onClick={() => setFeatures(!features)}
                                         to={'support'}
-                                        className={({ isActive }) => (` rounded-md text-[13px] hover:text-purple-500 font-semibold  ${isActive ? 'text-purple-500' : 'text-black'}`)}
-                                    >Support
+                                        className={({ isActive }) => (` rounded-md text-[15px] hover:text-purple-500 font-semibold  ${isActive ? 'text-purple-500' : 'text-gray-700'}`)}
+                                    >অনলাইন কেয়ার
                                     </NavLink>
 
                                     <NavLink
                                         onClick={() => setPrice(!price)}
                                         to={'blog'}
-                                        className={({ isActive }) => (` rounded-md text-[13px] hover:text-purple-500 font-semibold  ${isActive ? 'text-purple-500' : 'text-black'}`)}
-                                    >Blog
+                                        className={({ isActive }) => (` rounded-md text-[15px] hover:text-purple-500 font-semibold  ${isActive ? 'text-purple-500' : 'text-gray-700'}`)}
+                                    >ব্লগ
                                     </NavLink>
-
-
 
                                     <NavLink
-                                        to={'dashboard/students'}
-                                        className={({ isActive }) => (`rounded-md text-[13px] hover:text-purple-500 font-semibold  ${isActive ? 'text-purple-500' : 'text-black'}`)}
-                                    >Dashboard
+                                        onClick={() => setPrice(!price)}
+                                        to={'blog'}
+                                        className={({ isActive }) => (` rounded-md text-[15px] hover:text-purple-500 font-semibold  ${isActive ? 'text-purple-500' : 'text-gray-700'}`)}
+                                    >শাখা সমূহ
                                     </NavLink>
+
+                                    <NavLink
+                                        onClick={() => setPrice(!price)}
+                                        to={'blog'}
+                                        className={({ isActive }) => (` rounded-md text-[15px] hover:text-purple-500 font-semibold  ${isActive ? 'text-purple-500' : 'text-gray-700'}`)}
+                                    >বুক শপ
+                                    </NavLink>
+
+                                    <NavLink
+                                        onClick={() => setPrice(!price)}
+                                        to={'blog'}
+                                        className={({ isActive }) => (` rounded-md text-[15px] hover:text-purple-500 font-semibold  ${isActive ? 'text-purple-500' : 'text-gray-700'}`)}
+                                    >রেজাল্ট
+                                    </NavLink>
+                                    <NavLink
+                                        onClick={() => setPrice(!price)}
+                                        to={'blog'}
+                                        className={({ isActive }) => (` rounded-md text-[15px] hover:text-purple-500 font-semibold  ${isActive ? 'text-purple-500' : 'text-gray-700'}`)}
+                                    >কোর্স
+                                    </NavLink>
+
+
+
+
 
 
                                 </div>
 
-                                <div className='flex items-center mr-5  '>
-
-                                    <div onClick={() => setNotifiOpen(!notfiOpen)} className=' h-8 w-8 bg-purple-100 rounded-full flex items-center justify-center mr-5 hover:bg-purple-200 transition-all duration-200 ease-in-out cursor-pointer '>
-                                        <GrNotification />
-                                    </div>
-
-                                    <div class={`relative mt-16  ${notfiOpen ? 'inline-block' : 'hidden'}`}>
-
-
-
-
-                                        <div x-show="isOpen"
-                                            class="absolute right-0 z-20 w-64 mt-2 overflow-hidden bg-white rounded-md shadow-lg sm:w-80 "
-                                        >
-                                            <div class="py-2">
-                                                <a href="#" class="flex items-center px-4 py-3 -mx-2 transition-colors duration-300 transform border-b border-gray-200 hover:bg-gray-50 dark:hover:bg-gray-700 ">
-                                                    <img class="flex-shrink-0 object-cover w-8 h-8 mx-1 rounded-full" src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80" alt="avatar" />
-                                                    <p class="mx-2 text-sm text-gray-600 "><span class="font-bold" href="#">Sara Salah</span> replied on the <span class="text-blue-500 hover:underline" href="#">Upload Image</span> artical . 2m</p>
-                                                </a>
-                                                <a href="#" class="flex items-center px-4 py-3 -mx-2 transition-colors duration-300 transform border-b border-gray-200 hover:bg-gray-50 dark:hover:bg-gray-700 ">
-                                                    <img class="flex-shrink-0 object-cover w-8 h-8 mx-1 rounded-full" src="https://images.unsplash.com/photo-1531427186611-ecfd6d936c79?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80" alt="avatar" />
-                                                    <p class="mx-2 text-sm text-gray-600 "><span class="font-bold" href="#">Slick Net</span> start following you . 45m</p>
-                                                </a>
-                                                <a href="#" class="flex items-center px-4 py-3 -mx-2 transition-colors duration-300 transform border-b border-gray-200 hover:bg-gray-50 dark:hover:bg-gray-700 ">
-                                                    <img class="flex-shrink-0 object-cover w-8 h-8 mx-1 rounded-full" src="https://images.unsplash.com/photo-1450297350677-623de575f31c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80" alt="avatar" />
-                                                    <p class="mx-2 text-sm text-gray-600 "><span class="font-bold" href="#">Jane Doe</span> Like Your reply on <span class="text-blue-500 hover:underline" href="#">Test with TDD</span> artical . 1h</p>
-                                                </a>
-                                                <a href="#" class="flex items-center px-4 py-3 -mx-2 transition-colors duration-300 transform hover:bg-gray-100 dark:hover:bg-gray-700">
-                                                    <img class="flex-shrink-0 object-cover w-8 h-8 mx-1 rounded-full" src="https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=398&q=80" alt="avatar" />
-                                                    <p class="mx-2 text-sm text-gray-600 "><span class="font-bold" href="#">Abigail Bennett</span> start following you . 3h</p>
-                                                </a>
-                                            </div>
-                                            <a href="#" class="block py-2 font-medium text-center text-gray-700 bg-gray-800 dark:bg-gray-200 hover:underline">See all notifications</a>
-                                        </div>
-                                    </div>
-
-
+                                <div className='flex items-center ml-7 lg:ml-0 '>
 
                                     <NavLink
                                         to={'signup'}
-                                        className=" relative inline-flex items-center justify-center px-5 py-1.5 overflow-hidden font-mono font-medium tracking-tighter text-black border border-gray-200  rounded-full group transition-all duration-700 ease-out"
+                                        className=" relative inline-flex items-center justify-center px-5 py-1.5 overflow-hidden font-mono font-medium tracking-tighter text-black border border-purple-300 hover:text-white  rounded-full group transition-all duration-200 ease-out"
                                     >
-                                        <span class="absolute w-0 h-0 transition-all duration-700 ease-out bg-purple-300 rounded-full group-hover:w-60 group-hover:h-56"></span>
-                                        <span class="absolute inset-0 w-full h-full  rounded-full opacity-30 transition-all duration-700 ease-out"></span>
-                                        <span class="relative text-[13px] font-semibold">Sign Up</span>
+                                        <span class="absolute w-0 h-0 transition-all duration-700 ease-out bg-purple-600  rounded-full group-hover:w-60 group-hover:h-56"></span>
+                                        <span class="absolute inset-0 w-full h-full  rounded-full opacity-30 transition-all duration-200 ease-out"></span>
+                                        <span class="relative text-[13px] font-semibold">সাইন আপ</span>
                                     </NavLink>
 
 

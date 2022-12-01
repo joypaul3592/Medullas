@@ -1,5 +1,8 @@
+
+
 .App {
   text-align: center;
+  font-family: 'Tiro Bangla', serif;
 }
 
 .App-logo {
@@ -9,6 +12,7 @@
 body{
   scroll-behavior: smooth;
   overflow-x: hidden;
+
 }
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
