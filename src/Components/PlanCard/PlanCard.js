@@ -5,9 +5,9 @@ const PlanCard = () => {
     return (
         <div className=' max-w-7xl mx-auto mt-20 mb-20 '>
             <div className=' px-5'>
-                <div className=' text-left'>
-                    <h1 className=' text-2xl font-semibold text-purple-900 '>Select your Course</h1>
-                    <p className='mt-1 font-medium text-gray-600'>No hidden fees, equipment rentals, or installation appointments.</p>
+                <div >
+                    <h4 className=' font-bold text-purple-600'>#বই</h4>
+                    <h1 className=' text-3xl font-bold mb-10'>আমাদের জনপ্রিয় বই সমূহঃ</h1>
                 </div>
                 <PlanCardItem />
             </div>

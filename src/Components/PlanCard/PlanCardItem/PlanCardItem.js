@@ -1,5 +1,10 @@
 import React from 'react';
 import { BsCheck } from "react-icons/bs";
+import bookimg from '../../../Assect/book.jpg'
+import payment1 from '../../../Assect/payment1.png'
+import payment2 from '../../../Assect/payment2.png'
+import payment3 from '../../../Assect/payment3.png'
+import payment4 from '../../../Assect/payment4.png'
 const PlanCardItem = () => {
     return (
         <div class="container m-auto px-2 py-2 md:px-12 lg:px-2">
@@ -7,45 +12,14 @@ const PlanCardItem = () => {
                 <div class="relative z-10 -mx-4 group md:w-6/12 md:mx-0 lg:w-5/12">
                     <div aria-hidden="true" class="absolute top-0 w-full h-full bg-white border border-gray-200 rounded-2xl  shadow-xl transition duration-500 group-hover:scale-105 lg:group-hover:scale-110"></div>
                     <div class="relative p-6 space-y-4 lg:p-8 ">
-                        <h3 class="text-2xl text-gray-700 font-semibold text-center">Premium Course</h3>
-                        <div>
-                            <div class="relative flex justify-around">
-                                <div class="flex items-end">
-                                    <span class="text-7xl text-gray-800 font-bold leading-0">35</span>
-                                    <div class="pb-2">
-                                        <span class="block text-xl text-gray-700 font-bold">%</span>
-                                        <span class="block text-lg text-purple-500 font-bold">Off</span>
-                                    </div>
-                                </div>
-                            </div>
+
+                        <div className=' '>
+                            <img className=' mx-auto rounded-lg h-96' src={bookimg} alt="bookimg" />
                         </div>
-                        <ul role="list" class="w-max space-y-4 py-6 m-auto text-gray-600 text-left">
-                            <li class="space-x-2 flex items-center">
-                                <span class="text-purple-500 font-semibold"><BsCheck /></span>
-                                <span>First premium advantage</span>
-                            </li>
-                            <li class="space-x-2 flex items-center">
-                                <span class="text-purple-500 font-semibold"><BsCheck /></span>
-                                <span>Second advantage weekly</span>
-                            </li>
-                            <li class="space-x-2 flex items-center">
-                                <span class="text-purple-500 font-semibold"><BsCheck /></span>
-                                <span>Third advantage donate to project</span>
-                            </li>
-                        </ul>
-                        <p class="flex items-center justify-center space-x-4 pb-6 text-md text-gray-600 text-center">
-                            <span>Call us at</span>
-                            <a href="tel:+24300" class="flex space-x-2 items-center text-purple-600">
-                                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="w-5" viewBox="0 0 16 16">
-                                    <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z" />
-                                </svg>
-                                <span class="font-semibold">+1 000 000</span>
-                            </a>
-                            <span>or</span>
-                        </p>
-                        <button type="submit" title="Submit" class="block w-full py-2 px-6 text-center rounded-xl transition bg-purple-600 hover:bg-purple-700 active:bg-purple-800 focus:bg-indigo-600">
-                            <span class="text-white font-semibold">
-                                Get Plan
+
+                        <button type="submit" title="Submit" class="block w-full py-2 px-6 text-center rounded-xl transition-all duration-300 ease-in-out bg-purple-600 hover:bg-transparent border border-purple-600 hover:text-purple-600 text-white active:bg-purple-600  ">
+                            <span >
+                                ক্রয় করুন
                             </span>
                         </button>
                     </div>
@@ -54,30 +28,32 @@ const PlanCardItem = () => {
                 <div class="relative group md:w-6/12 lg:w-7/12">
                     <div aria-hidden="true" class="absolute top-0 w-full h-full rounded-2xl bg-white border border-gray-200 shadow-lg transition duration-500 group-hover:scale-105"></div>
                     <div class="relative p-6 pt-16 md:p-8 md:pl-12 md:rounded-r-2xl lg:pl-16 lg:p-10">
+                        <h1 className=' text-xl font-bold text-purple-600'>মেডুলা'স নার্সিং প্রশ্নব্যাংক </h1>
                         <ul role="list" class="space-y-4 py-6 text-gray-600">
                             <li class="space-x-2 flex items-center">
                                 <span class="text-purple-500 font-semibold"><BsCheck /></span>
-                                <span>First premium advantage</span>
+                                <span>৭৬০০ MCQ প্রশ্ন সংবলিত।</span>
                             </li>
                             <li class="space-x-2 flex items-center">
                                 <span class="text-purple-500 font-semibold"><BsCheck /></span>
-                                <span>Second advantage weekly</span>
+                                <span>৬০ টি মানসম্মত মডেল টেস্ট।</span>
                             </li>
                             <li class="space-x-2 flex items-center">
                                 <span class="text-purple-500 font-semibold"><BsCheck /></span>
-                                <span>Third advantage donate to project</span>
+                                <span>সর্বশেষ পরীক্ষার ব্যাখ্যাসহ সমাধান।</span>
                             </li>
                             <li class="space-x-2 flex items-center">
                                 <span class="text-purple-500 font-semibold"><BsCheck /></span>
-                                <span>Fourth, access to all components weekly</span>
+                                <span>বিগত সালের প্রশ্নের ব্যাখ্যাসহ সমাধান।</span>
                             </li>
                         </ul>
-                        <p class="text-gray-700 text-left">Team can be any size, and you can add or switch members as needed. Companies using our platform include:</p>
-                        <div class="mt-6 flex justify-between gap-6">
-                            <img class="w-16 lg:w-24" src="https://tailus.io/sources/blocks/organization/preview/images/clients/airbnb.svg" loading="lazy" alt="airbnb" />
-                            <img class="w-8 lg:w-16" src="https://tailus.io/sources/blocks/organization/preview/images/clients/bissell.svg" loading="lazy" alt="bissell" />
-                            <img class="w-6 lg:w-12" src="https://tailus.io/sources/blocks/organization/preview/images/clients/ge.svg" loading="lazy" alt="ge" />
-                            <img class="w-20 lg:w-28" src="https://tailus.io/sources/blocks/organization/preview/images/clients/microsoft.svg" loading="lazy" alt="microsoft" />
+                        <p class="text-gray-700 text-left">মেডুলা'স নার্সিং প্রশ্নব্যাংক এ রয়েছে আধুনিক প্রশ্ন সংবলিত ৭৬০০ টি MCQ এবং ৬০ টি মানসম্মত মডেল টেস্ট ও বিগত সালের প্রশ্নের ব্যাখ্যাসহ সমাধান। </p>
+                        <div class="mt-6 flex justify-between items-center gap-6">
+                            <img class="w-16 lg:w-24" src={payment1} loading="lazy" alt="airbnb" />
+                            <img class="w-8 lg:w-20" src={payment2} loading="lazy" alt="bissell" />
+                            <img class="w-6 lg:w-28" src={payment3} loading="lazy" alt="ge" />
+                            <img class="w-6 lg:w-28" src={payment4} loading="lazy" alt="ge" />
+
                         </div>
                     </div>
                 </div>

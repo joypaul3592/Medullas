@@ -8,13 +8,10 @@ const Footer = () => {
                     <div class="lg:flex">
                         <div class="w-full -mx-6 lg:w-2/5">
                             <div class="px-6">
-                                <div>
-                                    <a href="#" class="text-xl font-bold text-gray-800 dark:text-white hover:text-gray-700 dark:hover:text-gray-300">Brand</a>
-                                </div>
+                                <p class="max-w-sm mt-2 text-gray-500 ">খুলনা বিভাগের সর্বপ্রথম নার্সিং কোচিং</p>
+                                <h1 className=' text-2xl mt-3 font-bold text-purple-600'>মেডুলা'স</h1>
 
-                                <p class="max-w-sm mt-2 text-gray-500 ">Join 31,000+ other and never miss out on new tips, tutorials, and more.</p>
-
-                                <div class="flex mt-6 -mx-2">
+                                <div class="flex mt-3 -mx-2">
                                     <a href="#"
                                         class="mx-2 text-gray-600 transition-colors duration-300  hover:text-blue-500 dark:hover:text-blue-400"
                                         aria-label="Reddit">
@@ -48,34 +45,27 @@ const Footer = () => {
                             </div>
                         </div>
 
-                        <div class="mt-6 lg:mt-0 lg:flex-1">
-                            <div class="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
-                                <div>
-                                    <h3 class="text-gray-700 uppercase dark:text-white">About</h3>
-                                    <a href="#" class="block mt-2 text-sm text-gray-600  hover:underline">Company</a>
-                                    <a href="#" class="block mt-2 text-sm text-gray-600  hover:underline">community</a>
-                                    <a href="#" class="block mt-2 text-sm text-gray-600  hover:underline">Careers</a>
+                        <div class="mt-6 lg:mt-0 lg:flex-1 ">
+                            <div class="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 ">
+                                <div className=' xl:pl-32'>
+                                    <a href="#" class="block mt-2 text-sm text-gray-600  hover:underline">ভর্তি ফরম</a>
+                                    <a href="#" class="block mt-2 text-sm text-gray-600  hover:underline">অনলাইন কেয়ার</a>
+                                    <a href="#" class="block mt-2 text-sm text-gray-600  hover:underline">ব্লগ</a>
                                 </div>
 
-                                <div>
-                                    <h3 class="text-gray-700 uppercase dark:text-white">Blog</h3>
-                                    <a href="#" class="block mt-2 text-sm text-gray-600  hover:underline">Tec</a>
-                                    <a href="#" class="block mt-2 text-sm text-gray-600  hover:underline">Music</a>
-                                    <a href="#" class="block mt-2 text-sm text-gray-600  hover:underline">Videos</a>
+                                <div className='xl:pl-32'>
+                                    <a href="#" class="block mt-2 text-sm text-gray-600  hover:underline">শাখা সমূহ</a>
+                                    <a href="#" class="block mt-2 text-sm text-gray-600  hover:underline">বুক শপ</a>
+                                    <a href="#" class="block mt-2 text-sm text-gray-600  hover:underline">রেজাল্ট</a>
                                 </div>
 
-                                <div>
-                                    <h3 class="text-gray-700 uppercase dark:text-white">Products</h3>
-                                    <a href="#" class="block mt-2 text-sm text-gray-600  hover:underline">Mega cloud</a>
-                                    <a href="#" class="block mt-2 text-sm text-gray-600  hover:underline">Aperion UI</a>
-                                    <a href="#" class="block mt-2 text-sm text-gray-600  hover:underline">Meraki UI</a>
+                                <div className='xl:pl-32'>
+                                    <a href="#" class="block mt-2 text-sm text-gray-600  hover:underline">কোর্স</a>
+                                    <a href="#" class="block mt-2 text-sm text-gray-600  hover:underline">সাইন আপ</a>
+                                    <a href="#" class="block mt-2 text-sm text-gray-600  hover:underline">লগ ইন</a>
                                 </div>
 
-                                <div>
-                                    <h3 class="text-gray-700 uppercase dark:text-white">Contact</h3>
-                                    <span class="block mt-2 text-sm text-gray-600  hover:underline">+1 526 654 8965</span>
-                                    <span class="block mt-2 text-sm text-gray-600  hover:underline">example@email.com</span>
-                                </div>
+
                             </div>
                         </div>
                     </div>
@@ -83,7 +73,7 @@ const Footer = () => {
                     <hr class="h-px my-6 bg-gray-200 border-none dark:bg-gray-700" />
 
                     <div>
-                        <p class="text-center text-gray-500 ">© Brand 2020 - All rights reserved</p>
+                        <p class="text-center text-gray-500 ">© ২০১০ - সর্বস্বত্ব সংরক্ষিত</p>
                     </div>
                 </div>
             </footer>
