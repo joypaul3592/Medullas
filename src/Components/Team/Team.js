@@ -5,19 +5,19 @@ const Team = () => {
         <div>
             <section class="bg-white max-w-7xl mx-auto px-5">
                 <div class="container px-6 py-10 mx-auto">
-                    <h1 class="text-3xl font-semibold text-center text-gray-800 capitalize lg:text-4xl ">Our Executive Team</h1>
+                    <h1 class="text-3xl font-semibold text-center text-gray-800 capitalize lg:text-4xl ">আমাদের অভিজ্ঞ শিক্ষকমন্ডলী</h1>
 
                     <p class="max-w-2xl mx-auto my-6 text-center text-gray-500 ">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo incidunt ex placeat modi magni quia error alias, adipisci rem similique, at omnis eligendi optio eos harum.
+                        শিক্ষার্থীদের জন্য রয়েছে অভিজ্ঞ শিক্ষকমন্ডলীর ক্লাস, লেকচার শিট, ভর্তি গাইড, ডেইলি এক্সাম, উইকলি এক্সাম, সাবজেক্ট ফাইনাল এক্সাম, স্পেশাল মডেল টেস্ট সহ অনন্য সেবাসমূহ।
                     </p>
 
                     <div class="grid grid-cols-1 gap-8 mt-8 xl:mt-16 md:grid-cols-2 xl:grid-cols-4">
                         <div class="flex flex-col items-center p-8 transition-colors duration-300 transform border cursor-pointer rounded-xl hover:border-transparent group hover:bg-blue-600 dark:border-gray-700 dark:hover:border-transparent">
                             <img class="object-cover w-32 h-32 rounded-full ring-4 ring-gray-300" src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80" alt="" />
 
-                            <h1 class="mt-4 text-2xl font-semibold text-gray-700 capitalize dark:text-white group-hover:text-white">arthur melo</h1>
+                            <h1 class="mt-4 text-2xl font-semibold text-gray-700 capitalize group-hover:text-white">আনুপ কুমার</h1>
 
-                            <p class="mt-2 text-gray-500 capitalize  group-hover:text-gray-300">design director</p>
+                            <p class="mt-2 text-gray-500 capitalize  group-hover:text-gray-300">বাংলা, খুলনা ইউনিভার্সিটি</p>
 
                             <div class="flex mt-3 -mx-2">
                                 <a href="#" class="mx-2 text-gray-600  hover:text-gray-500 dark:hover:text-gray-300 group-hover:text-white" aria-label="Reddit">
@@ -52,9 +52,9 @@ const Team = () => {
                         <div class="flex flex-col items-center p-8 transition-colors duration-300 transform border cursor-pointer rounded-xl hover:border-transparent group hover:bg-blue-600 dark:border-gray-700 dark:hover:border-transparent">
                             <img class="object-cover w-32 h-32 rounded-full ring-4 ring-gray-300" src="https://images.unsplash.com/photo-1531590878845-12627191e687?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80" alt="" />
 
-                            <h1 class="mt-4 text-2xl font-semibold text-gray-700 capitalize dark:text-white group-hover:text-white">Amelia. Anderson</h1>
+                            <h1 class="mt-4 text-2xl font-semibold text-gray-700 capitaliz group-hover:text-white">ইমরান খান</h1>
 
-                            <p class="mt-2 text-gray-500 capitalize  group-hover:text-gray-300">Lead Developer</p>
+                            <p class="mt-2 text-gray-500 capitalize  group-hover:text-gray-300">ম্যাথ, খুলনা ইউনিভার্সিটি</p>
 
                             <div class="flex mt-3 -mx-2">
                                 <a href="#" class="mx-2 text-gray-600  hover:text-gray-500 dark:hover:text-gray-300 group-hover:text-white" aria-label="Reddit">
@@ -89,9 +89,9 @@ const Team = () => {
                         <div class="flex flex-col items-center p-8 transition-colors duration-300 transform border cursor-pointer rounded-xl hover:border-transparent group hover:bg-blue-600 dark:border-gray-700 dark:hover:border-transparent">
                             <img class="object-cover w-32 h-32 rounded-full ring-4 ring-gray-300" src="https://images.unsplash.com/photo-1488508872907-592763824245?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" alt="" />
 
-                            <h1 class="mt-4 text-2xl font-semibold text-gray-700 capitalize dark:text-white group-hover:text-white">Olivia Wathan</h1>
+                            <h1 class="mt-4 text-2xl font-semibold text-gray-700 capitalize  group-hover:text-white">আবির বিশ্বাস</h1>
 
-                            <p class="mt-2 text-gray-500 capitalize  group-hover:text-gray-300">Lead designer</p>
+                            <p class="mt-2 text-gray-500 capitalize  group-hover:text-gray-300">বাংলা, খুলনা ইউনিভার্সিটি</p>
 
                             <div class="flex mt-3 -mx-2">
                                 <a href="#" class="mx-2 text-gray-600  hover:text-gray-500 dark:hover:text-gray-300 group-hover:text-white" aria-label="Reddit">
@@ -126,9 +126,9 @@ const Team = () => {
                         <div class="flex flex-col items-center p-8 transition-colors duration-300 transform border cursor-pointer rounded-xl hover:border-transparent group hover:bg-blue-600 dark:border-gray-700 dark:hover:border-transparent">
                             <img class="object-cover w-32 h-32 rounded-full ring-4 ring-gray-300" src="https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80" alt="" />
 
-                            <h1 class="mt-4 text-2xl font-semibold text-gray-700 capitalize dark:text-white group-hover:text-white">John Doe</h1>
+                            <h1 class="mt-4 text-2xl font-semibold text-gray-700 capitalize  group-hover:text-white">শাওন সিকদার</h1>
 
-                            <p class="mt-2 text-gray-500 capitalize  group-hover:text-gray-300">Full stack developer</p>
+                            <p class="mt-2 text-gray-500 capitalize  group-hover:text-gray-300">খুলনা ম্যাটস, খুলনা</p>
 
                             <div class="flex mt-3 -mx-2">
                                 <a href="#" class="mx-2 text-gray-600  hover:text-gray-500 dark:hover:text-gray-300 group-hover:text-white" aria-label="Reddit">
