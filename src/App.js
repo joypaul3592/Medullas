@@ -14,6 +14,7 @@ import AddBlog from './Components/Dashboard/AddBlog/AddBlog';
 import QuizRoom from './Components/QuizRoom/QuizRoom';
 import "@fontsource/noto-serif-bengali";
 import Home from './Page/Home/Home';
+import AdmissoinFrom from './Page/AdmissoinFrom/AdmissoinFrom';
 
 function App() {
   return (
@@ -26,7 +27,7 @@ function App() {
         <Route path='/support' element={<Support />}></Route>
         <Route path='/contact' element={<Contact />}></Route>
         <Route path='/blog' element={<Blog />}></Route>
-        <Route path='/quizroom' element={<QuizRoom />}></Route>
+        <Route path='/adfrom' element={<AdmissoinFrom />}></Route>
 
 
 

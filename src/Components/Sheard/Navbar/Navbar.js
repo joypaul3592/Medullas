@@ -52,9 +52,9 @@ const Navbar = () => {
         <div className=' bg-white z-50 sticky top-0  '>
             <nav className="max-w-7xl mx-auto px-4 md:px-3 lg:px-6">
                 <div className={`${scroll ? ' h-10 md:h-14 xl:h-26' : ' h-16 md:h-18 xl:h-20'}   flex justify-between items-center  transition-all duration-300 ease-in-out  `}>
-                    <div className={`transition-all duration-300 ease-in-out`}>
+                    <div className={`transition-all duration-300 ease-in-out cursor-pointer`}>
                         <NavLink to={'/'}>
-                            <h1 className=' text-3xl font-bold text-purple-600'>মেডুলা'স</h1>
+                            <h1 className=' text-3xl font-bold text-purple-600 cursor-pointer'>মেডুলা'স</h1>
                         </NavLink>
                     </div>
 
@@ -78,8 +78,8 @@ const Navbar = () => {
 
                                     <NavLink
                                         onClick={() => setLearn(!learn)}
-                                        to={'quizroom'}
-                                        className={({ isActive }) => (` rounded-md text-[15px] hover:text-purple-500 font-semibold  ${isActive ? 'text-purple-500' : 'text-gray-700'}`)}
+                                        to={'adfrom'}
+                                        className={({ isActive }) => (`cursor-pointer rounded-md text-[15px] hover:text-purple-500 font-semibold  ${isActive ? 'text-purple-500' : 'text-gray-700'}`)}
                                     >ভর্তি ফরম
                                     </NavLink>
 
@@ -87,41 +87,41 @@ const Navbar = () => {
                                     <NavLink
                                         onClick={() => setFeatures(!features)}
                                         to={'support'}
-                                        className={({ isActive }) => (` rounded-md text-[15px] hover:text-purple-500 font-semibold  ${isActive ? 'text-purple-500' : 'text-gray-700'}`)}
+                                        className={({ isActive }) => (`cursor-pointer rounded-md text-[15px] hover:text-purple-500 font-semibold  ${isActive ? 'text-purple-500' : 'text-gray-700'}`)}
                                     >অনলাইন কেয়ার
                                     </NavLink>
 
                                     <NavLink
                                         onClick={() => setPrice(!price)}
                                         to={'blog'}
-                                        className={({ isActive }) => (` rounded-md text-[15px] hover:text-purple-500 font-semibold  ${isActive ? 'text-purple-500' : 'text-gray-700'}`)}
+                                        className={({ isActive }) => (`cursor-pointer rounded-md text-[15px] hover:text-purple-500 font-semibold  ${isActive ? 'text-purple-500' : 'text-gray-700'}`)}
                                     >ব্লগ
                                     </NavLink>
 
                                     <NavLink
                                         onClick={() => setPrice(!price)}
                                         to={'blog'}
-                                        className={({ isActive }) => (` rounded-md text-[15px] hover:text-purple-500 font-semibold  ${isActive ? 'text-purple-500' : 'text-gray-700'}`)}
+                                        className={({ isActive }) => (`cursor-pointer rounded-md text-[15px] hover:text-purple-500 font-semibold  ${isActive ? 'text-purple-500' : 'text-gray-700'}`)}
                                     >শাখা সমূহ
                                     </NavLink>
 
                                     <NavLink
                                         onClick={() => setPrice(!price)}
                                         to={'blog'}
-                                        className={({ isActive }) => (` rounded-md text-[15px] hover:text-purple-500 font-semibold  ${isActive ? 'text-purple-500' : 'text-gray-700'}`)}
+                                        className={({ isActive }) => (`cursor-pointer rounded-md text-[15px] hover:text-purple-500 font-semibold  ${isActive ? 'text-purple-500' : 'text-gray-700'}`)}
                                     >বুক শপ
                                     </NavLink>
 
                                     <NavLink
                                         onClick={() => setPrice(!price)}
                                         to={'blog'}
-                                        className={({ isActive }) => (` rounded-md text-[15px] hover:text-purple-500 font-semibold  ${isActive ? 'text-purple-500' : 'text-gray-700'}`)}
+                                        className={({ isActive }) => (`cursor-pointer rounded-md text-[15px] hover:text-purple-500 font-semibold  ${isActive ? 'text-purple-500' : 'text-gray-700'}`)}
                                     >রেজাল্ট
                                     </NavLink>
                                     <NavLink
                                         onClick={() => setPrice(!price)}
                                         to={'blog'}
-                                        className={({ isActive }) => (` rounded-md text-[15px] hover:text-purple-500 font-semibold  ${isActive ? 'text-purple-500' : 'text-gray-700'}`)}
+                                        className={({ isActive }) => (`cursor-pointer rounded-md text-[15px] hover:text-purple-500 font-semibold  ${isActive ? 'text-purple-500' : 'text-gray-700'}`)}
                                     >কোর্স
                                     </NavLink>
 
@@ -132,11 +132,11 @@ const Navbar = () => {
 
                                 </div>
 
-                                <div className='flex items-center ml-7 lg:ml-0 '>
+                                <div className='flex items-center ml-7  '>
 
                                     <NavLink
                                         to={'signup'}
-                                        className=" relative inline-flex items-center justify-center px-5 py-1.5 overflow-hidden font-mono font-medium tracking-tighter text-black border border-purple-300 hover:text-white  rounded-full group transition-all duration-200 ease-out"
+                                        className=" relative inline-flex items-center justify-center px-5 py-1.5 overflow-hidden font-mono font-medium tracking-tighter text-black border border-purple-300 hover:text-white  rounded-full group transition-all duration-200 ease-out cursor-pointer"
                                     >
                                         <span class="absolute w-0 h-0 transition-all duration-700 ease-out bg-purple-600  rounded-full group-hover:w-60 group-hover:h-56"></span>
                                         <span class="absolute inset-0 w-full h-full  rounded-full opacity-30 transition-all duration-200 ease-out"></span>
