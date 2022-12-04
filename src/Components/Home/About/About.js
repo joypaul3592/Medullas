@@ -1,5 +1,5 @@
 import React from 'react';
-import aboutimg from '../../Assect/about.gif'
+import aboutimg from '../../../Assect/about.gif'
 import { BsRecordCircle, BsTelephoneFill } from "react-icons/bs";
 import { useNavigate } from 'react-router-dom';
 const About = () => {

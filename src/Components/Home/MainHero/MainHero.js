@@ -1,6 +1,6 @@
 import React from 'react';
-import Hero from '../Hero/Hero';
-import Upcomming from '../Upcomming/Upcomming';
+import Hero from './Hero/Hero';
+import Upcomming from '../../Upcomming/Upcomming';
 
 const MainHero = () => {
     return (

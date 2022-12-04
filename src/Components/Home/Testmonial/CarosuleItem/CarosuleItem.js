@@ -1,5 +1,5 @@
 import React from "react";
-import reviewImg from '../../../Assect/reviewImg.jpg'
+import reviewImg from '../../../../Assect/reviewImg.jpg'
 const CarosuleItem = () => {
     return (
         <div className=" h-full py-10  ">

@@ -1,10 +1,10 @@
 import React from 'react';
 import { BsCheck } from "react-icons/bs";
-import bookimg from '../../../Assect/book.jpg'
-import payment1 from '../../../Assect/payment1.png'
-import payment2 from '../../../Assect/payment2.png'
-import payment3 from '../../../Assect/payment3.png'
-import payment4 from '../../../Assect/payment4.png'
+import bookimg from '../../../../Assect/book.jpg'
+import payment1 from '../../../../Assect/payment1.png'
+import payment2 from '../../../../Assect/payment2.png'
+import payment3 from '../../../../Assect/payment3.png'
+import payment4 from '../../../../Assect/payment4.png'
 const PlanCardItem = () => {
     return (
         <div class="container m-auto px-2 py-2 md:px-12 lg:px-2">

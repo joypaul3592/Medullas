@@ -1,6 +1,6 @@
 import React from 'react';
 import { FiChevronDown } from "react-icons/fi";
-import faqimg from '../../Assect/faq.png'
+import faqimg from '../../../Assect/faq.png'
 
 
 const Faq = () => {

@@ -1,8 +1,8 @@
 import React from 'react';
-import CourseBanarImg from '../../Assect/courseBannar.png'
-import CourseBanarImg2 from '../../Assect/courseBannar2.png'
-import CourseBanarImg3 from '../../Assect/courseBannar3.png'
-import CourseBanarImg4 from '../../Assect/courseBannar4.png'
+import CourseBanarImg from '../../../Assect/courseBannar.png'
+import CourseBanarImg2 from '../../../Assect/courseBannar2.png'
+import CourseBanarImg3 from '../../../Assect/courseBannar3.png'
+import CourseBanarImg4 from '../../../Assect/courseBannar4.png'
 import { SiSitepoint } from "react-icons/si";
 import { TbCurrencyTaka } from "react-icons/tb";
 

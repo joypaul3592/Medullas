@@ -1,7 +1,7 @@
 import React from "react";
-import heroimg from "../../Assect/hero.png";
-import style1 from "../../Assect/style1.png";
-import style4 from "../../Assect/style4.png";
+import heroimg from "../../../../Assect/hero.png";
+import style1 from "../../../../Assect/style1.png";
+import style4 from "../../../../Assect/style4.png";
 const Hero = () => {
     return (
         <div className="relative bg-gradient-to-r from-pink-50 to-sky-100 z-0">
