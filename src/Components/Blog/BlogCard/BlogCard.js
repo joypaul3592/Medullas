@@ -5,7 +5,8 @@ import blogcard2 from '../../../Assect/blogcard2.png'
 const BlogCard = () => {
     return (
         <div className=' pb-10 py-10 max-w-7xl mx-auto px-5 '>
-            <div className='grid grid-cols-3 gap-10'>
+            <div className='lg:grid lg:grid-cols-3 flex flex-col items-center gap-10   text-center'>
+
                 <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow-md hover:scale-[1.02] transition-all duration-200 ease-in-out ">
                     <a href="#">
                         <img class="rounded-t-lg h-60 mx-auto" src={blogImg1} alt="blogImg1" />

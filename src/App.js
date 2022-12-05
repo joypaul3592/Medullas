@@ -14,6 +14,7 @@ import "@fontsource/noto-serif-bengali";
 import Home from './Page/Home/Home';
 import AdmissoinFrom from './Page/AdmissoinFrom/AdmissoinFrom';
 import OnlineSupport from './Page/OnlineSupport/OnlineSupport';
+import Sakha from './Page/Sakha/Sakha';
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
         <Route path='/contact' element={<Contact />}></Route>
         <Route path='/blog' element={<Blog />}></Route>
         <Route path='/adfrom' element={<AdmissoinFrom />}></Route>
+        <Route path='/sakha' element={<Sakha />}></Route>
 
 
 

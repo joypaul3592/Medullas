@@ -10,30 +10,30 @@ const BlogHero = () => {
             <div>
                 <h1 className=' text-lg text-purple-600'>#জনপ্রিয় ব্লগ</h1>
             </div>
-            <div className=' h-[30rem]  w-full flex justify-between py-5 '>
-                <div onMouseEnter={() => setChange(true)} onMouseLeave={() => setChange(false)} className=' w-[55%] bg-gradient-to-r from-indigo-200 to-purple-200 relative rounded-2xl overflow-hidden group-hover:block  cursor-pointer'>
+            <div className=' lg:h-[30rem]  w-full lg:flex justify-between py-5 '>
+                <div onMouseEnter={() => setChange(true)} onMouseLeave={() => setChange(false)} className=' xl:w-[55%] w-full mb-10 lg:mb-0 lg:w-[48%] bg-gradient-to-r from-indigo-200 to-purple-200 relative rounded-2xl overflow-hidden group-hover:block  cursor-pointer'>
                     <div className={`w-full h-full    ${change ? 'block' : 'hidden'}`}>
                         <div className=' w-full h-full flex items-center justify-center '>
                             <button className=' pt-2 pb-1.5 px-10 text-balck border border-purple-600 rounded hover:bg-purple-600 hover:text-white transition-all duration-200 ease-out'>বিস্তারিত</button>
                         </div>
                     </div>
                     <div className=' w-full h-full bg-white bg-opacity-40 backdrop-blur-md '>
-                        <div className=' absolute top-10 left-5'>
-                            <h1 className=' text-2xl '>নার্সিং পড়ার যোগ্যতা ও নার্সিং পরীক্ষার মানবন্টন</h1>
+                        <div className=' absolute md:top-10 top-3 left-5'>
+                            <h1 className=' md:text-2xl text-xl '>নার্সিং পড়ার যোগ্যতা ও নার্সিং পরীক্ষার মানবন্টন</h1>
                         </div>
                         <img className=' h-full mx-auto ' src={blog1img} alt="blog1img" />
-                        <div className=' absolute left5 bottom-2.5 px-5 text-justify '>
+                        <div className=' absolute left5 bottom-2.5 px-5 text-justify hidden md:block '>
                             <p>নার্সিং একটি মহৎ সেবামূলক পেশা। তাছাড়া নার্সিং-এর ক্যারিয়ার উজ্জ্বল। যার জন্য এর ভর্তি পরীক্ষায় হয়ে থাকে তুমুল প্রতিযোগিতা । নার্সিং পড়ার যোগ্যতা (সরকারি /বেসরকারি) ও নার্সিং পরীক্ষার মানবন্টন। নার্সিং এ বর্তমান ...</p>
                         </div>
                     </div>
                 </div>
 
-                <div className=' w-[42%]  flex flex-col items-center justify-between'>
-                    <div className=' w-full h-[47%]'>
-                        <div class="flex flex-col h-full">
-                            <div class=" h-full shadow-md rounded-3xl p-1.5">
-                                <div class="flex-none lg:flex h-full">
-                                    <div class=" h-full w-full lg:w-48  lg:mb-0 mb-3">
+                <div className=' xl:w-[42%] w-full lg:w-[50%] gap-10  flex flex-col items-center justify-between'>
+                    <div className=' w-full lg:h-[47%] '>
+                        <div class="flex flex-col h-full ">
+                            <div class=" h-full shadow-md rounded-3xl p-1.5 ">
+                                <div class="flex-none md:flex h-full">
+                                    <div class=" h-full w-full md:w-48  lg:mb-0 mb-3">
                                         <img src={blog2img}
                                             alt="Just a flower" class=" w-full h-full border border-purple-600  object-scale-down lg:object-cover  rounded-2xl" />
                                     </div>
@@ -83,11 +83,11 @@ const BlogHero = () => {
                             </div>
                         </div>
                     </div>
-                    <div className=' w-full h-[47%]'>
+                    <div className=' w-full lg:h-[47%]'>
                         <div class="flex flex-col h-full">
                             <div class=" h-full shadow-md rounded-3xl p-1.5">
-                                <div class="flex-none lg:flex h-full">
-                                    <div class=" h-full w-full lg:w-48 lg:mb-0 mb-3">
+                                <div class="flex-none md:flex h-full">
+                                    <div class=" h-full w-full md:w-48 lg:mb-0 mb-3">
                                         <img src={blog3img}
                                             alt="Just a flower" class=" h-full w-full border border-purple-600  object-scale-down lg:object-cover  rounded-2xl" />
                                     </div>

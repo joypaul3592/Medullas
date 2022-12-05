@@ -50,14 +50,14 @@ const Support = () => {
     return (
         <div>
             <div className='lg:flex lg:flex-row-reverse items-center xl:h-[80vh]  max-w-7xl mx-auto px-5'>
-                <div data-aos="fade-down" className=' w-[50%] relative  '>
+                <div data-aos="fade-down" className=' lg:w-[50%] w-full relative  '>
                     <img className=' w-full' src={supportimg} alt="img" />
                 </div>
-                <div className=' w-[50%] pr-16'>
-                    <h2 data-aos="zoom-in" className='text-6xl font-bold text-accent py-4'>অনলাইন সহায়তা<br /><span className=' text-purple-600'>প্রয়োজন ?</span></h2>
+                <div className=' lg:w-[50%] w-full lg:pr-16 lg:text-left text-center'>
+                    <h2 data-aos="zoom-in" className='sm:text-6xl text-4xl font-bold text-accent py-4'>অনলাইন সহায়তা<br /><span className=' text-purple-600'>প্রয়োজন ?</span></h2>
                     <p data-aos="fade-right" className='text-lg pb-4 text-justify'>মেডুলা'স নার্সিং ভর্তি কোচিং এখন দিচ্ছে অনলাইনে কথা বলার সুযোগ। আমদের হেল্প লাইনে এখনই যোগাযোগ করে নিতে পারেন অনলাইন সেবা। যেকোনো প্রশ্ন থাকলে এখনি কথা বলুন আমদের সাথে। আমাদের সাপোর্ট টিম সব সময় প্রস্তুত আপনাকে সেবা দিতে।</p>
 
-                    <button onClick={() => setSupport(true)} className="bg-purple-600 pb-2 pt-2.5 my-2 flex lg:w-1/3 text-white rounded font-semibold font-mono items-center justify-center hover:bg-transparent border border-purple-600 hover:text-purple-600 transition-all duration-200 ease-in-out">সেবা নিন<BiSupport className='ml-2' /> </button>
+                    <button onClick={() => setSupport(true)} className="bg-purple-600 pb-2 pt-2.5 my-2 flex w-full mx-auto lg:mx-0 md:w-1/3 text-white rounded font-semibold font-mono items-center justify-center hover:bg-transparent border border-purple-600 hover:text-purple-600 transition-all duration-200 ease-in-out">সেবা নিন<BiSupport className='ml-2' /> </button>
 
                     <div className={`absolute top-0 left-0 right-0 bottom-0 w-screen h-screen bg-gray-800 z-[4000] bg-opacity-50 flex items-center justify-center ${support ? 'block' : 'hidden'} `}>
 
