@@ -27,13 +27,6 @@ function SamplePrevArrow(props) {
 
 const Testmonial = () => {
 
-
-
-
-
-
-
-
     var settings = {
         dots: true,
         infinite: true,

@@ -52,7 +52,7 @@ const PlanCardItem = () => {
                             <img class="w-16 lg:w-24" src={payment1} loading="lazy" alt="airbnb" />
                             <img class="w-8 lg:w-20" src={payment2} loading="lazy" alt="bissell" />
                             <img class="w-6 lg:w-28" src={payment3} loading="lazy" alt="ge" />
-                            <img class="w-6 lg:w-28" src={payment4} loading="lazy" alt="ge" />
+                            <img class=" h-12" src={payment4} loading="lazy" alt="ge" />
 
                         </div>
                     </div>
