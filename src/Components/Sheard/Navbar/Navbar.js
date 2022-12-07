@@ -107,14 +107,14 @@ const Navbar = () => {
 
                                     <NavLink
                                         onClick={() => setPrice(!price)}
-                                        to={'/bvc'}
+                                        to={'/bookshop'}
                                         className={({ isActive }) => (`cursor-pointer rounded-md text-[15px] hover:text-purple-500 font-semibold  ${isActive ? 'text-purple-500' : 'text-gray-700'}`)}
                                     >বুক শপ
                                     </NavLink>
 
                                     <NavLink
                                         onClick={() => setPrice(!price)}
-                                        to={'/xs'}
+                                        to={'/result'}
                                         className={({ isActive }) => (`cursor-pointer rounded-md text-[15px] hover:text-purple-500 font-semibold  ${isActive ? 'text-purple-500' : 'text-gray-700'}`)}
                                     >রেজাল্ট
                                     </NavLink>

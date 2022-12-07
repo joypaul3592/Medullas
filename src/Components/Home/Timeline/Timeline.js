@@ -7,7 +7,6 @@ import { GrNotes } from "react-icons/gr";
 const Timeline = () => {
     return (
         <div className=' max-w-7xl mx-auto px-5 py-10  mt-10'>
-
             <div >
                 <h4 className=' text-purple-600 font-bold'>#সুযোগ</h4>
                 <h1 className=' text-3xl text-gray-800 font-bold mb-10'>কোর্সের সুযোগ-সুবিধা:</h1>
