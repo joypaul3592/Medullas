@@ -17,6 +17,7 @@ import OnlineSupport from './Page/OnlineSupport/OnlineSupport';
 import Sakha from './Page/Sakha/Sakha';
 import BookShop from './Page/BookShop/BookShop';
 import Result from './Page/Result/Result';
+import Course from './Page/Course/Course';
 
 function App() {
   return (
@@ -33,6 +34,7 @@ function App() {
         <Route path='/sakha' element={<Sakha />}></Route>
         <Route path='/bookshop' element={<BookShop />}></Route>
         <Route path='/result' element={<Result />}></Route>
+        <Route path='/course' element={<Course />}></Route>
 
 
 

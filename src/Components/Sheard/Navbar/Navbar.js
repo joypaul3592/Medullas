@@ -120,7 +120,7 @@ const Navbar = () => {
                                     </NavLink>
                                     <NavLink
                                         onClick={() => setPrice(!price)}
-                                        to={'/bng'}
+                                        to={'/course'}
                                         className={({ isActive }) => (`cursor-pointer rounded-md text-[15px] hover:text-purple-500 font-semibold  ${isActive ? 'text-purple-500' : 'text-gray-700'}`)}
                                     >কোর্স
                                     </NavLink>
