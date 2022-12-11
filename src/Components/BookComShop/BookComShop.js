@@ -2,11 +2,12 @@ import React from 'react';
 import { useState } from 'react';
 import { BsCheck } from "react-icons/bs";
 import { TbCurrencyTaka } from 'react-icons/tb';
+import { useNavigate } from 'react-router-dom';
 import bookimg from '../../Assect/book.jpg'
 
 
 const BookComShop = () => {
-
+    const navigate = useNavigate()
     const [num, setNum] = useState(0)
 
     const handelNum = () => {
@@ -72,7 +73,7 @@ const BookComShop = () => {
                                 </ul>
 
                                 <p class="text-gray-700 text-left">মেডুলা'স নার্সিং প্রশ্নব্যাংক এ রয়েছে আধুনিক প্রশ্ন সংবলিত ৭৬০০ টি MCQ এবং ৬০ টি মানসম্মত মডেল টেস্ট ও বিগত সালের প্রশ্নের ব্যাখ্যাসহ সমাধান। </p>
-                                <button type="submit" title="Submit" class="block w-full py-2 px-6 text-center rounded-xl transition-all duration-300 ease-in-out bg-purple-600 hover:bg-transparent border border-purple-600 hover:text-purple-600 text-white active:bg-purple-600 mt-5  ">
+                                <button onClick={() => navigate('/bookfrom')} type="submit" title="Submit" class="block w-full py-2 px-6 text-center rounded-xl transition-all duration-300 ease-in-out bg-purple-600 hover:bg-transparent border border-purple-600 hover:text-purple-600 text-white active:bg-purple-600 mt-5  ">
                                     <span >
                                         ক্রয় করুন
                                     </span>
@@ -130,7 +131,7 @@ const BookComShop = () => {
                                 </ul>
 
                                 <p class="text-gray-700 text-left">মেডুলা'স নার্সিং প্রশ্নব্যাংক এ রয়েছে আধুনিক প্রশ্ন সংবলিত ৭৬০০ টি MCQ এবং ৬০ টি মানসম্মত মডেল টেস্ট ও বিগত সালের প্রশ্নের ব্যাখ্যাসহ সমাধান। </p>
-                                <button type="submit" title="Submit" class="block w-full py-2 px-6 text-center rounded-xl transition-all duration-300 ease-in-out bg-purple-600 hover:bg-transparent border border-purple-600 hover:text-purple-600 text-white active:bg-purple-600 mt-5  ">
+                                <button onClick={() => navigate('/bookfrom')} type="submit" title="Submit" class="block w-full py-2 px-6 text-center rounded-xl transition-all duration-300 ease-in-out bg-purple-600 hover:bg-transparent border border-purple-600 hover:text-purple-600 text-white active:bg-purple-600 mt-5  ">
                                     <span >
                                         ক্রয় করুন
                                     </span>

@@ -1,6 +1,8 @@
 import React from 'react';
-import { BsCalendar2Week, BsCalendar2Range } from "react-icons/bs";
+import { BsCalendar2Range } from "react-icons/bs";
+import { useNavigate } from 'react-router-dom';
 const Upcomming = () => {
+    const navigate = useNavigate()
     return (
         <div className=' max-w-5xl py-10 pb-10 mt-[-15px]  rounded-3xl mx-auto bg-white shadow-lg p-10 px-10'>
             <h1 className=' text-3xl text-center font-bold mb-10 '>পরবর্তী ব্যাচের সময় সূচি</h1>
@@ -37,7 +39,7 @@ const Upcomming = () => {
             </div>
 
             <div >
-                <button className=' mt-8 w-full py-2 bg-purple-600 text-white rounded-lg border border-purple-600 hover:bg-transparent hover:text-purple-600 transition-all duration-200 ease-in-out' >নিবন্ধন করুন</button>
+                <button onClick={() => navigate('/adfrom')} className=' mt-8 w-full py-2 bg-purple-600 text-white rounded-lg border border-purple-600 hover:bg-transparent hover:text-purple-600 transition-all duration-200 ease-in-out' >নিবন্ধন করুন</button>
             </div>
 
         </div>

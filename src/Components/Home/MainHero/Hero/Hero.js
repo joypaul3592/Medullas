@@ -1,8 +1,10 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 import heroimg from "../../../../Assect/hero.png";
 import style1 from "../../../../Assect/style1.png";
 import style4 from "../../../../Assect/style4.png";
 const Hero = () => {
+    const navigate = useNavigate()
     return (
         <div className="relative bg-gradient-to-r from-pink-50 to-sky-100 z-0">
             <div className=" relative max-w-7xl mx-auto lg:flex items-center pt-10 pb-32 px-5 justify-between">
@@ -21,7 +23,7 @@ const Hero = () => {
                         করার পাশাপাশি বেশি বেশি পরীক্ষা দিয়ে নিজের প্রস্তুতি শাণিত করার
                         বিকল্প নেই।
                     </p>
-                    <button className=" py-2 px-7 border border-purple-600 bg-purple-600 text-white rounded-full hover:bg-transparent hover:text-purple-600 transition-all duration-200 ease-in-out">
+                    <button onClick={() => navigate('/adfrom')} className=" py-2 px-7 border border-purple-600 bg-purple-600 text-white rounded-full hover:bg-transparent hover:text-purple-600 transition-all duration-200 ease-in-out">
                         নিবন্ধন করুন
                     </button>
                 </div>

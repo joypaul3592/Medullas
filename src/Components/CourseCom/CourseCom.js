@@ -7,8 +7,10 @@ import CourseBanarImg5 from '../../Assect/courseBannar5.png'
 import { SiSitepoint } from "react-icons/si";
 import { TbCurrencyTaka } from "react-icons/tb";
 import CourseImg from '../../Assect/Course1.png'
+import { useNavigate } from 'react-router-dom';
 
 const CourseCom = () => {
+    const navigate = useNavigate()
     return (
         <div>
             <div className=' h-60 w-screen bg-gradient-to-r from-pink-50 to-sky-100'>
@@ -37,7 +39,7 @@ const CourseCom = () => {
                             <h1 className=' font-bold text-green-700'>১২,০০০</h1>
                         </div>
                         <div className=' flex items-center justify-center w-full pt-2 pb-1'>
-                            <button className=' py-1 pb-0.5 px-4 border border-purple-600 text-sm hover:text-white hover:bg-purple-600 rounded font-bold transition-all duration-200 ease-in-out'>কোর্স বিবরণী</button>
+                            <button onClick={() => navigate('/bsccourse')} className=' py-1 pb-0.5 px-4 border border-purple-600 text-sm hover:text-white hover:bg-purple-600 rounded font-bold transition-all duration-200 ease-in-out'>কোর্স বিবরণী</button>
                         </div>
 
                     </div>
@@ -53,7 +55,7 @@ const CourseCom = () => {
                             <h1 className=' font-bold text-green-700'>১২,৫০০</h1>
                         </div>
                         <div className=' flex items-center justify-center w-full pt-2 pb-1'>
-                            <button className=' py-1 pb-0.5 px-4 border border-purple-600 text-sm hover:text-white hover:bg-purple-600 rounded font-bold transition-all duration-200 ease-in-out'>কোর্স বিবরণী</button>
+                            <button onClick={() => navigate('/diplomacourse')} className=' py-1 pb-0.5 px-4 border border-purple-600 text-sm hover:text-white hover:bg-purple-600 rounded font-bold transition-all duration-200 ease-in-out'>কোর্স বিবরণী</button>
                         </div>
                     </div>
 
@@ -69,7 +71,7 @@ const CourseCom = () => {
                             <h1 className=' font-bold text-green-700'>১৩,৫০০</h1>
                         </div>
                         <div className=' flex items-center justify-center w-full pt-2 pb-1'>
-                            <button className=' py-1 pb-0.5 px-4 border border-purple-600 text-sm hover:text-white hover:bg-purple-600 rounded font-bold transition-all duration-200 ease-in-out'>কোর্স বিবরণী</button>
+                            <button onClick={() => navigate('/midwifcourse')} className=' py-1 pb-0.5 px-4 border border-purple-600 text-sm hover:text-white hover:bg-purple-600 rounded font-bold transition-all duration-200 ease-in-out'>কোর্স বিবরণী</button>
                         </div>
                     </div>
 
@@ -85,7 +87,7 @@ const CourseCom = () => {
                             <h1 className=' font-bold text-green-700'>১৫,০০০</h1>
                         </div>
                         <div className=' flex items-center justify-center w-full pt-2 pb-1'>
-                            <button className=' py-1 pb-0.5 px-4 border border-purple-600 text-sm hover:text-white hover:bg-purple-600 rounded font-bold transition-all duration-200 ease-in-out'>কোর্স বিবরণী</button>
+                            <button onClick={() => navigate('/niyogcourse')} className=' py-1 pb-0.5 px-4 border border-purple-600 text-sm hover:text-white hover:bg-purple-600 rounded font-bold transition-all duration-200 ease-in-out'>কোর্স বিবরণী</button>
                         </div>
                     </div>
 
@@ -101,7 +103,7 @@ const CourseCom = () => {
                             <h1 className=' font-bold text-green-700'>৭,০০০</h1>
                         </div>
                         <div className=' flex items-center justify-center w-full pt-2 pb-1'>
-                            <button className=' py-1 pb-0.5 px-4 border border-purple-600 text-sm hover:text-white hover:bg-purple-600 rounded font-bold transition-all duration-200 ease-in-out'>কোর্স বিবরণী</button>
+                            <button onClick={() => navigate('/examcourse')} className=' py-1 pb-0.5 px-4 border border-purple-600 text-sm hover:text-white hover:bg-purple-600 rounded font-bold transition-all duration-200 ease-in-out'>কোর্স বিবরণী</button>
                         </div>
                     </div>
 

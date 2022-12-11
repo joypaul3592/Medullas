@@ -19,7 +19,7 @@ const Sakha = () => {
                         </div>
                         <div className='flex justify-center  px-3 gap-2 mt-2'>
                             <h1 className=' text-purple-500 font-bold'>যোগাযোগ : </h1>
-                            <p>01732023548, 01757145327</p>
+                            <p className=' text-md'>০১৭২৫১২৮৩৮৭</p>
                         </div>
                     </div>
                 </div>
@@ -40,7 +40,7 @@ const Sakha = () => {
                         </div>
                         <div className='flex justify-center  px-3 gap-2 mt-2'>
                             <h1 className=' text-purple-500 font-bold'>যোগাযোগ : </h1>
-                            <p>01732023548, 01757145327</p>
+                            <p>০১৭২২৩৪৩৯২৫</p>
                         </div>
                     </div>
                     <div className=' w-[1px] h-[26px] bg-purple-500 absolute -bottom-[26px] left-[50%]'></div>
@@ -55,7 +55,7 @@ const Sakha = () => {
                         </div>
                         <div className='flex justify-center  px-3 gap-2 mt-2'>
                             <h1 className=' text-purple-500 font-bold'>যোগাযোগ : </h1>
-                            <p>01732023548, 01757145327</p>
+                            <p>০১৬১৫১২৮৩৮৮</p>
                         </div>
                     </div>
                     <div className=' w-[1px] h-[26px] bg-purple-500 absolute -bottom-[26px] left-[50%]'></div>
@@ -70,7 +70,7 @@ const Sakha = () => {
                         </div>
                         <div className='flex justify-center  px-3 gap-2 mt-2'>
                             <h1 className=' text-purple-500 font-bold'>যোগাযোগ : </h1>
-                            <p>01732023548, 01757145327</p>
+                            <p>০১৬৪৬৬৪৪০০৮</p>
                         </div>
                     </div>
                     <div className=' w-[1px] h-[26px] bg-purple-500 absolute -bottom-[26px] left-[50%]'></div>
@@ -87,7 +87,7 @@ const Sakha = () => {
                         </div>
                         <div className='flex justify-center  px-3 gap-2 mt-2'>
                             <h1 className=' text-purple-500 font-bold'>যোগাযোগ : </h1>
-                            <p>01732023548, 01757145327</p>
+                            <p>০১৫৭২৬৪২০৯২</p>
                         </div>
                     </div>
                 </div>
@@ -101,7 +101,7 @@ const Sakha = () => {
                         </div>
                         <div className='flex justify-center  px-3 gap-2 mt-2'>
                             <h1 className=' text-purple-500 font-bold'>যোগাযোগ : </h1>
-                            <p>01732023548, 01757145327</p>
+                            <p>০১৯১১১৭০০৯২</p>
                         </div>
                     </div>
                 </div>
@@ -115,7 +115,7 @@ const Sakha = () => {
                         </div>
                         <div className='flex justify-center  px-3 gap-2 mt-2'>
                             <h1 className=' text-purple-500 font-bold'>যোগাযোগ : </h1>
-                            <p>01732023548, 01757145327</p>
+                            <p>০১৫৭২৩৬৪৮০৪</p>
                         </div>
                     </div>
                 </div>

@@ -18,6 +18,12 @@ import Sakha from './Page/Sakha/Sakha';
 import BookShop from './Page/BookShop/BookShop';
 import Result from './Page/Result/Result';
 import Course from './Page/Course/Course';
+import BscCourse from './Page/Course/BscCourse/BscCourse';
+import DiplomaCourseC from './Components/CourseCom/DiplomaCourseC/DiplomaCourseC';
+import MidWifCourse from './Page/Course/MidWifCourse/MidWifCourse';
+import NiyogCourse from './Page/Course/NiyogCourse/NiyogCourse';
+import ExamCourse from './Page/Course/ExamCourse/ExamCourse';
+import BookFrom from './Components/BookFrom/BookFrom';
 
 function App() {
   return (
@@ -29,12 +35,18 @@ function App() {
         <Route path='/login' element={<Login />}></Route>
         <Route path='/support' element={<OnlineSupport />}></Route>
         <Route path='/contact' element={<Contact />}></Route>
+        <Route path='/bookfrom' element={<BookFrom />}></Route>
         <Route path='/blog' element={<Blog />}></Route>
         <Route path='/adfrom' element={<AdmissoinFrom />}></Route>
         <Route path='/sakha' element={<Sakha />}></Route>
         <Route path='/bookshop' element={<BookShop />}></Route>
         <Route path='/result' element={<Result />}></Route>
         <Route path='/course' element={<Course />}></Route>
+        <Route path='/bsccourse' element={<BscCourse />}></Route>
+        <Route path='/diplomacourse' element={<DiplomaCourseC />}></Route>
+        <Route path='/midwifcourse' element={<MidWifCourse />}></Route>
+        <Route path='/niyogcourse' element={<NiyogCourse />}></Route>
+        <Route path='/examcourse' element={<ExamCourse />}></Route>
 
 
 

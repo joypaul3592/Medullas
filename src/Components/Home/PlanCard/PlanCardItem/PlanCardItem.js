@@ -1,11 +1,13 @@
 import React from 'react';
 import { BsCheck } from "react-icons/bs";
+import { useNavigate } from 'react-router-dom';
 import bookimg from '../../../../Assect/book.jpg'
 import payment1 from '../../../../Assect/payment1.png'
 import payment2 from '../../../../Assect/payment2.png'
 import payment3 from '../../../../Assect/payment3.png'
 import payment4 from '../../../../Assect/payment4.png'
 const PlanCardItem = () => {
+    const navigate = useNavigate()
     return (
         <div class="container m-auto px-2 py-2 md:px-12 lg:px-2">
             <div class="mt-12 m-auto -space-y-4 items-center justify-center md:flex md:space-y-0 md:-space-x-4 xl:w-10/12">
@@ -17,7 +19,7 @@ const PlanCardItem = () => {
                             <img className=' mx-auto rounded-lg h-96' src={bookimg} alt="bookimg" />
                         </div>
 
-                        <button type="submit" title="Submit" class="block w-full py-2 px-6 text-center rounded-xl transition-all duration-300 ease-in-out bg-purple-600 hover:bg-transparent border border-purple-600 hover:text-purple-600 text-white active:bg-purple-600  ">
+                        <button onClick={() => navigate('/bookfrom')} type="submit" title="Submit" class="block w-full py-2 px-6 text-center rounded-xl transition-all duration-300 ease-in-out bg-purple-600 hover:bg-transparent border border-purple-600 hover:text-purple-600 text-white active:bg-purple-600  ">
                             <span >
                                 ক্রয় করুন
                             </span>
