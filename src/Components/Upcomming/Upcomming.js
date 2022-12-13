@@ -8,32 +8,36 @@ const Upcomming = () => {
             <h1 className=' text-3xl text-center font-bold mb-10 '>পরবর্তী ব্যাচের সময় সূচি</h1>
 
             <div className=' grid lg:grid-cols-4 md:grid-cols-2 grid-col-1 gap-7'>
-                <div className=' bg-purple-100 shadow-md py-6 px-3 rounded-xl hover:bg-purple-600 box hover:text-white transition-all duration-300 ease-in-out cursor-pointer  ' >
-                    <div className=' h-10 w-10 rounded-lg bg-purple-200 flex items-center justify-center mb-3 mx-auto'>
-                        <BsCalendar2Range className=' text-black' />
-                    </div>
-                    <div className=' font-mono font-medium text-center'> <span className=' text-purple-600 '>এনরোলমেন্ট শুরু</span> <hr /> <h1 className=' mt-2'>ডিসেম্বর ১০, ২০২২ (শনিবার)</h1></div>
-                </div>
+
 
                 <div className=' bg-purple-100 shadow-md py-6 px-3 rounded-xl hover:bg-purple-600 box hover:text-white transition-all duration-300 ease-in-out cursor-pointer' >
                     <div className=' h-10 w-10 rounded-lg bg-purple-200 flex items-center justify-center mb-3 mx-auto'>
                         <BsCalendar2Range className=' text-black' />
                     </div>
-                    <div className=' font-mono font-medium text-center'> <span className=' text-purple-600'>এনরোলমেন্ট শুরু</span> <hr /> <h1 className=' mt-2'>ডিসেম্বর ১০, ২০২২ (শনিবার)</h1></div>
+                    <div className=' font-mono font-medium text-center'> <span className=' text-purple-600'>এনরোলমেন্ট শুরু</span> <hr /> <h1 className=' mt-2'>জানুয়ারি ১০, ২০২৩ (মঙ্গলবার)</h1></div>
                 </div>
 
                 <div className=' bg-purple-100 shadow-md py-6 px-3 rounded-xl  hover:bg-purple-600 box hover:text-white transition-all duration-300 ease-in-out cursor-pointer' >
                     <div className=' h-10 w-10 rounded-lg bg-purple-200 flex items-center justify-center mb-3 mx-auto'>
                         <BsCalendar2Range className=' text-black' />
                     </div>
-                    <div className=' font-mono font-medium text-center'> <span className=' text-purple-600'>এনরোলমেন্ট শুরু</span> <hr /> <h1 className=' mt-2'>ডিসেম্বর ১০, ২০২২ (শনিবার)</h1></div>
+                    <div className=' font-mono font-medium text-center'> <span className=' text-purple-600'>এনরোলমেন্ট
+                        শেষ</span> <hr /> <h1 className=' mt-2'>ফেব্রুয়ারি ১০, ২০২৩ (শুক্রবার)</h1></div>
                 </div>
 
                 <div className=' bg-purple-100 shadow-md py-6 px-3 rounded-xl  hover:bg-purple-600 box hover:text-white transition-all duration-300 ease-in-out cursor-pointer' >
                     <div className=' h-10 w-10 rounded-lg bg-purple-200 flex items-center justify-center mb-3 mx-auto'>
                         <BsCalendar2Range className=' text-black' />
                     </div>
-                    <div className=' font-mono font-medium text-center'> <span className=' text-purple-600'>এনরোলমেন্ট শুরু</span> <hr /> <h1 className=' mt-2'>ডিসেম্বর ১০, ২০২২ (শনিবার)</h1></div>
+                    <div className=' font-mono font-medium text-center'> <span className=' text-purple-600'>ওরিয়েন্টেশন শুরু</span> <hr /> <h1 className=' mt-2'>
+                        ফেব্রুয়ারি ১৫, ২০২৩ (মঙ্গলবার)</h1></div>
+                </div>
+
+                <div className=' bg-purple-100 shadow-md py-6 px-3 rounded-xl hover:bg-purple-600 box hover:text-white transition-all duration-300 ease-in-out cursor-pointer  ' >
+                    <div className=' h-10 w-10 rounded-lg bg-purple-200 flex items-center justify-center mb-3 mx-auto'>
+                        <BsCalendar2Range className=' text-black' />
+                    </div>
+                    <div className=' font-mono font-medium text-center'> <span className=' text-purple-600 '>ক্লাস শুরু</span> <hr /> <h1 className=' mt-2'>ফেব্রুয়ারি ১৬, ২০২৩ (বুধবার)</h1></div>
                 </div>
 
             </div>

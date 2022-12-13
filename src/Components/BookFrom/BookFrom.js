@@ -4,18 +4,32 @@ import { BsBack, BsFileLock2, BsFileMedical, BsPinMapFill, BsXDiamond } from 're
 import { FaRegMoneyBillAlt } from 'react-icons/fa';
 import { MdOutlineMailOutline } from 'react-icons/md';
 import { RiSecurePaymentLine, RiUserLocationLine } from 'react-icons/ri';
+import { toast } from 'react-toastify';
 
 const BookFrom = () => {
+
+
+    const handelsubmit = (e) => {
+        e.preventDefault();
+        toast.error('দয়া করে সম্পূর্ণ তথ্য পূরণ করুন !', {
+            position: toast.POSITION.TOP_RIGHT
+        });
+        console.log('kaj koren');
+    }
+
+
+
     return (
         <div className=' max-w-7xl mx-auto px-5 py-10'>
             <div>
-                <form className=' max-w-3xl border border-purple-600 rounded-xl pt-10 pb-5 shadow-md hover:border-sky-600 transition-all duration-300 ease-in-out group mx-auto my-6 p-3'>
+                <form onSubmit={handelsubmit} className=' max-w-3xl border border-purple-600 rounded-xl pt-10 pb-5 shadow-md hover:border-sky-600 transition-all duration-300 ease-in-out group mx-auto my-6 p-3'>
                     <div className=' text-center'>
                         <h1 className=' text-3xl group-hover:text-purple-600 transition-all duration-300 ease-in-out'>ক্রয় ফর্ম</h1>
                     </div>
+                    <div className=' w-1/3 h-[2px] mb-10 rounded-3xl bg-purple-600 mx-auto'></div>
                     <div className=' flex items-center gap-3 mb-5'>
                         <BsBack className=' text-purple-600' />
-                        <h1 className=' text-lg '>পার্সোনাল ইনফরমেশন</h1>
+                        <h1 className=' text-lg font-bold '>পার্সোনাল ইনফরমেশন</h1>
                     </div>
                     <div className=' pl-5'>
                         <div className=' grid md:grid-cols-2 grid-cols-1 gap-4 items-center '>
@@ -51,11 +65,11 @@ const BookFrom = () => {
                     </div>
                     <div className=' flex items-center gap-3  mt-8'>
                         <BsBack className=' text-purple-600' />
-                        <h1 className=' text-lg '>পেমেন্ট ইনফরমেশন</h1>
+                        <h1 className=' text-lg font-bold '>পেমেন্ট ইনফরমেশন</h1>
                     </div>
                     <div className=' flex items-center gap-3 mt-4 text-lg '>
                         <BsXDiamond />
-                        <h1>০১৭২৫১২৮৩৮৭ এ নম্বরে বিকাশ থেকে সেন্ড মানি করুন।</h1>
+                        <h1><span className=' font-bold text-purple-600'>০১৯৭২৩৪৩৯২৫</span> এ নম্বরে বিকাশ থেকে সেন্ড মানি করুন।</h1>
                     </div>
                     <div>
                         <div className=' pl-5'>
@@ -79,7 +93,7 @@ const BookFrom = () => {
 
                     </div>
                     <div className=' mt-8 mb-5 text-center'>
-                        <button className=' px-6 py-1.5 bg-purple-100 rounded border hover:border-purple-300 hover:bg-transparent hover:text-purple-600 transition-all duration-300 ease-in-out '>জমা দিন</button>
+                        <button type='submit' className=' px-6 py-1.5 bg-purple-100 rounded border hover:border-purple-300 hover:bg-transparent hover:text-purple-600 transition-all duration-300 ease-in-out '>জমা দিন</button>
                     </div>
 
                 </form>

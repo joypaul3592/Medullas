@@ -23,7 +23,7 @@ const Hero = () => {
                         করার পাশাপাশি বেশি বেশি পরীক্ষা দিয়ে নিজের প্রস্তুতি শাণিত করার
                         বিকল্প নেই।
                     </p>
-                    <button onClick={() => navigate('/adfrom')} className=" py-2 px-7 border border-purple-600 bg-purple-600 text-white rounded-full hover:bg-transparent hover:text-purple-600 transition-all duration-200 ease-in-out">
+                    <button onClick={() => navigate('/adfrom')} className=" pt-2.5 pb-1.5 px-7 border border-purple-600 bg-purple-600 text-white rounded-full hover:bg-transparent hover:text-purple-600 transition-all duration-200 ease-in-out">
                         নিবন্ধন করুন
                     </button>
                 </div>

@@ -9,7 +9,7 @@ const BscCourseC = () => {
                 <h1 className='text-4xl font-bold text-black '>বিএসসি ইন নার্সিং ভর্তি প্রস্তুতি</h1>
                 <div className=' text-2xl flex items-center px-2 mt-2 justify-center' >
                     <TbCurrencyTaka className=' text-3xl text-pink-600 font-bold -mt-1' />
-                    <h1 className=' font-bold text-pink-600'>১২,০০০</h1>
+                    <h1 className=' font-bold text-pink-600'>১৫,০০০</h1>
                 </div>
             </div>
             <div className=' py-10'>

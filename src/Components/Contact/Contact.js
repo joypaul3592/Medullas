@@ -36,7 +36,7 @@ const Contact = () => {
                                         <path stroke-linecap="round" stroke-linejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                                     </svg>
 
-                                    <span class="mx-2 text-gray-700 truncate w-72 ">acb@example.com</span>
+                                    <span class="mx-2 text-gray-700 truncate w-72 ">shaonsikder4@gmail.com</span>
                                 </p>
                             </div>
 
@@ -70,12 +70,15 @@ const Contact = () => {
                                         </svg>
                                     </a>
                                 </div>
+
+
+
                             </div>
                         </div>
 
                         <div class="mt-8 lg:w-1/2 lg:mx-6">
                             <div
-                                class="w-full px-8 py-10 mx-auto overflow-hidden bg-white rounded-lg shadow-2xl  lg:max-w-xl shadow-gray-300/50 ">
+                                class="w-full  px-8 py-10 mx-auto overflow-hidden bg-white rounded-lg shadow-2xl  lg:max-w-xl shadow-gray-300/50 ">
                                 <h1 class="text-lg font-medium text-gray-700">আপনার জানতে চাওয়ার বিষয়</h1>
 
                                 <form class="mt-6">
@@ -91,7 +94,7 @@ const Contact = () => {
 
                                     <div class="w-full mt-6">
                                         <label class="block mb-2 text text-gray-600 ">আপনার মেসেস</label>
-                                        <textarea class="block w-full h-32 px-5 py-3 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-md md:h-48 dark:placeholder-gray-600   dark:border-gray-700 focus:border-blue-400 dark:focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40" placeholder="মেসেস"></textarea>
+                                        <textarea class="block w-full h-32 px-5 py-3 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-md md:h-48 dark:placeholder-gray-600   dark:border-gray-700 focus:border-blue-400 dark:focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40" placeholder="আপনার মেসেস লিখুন"></textarea>
                                     </div>
 
                                     <button class="w-full px-6 py-3 mt-6  font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-blue-500 rounded-md hover:bg-blue-400 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-50">

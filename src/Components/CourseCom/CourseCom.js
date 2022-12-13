@@ -14,9 +14,9 @@ const CourseCom = () => {
     return (
         <div>
             <div className=' h-60 w-screen bg-gradient-to-r from-pink-50 to-sky-100'>
-                <div className=' w-10/12 mx-auto  h-full flex items-center justify-between'>
+                <div className=' max-w-7xl mx-auto  h-full flex items-center justify-between'>
                     <div></div>
-                    <h1 className=' text-7xl font-bold ml-40 text-purple-600'>#কোর্স </h1>
+                    <h1 className=' text-5xl font-bold ml-40 text-purple-600'>#কোর্স </h1>
                     <img className=' h-full' src={CourseImg} alt="CourseImg" />
                 </div>
             </div>
@@ -36,7 +36,7 @@ const CourseCom = () => {
                         </div>
                         <div className=' text-lg flex items-center px-2 mt-2' >
                             <TbCurrencyTaka className=' text-2xl text-green-700 font-bold -mt-1' />
-                            <h1 className=' font-bold text-green-700'>১২,০০০</h1>
+                            <h1 className=' font-bold text-green-700'>১৫,০০০</h1>
                         </div>
                         <div className=' flex items-center justify-center w-full pt-2 pb-1'>
                             <button onClick={() => navigate('/bsccourse')} className=' py-1 pb-0.5 px-4 border border-purple-600 text-sm hover:text-white hover:bg-purple-600 rounded font-bold transition-all duration-200 ease-in-out'>কোর্স বিবরণী</button>
@@ -52,7 +52,7 @@ const CourseCom = () => {
                         </div>
                         <div className=' text-lg flex items-center px-2 mt-2' >
                             <TbCurrencyTaka className=' text-2xl text-green-700 font-bold -mt-1' />
-                            <h1 className=' font-bold text-green-700'>১২,৫০০</h1>
+                            <h1 className=' font-bold text-green-700'>১৩,৫০০</h1>
                         </div>
                         <div className=' flex items-center justify-center w-full pt-2 pb-1'>
                             <button onClick={() => navigate('/diplomacourse')} className=' py-1 pb-0.5 px-4 border border-purple-600 text-sm hover:text-white hover:bg-purple-600 rounded font-bold transition-all duration-200 ease-in-out'>কোর্স বিবরণী</button>
@@ -100,7 +100,7 @@ const CourseCom = () => {
                         </div>
                         <div className=' text-lg flex items-center px-2 mt-2' >
                             <TbCurrencyTaka className=' text-2xl text-green-700 font-bold -mt-1' />
-                            <h1 className=' font-bold text-green-700'>৭,০০০</h1>
+                            <h1 className=' font-bold text-green-700'>৪,৫০০ / ৪,০০০ / ২,০০০</h1>
                         </div>
                         <div className=' flex items-center justify-center w-full pt-2 pb-1'>
                             <button onClick={() => navigate('/examcourse')} className=' py-1 pb-0.5 px-4 border border-purple-600 text-sm hover:text-white hover:bg-purple-600 rounded font-bold transition-all duration-200 ease-in-out'>কোর্স বিবরণী</button>

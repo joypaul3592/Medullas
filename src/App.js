@@ -24,6 +24,9 @@ import MidWifCourse from './Page/Course/MidWifCourse/MidWifCourse';
 import NiyogCourse from './Page/Course/NiyogCourse/NiyogCourse';
 import ExamCourse from './Page/Course/ExamCourse/ExamCourse';
 import BookFrom from './Components/BookFrom/BookFrom';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
 
 function App() {
   return (
@@ -57,6 +60,7 @@ function App() {
         </Route>
       </Routes>
       <Footer />
+      <ToastContainer />
     </div>
   );
 }

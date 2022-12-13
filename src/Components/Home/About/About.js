@@ -39,7 +39,7 @@ const About = () => {
                             <div className=' h-10 w-10 rounded-full flex items-center justify-center bg-purple-100'>
                                 <BsTelephoneFill />
                             </div>
-                            <h1 className=' text-gray-800'>+8801972343925</h1>
+                            <h1 className=' text-gray-800'>০১৯৭২৩৪৩৯২৫</h1>
                         </div>
                     </div>
                 </div>

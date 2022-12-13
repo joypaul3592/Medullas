@@ -1,7 +1,7 @@
 import React from 'react';
 import { BsCheck } from "react-icons/bs";
 import { useNavigate } from 'react-router-dom';
-import bookimg from '../../../../Assect/book.jpg'
+import bookimg from '../../../../Assect/book1.jpg'
 import payment1 from '../../../../Assect/payment1.png'
 import payment2 from '../../../../Assect/payment2.png'
 import payment3 from '../../../../Assect/payment3.png'

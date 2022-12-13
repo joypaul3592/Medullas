@@ -4,13 +4,15 @@ import img2 from '../../Assect/result2.jpg'
 import img3 from '../../Assect/result3.jpg'
 import img4 from '../../Assect/result4.jpg'
 import CourseImg from '../../Assect/Course2.png'
+import { HiOutlineArrowNarrowRight } from "react-icons/hi";
+
 const ResultCom = () => {
     return (
         <div>
             <div className=' h-60 w-screen bg-gradient-to-r from-pink-50 to-sky-100'>
-                <div className=' w-10/12 mx-auto  h-full flex items-center justify-between'>
+                <div className=' max-w-7xl m-auto  h-full flex items-center justify-between'>
                     <div></div>
-                    <h1 className=' text-7xl font-bold ml-40 text-purple-600'>#রেজাল্ট </h1>
+                    <h1 className=' text-5xl font-bold ml-40 text-purple-600'>#রেজাল্ট </h1>
                     <img className=' h-full' src={CourseImg} alt="CourseImg" />
                 </div>
             </div>
@@ -18,34 +20,34 @@ const ResultCom = () => {
                 <div className=' text-lg font-bold  text-purple-600 mb-5'>
                     <p>#রিসেন্ট পাবলিশ</p>
                 </div>
-                <div className='gap-10  grid grid-cols-3  items-center justify-start'>
+                <div className='gap-10  grid grid-cols-3  items-center justify-start max-w-5xl mx-auto'>
 
-                    <div class="group ">
-                        <div class="flex flex-col w-full hover:shadow-lg hover:shadow-purple-100 rounded group overflow-hidden h-auto border border-purple-600  transition-all duration-200 ease-in-out rounded-tr-[115px] rounded-bl-[115px]">
-                            <div className=' w-full rounded-b-full rounded-r-full p-2 border border-purple-600 overflow-hidden '>
-                                <img class="block h-52 w-full group-hover:scale-[1.08] rounded-r-full transition-all duration-300 ease-in-out rounded-b-full  flex-none bg-cover " src={img1} />
+                    <div class="group  ">
+                        <div class="flex flex-col w-full hover:shadow-lg hover:shadow-purple-100 rounded-lg group overflow-hidden h-auto border border-purple-600  transition-all duration-500 ease-in-out">
+                            <div className=' w-full  h-48 p-1.5 border-b border-purple-600 overflow-hidden  '>
+                                <img class="block h-full rounded-lg w-full group-hover:scale-[1.08]  transition-all duration-500 ease-in-out  flex-none bg-cover " src={img1} />
                             </div>
-                            <div class=" p-4 py-6  flex flex-col justify-center leading-normal">
-                                <div class="text-black  font-bold text-lg mb-2 pl-1 leading-tight group-hover:text-purple-600">নার্সিং ভর্তি রেজাল্ট ২০২০-২১ইং প্রকাশিত হয়েছে</div>
-                                <p className=' px-1 text-justify'>নার্সিং ভর্তি পরীক্ষা ২০২০–২১ এর ফলাফল বাংলাদেশ নার্সিং এন্ড মিডওয়াইফারি কাউন্সিল (BNMC) এর ওয়েবসাইটে প্রকাশ করা হয়েছে।</p>
+                            <div class=" p-4 pt-2.5 pb-5  flex flex-col justify-center leading-normal">
+
+                                <p className=' px-1 text-justify mb-1.5'>নার্সিং ভর্তি পরীক্ষা ২০২০–২১ এর ফলাফল বাংলাদেশ নার্সিং এন্ড মিডওয়াইফারি কাউন্সিল (BNMC) এর ওয়েবসাইটে প্রকাশ করা হয়েছে।</p>
                                 <div className=' w-full flex items-center justify-end'>
-                                    <p class="text-grey-darker text-sm h-8 rounded-full bg-fuchsia-200 border border-fuchsia-200 w-32 text-fuchsia-500 flex items-center justify-center cursor-pointer">আরো পড়ুন</p>
+                                    <button class="text-grey-darker text-sm pt-1.5 pb-1 rounded-full bg-fuchsia-200 border border-fuchsia-200 w-32 text-fuchsia-600 hover:bg-transparent flex items-center justify-center cursor-pointer gap-2 transition-all duration-300 ease-in-out">ফলাফল দেখুন <HiOutlineArrowNarrowRight /></button>
                                 </div>
                             </div>
                         </div>
                     </div>
 
 
-                    <div class="group">
-                        <div class="flex flex-col w-full rounded hover:shadow-lg hover:shadow-purple-100 group overflow-hidden h-auto border border-purple-600  transition-all duration-200 ease-in-out rounded-tr-[115px] rounded-bl-[115px]">
-                            <div className=' w-full rounded-b-full rounded-r-full p-2 border border-purple-600 overflow-hidden '>
-                                <img class="block h-52 w-full group-hover:scale-[1.08] rounded-r-full transition-all duration-300 ease-in-out rounded-b-full  flex-none bg-cover " src={img2} />
+                    <div class="group  ">
+                        <div class="flex flex-col w-full hover:shadow-lg hover:shadow-purple-100 rounded-lg group overflow-hidden h-auto border border-purple-600  transition-all duration-500 ease-in-out">
+                            <div className=' w-full  h-48 p-1.5 border-b border-purple-600 overflow-hidden  '>
+                                <img class="block h-full rounded-lg w-full group-hover:scale-[1.08]  transition-all duration-500 ease-in-out  flex-none bg-cover " src={img2} />
                             </div>
-                            <div class=" p-4 py-6  flex flex-col justify-center leading-normal">
-                                <div class="text-black  font-bold text-lg mb-2 pl-1 leading-tight group-hover:text-purple-600">নার্সিং ভর্তি রেজাল্ট ২০২০-২১ইং প্রকাশিত হয়েছে</div>
-                                <p className=' px-1 text-justify'>নার্সিং ভর্তি পরীক্ষা ২০২০–২১ এর ফলাফল বাংলাদেশ নার্সিং এন্ড মিডওয়াইফারি কাউন্সিল (BNMC) এর ওয়েবসাইটে প্রকাশ করা হয়েছে।</p>
+                            <div class=" p-4 pt-2.5 pb-5  flex flex-col justify-center leading-normal">
+
+                                <p className=' px-1 text-justify mb-1.5'>নার্সিং ভর্তি পরীক্ষা ২০২০–২১ এর ফলাফল বাংলাদেশ নার্সিং এন্ড মিডওয়াইফারি কাউন্সিল (BNMC) এর ওয়েবসাইটে প্রকাশ করা হয়েছে।</p>
                                 <div className=' w-full flex items-center justify-end'>
-                                    <p class="text-grey-darker text-sm h-8 rounded-full bg-fuchsia-200 w-32  text-fuchsia-600 flex items-center justify-center cursor-pointer hover:bg-transparent border border-fuchsia-200">আরো পড়ুন</p>
+                                    <button class="text-grey-darker text-sm pt-1.5 pb-1  rounded-full bg-fuchsia-200 border border-fuchsia-200 w-32 text-fuchsia-600 hover:bg-transparent flex items-center justify-center cursor-pointer gap-2 transition-all duration-300 ease-in-out">ফলাফল দেখুন <HiOutlineArrowNarrowRight /></button>
                                 </div>
                             </div>
                         </div>
@@ -53,47 +55,47 @@ const ResultCom = () => {
 
 
 
-                    <div class="group">
-                        <div class="flex flex-col w-full rounded hover:shadow-lg hover:shadow-purple-100 group overflow-hidden h-auto border border-purple-600  transition-all duration-200 ease-in-out rounded-tr-[115px] rounded-bl-[115px]">
-                            <div className=' w-full rounded-b-full rounded-r-full p-2 border border-purple-600 overflow-hidden '>
-                                <img class="block h-52 w-full group-hover:scale-[1.08] rounded-r-full transition-all duration-300 ease-in-out rounded-b-full  flex-none bg-cover " src={img3} />
+                    <div class="group  ">
+                        <div class="flex flex-col w-full hover:shadow-lg hover:shadow-purple-100 rounded-lg group overflow-hidden h-auto border border-purple-600  transition-all duration-500 ease-in-out">
+                            <div className=' w-full  h-48 p-1.5 border-b border-purple-600 overflow-hidden  '>
+                                <img class="block h-full rounded-lg w-full group-hover:scale-[1.08]  transition-all duration-500 ease-in-out  flex-none bg-cover " src={img3} />
                             </div>
-                            <div class=" p-4 py-6  flex flex-col justify-center leading-normal">
-                                <div class="text-black  font-bold text-lg mb-2 pl-1 leading-tight group-hover:text-purple-600">নার্সিং ভর্তি রেজাল্ট ২০২০-২১ইং প্রকাশিত হয়েছে</div>
-                                <p className=' px-1 text-justify'>নার্সিং ভর্তি পরীক্ষা ২০২০–২১ এর ফলাফল বাংলাদেশ নার্সিং এন্ড মিডওয়াইফারি কাউন্সিল (BNMC) এর ওয়েবসাইটে প্রকাশ করা হয়েছে।</p>
+                            <div class=" p-4 pt-2.5 pb-5  flex flex-col justify-center leading-normal">
+
+                                <p className=' px-1 text-justify mb-1.5'>নার্সিং ভর্তি পরীক্ষা ২০২০–২১ এর ফলাফল বাংলাদেশ নার্সিং এন্ড মিডওয়াইফারি কাউন্সিল (BNMC) এর ওয়েবসাইটে প্রকাশ করা হয়েছে।</p>
                                 <div className=' w-full flex items-center justify-end'>
-                                    <p class="text-grey-darker text-sm h-8 rounded-full bg-fuchsia-200 border border-fuchsia-200 w-32 text-fuchsia-500 flex items-center justify-center cursor-pointer">আরো পড়ুন</p>
+                                    <button class="text-grey-darker text-sm pt-1.5 pb-1  rounded-full bg-fuchsia-200 border border-fuchsia-200 w-32 text-fuchsia-600 hover:bg-transparent flex items-center justify-center cursor-pointer gap-2 transition-all duration-300 ease-in-out">ফলাফল দেখুন <HiOutlineArrowNarrowRight /></button>
                                 </div>
                             </div>
                         </div>
                     </div>
 
-                    <div class="group">
-                        <div class="flex flex-col w-full rounded hover:shadow-lg hover:shadow-purple-100 group overflow-hidden h-auto border border-purple-600  transition-all duration-200 ease-in-out rounded-tr-[115px] rounded-bl-[115px]">
-                            <div className=' w-full rounded-b-full rounded-r-full p-2 border border-purple-600 overflow-hidden '>
-                                <img class="block h-52 w-full group-hover:scale-[1.08] rounded-r-full transition-all duration-300 ease-in-out rounded-b-full  flex-none bg-cover " src={img3} />
+                    <div class="group  ">
+                        <div class="flex flex-col w-full hover:shadow-lg hover:shadow-purple-100 rounded-lg group overflow-hidden h-auto border border-purple-600  transition-all duration-500 ease-in-out">
+                            <div className=' w-full  h-48 p-1.5 border-b border-purple-600 overflow-hidden  '>
+                                <img class="block h-full rounded-lg w-full group-hover:scale-[1.08]  transition-all duration-500 ease-in-out  flex-none bg-cover " src={img4} />
                             </div>
-                            <div class=" p-4 py-6  flex flex-col justify-center leading-normal">
-                                <div class="text-black  font-bold text-lg mb-2 pl-1 leading-tight group-hover:text-purple-600">নার্সিং ভর্তি রেজাল্ট ২০২০-২১ইং প্রকাশিত হয়েছে</div>
-                                <p className=' px-1 text-justify'>নার্সিং ভর্তি পরীক্ষা ২০২০–২১ এর ফলাফল বাংলাদেশ নার্সিং এন্ড মিডওয়াইফারি কাউন্সিল (BNMC) এর ওয়েবসাইটে প্রকাশ করা হয়েছে।</p>
+                            <div class=" p-4 pt-2.5 pb-5  flex flex-col justify-center leading-normal">
+
+                                <p className=' px-1 text-justify mb-1.5'>নার্সিং ভর্তি পরীক্ষা ২০২০–২১ এর ফলাফল বাংলাদেশ নার্সিং এন্ড মিডওয়াইফারি কাউন্সিল (BNMC) এর ওয়েবসাইটে প্রকাশ করা হয়েছে।</p>
                                 <div className=' w-full flex items-center justify-end'>
-                                    <p class="text-grey-darker text-sm h-8 rounded-full bg-fuchsia-200 border border-fuchsia-200 w-32 text-fuchsia-500 flex items-center justify-center cursor-pointer">আরো পড়ুন</p>
+                                    <button class="text-grey-darker text-sm pt-1.5 pb-1  rounded-full bg-fuchsia-200 border border-fuchsia-200 w-32 text-fuchsia-600 hover:bg-transparent flex items-center justify-center cursor-pointer gap-2 transition-all duration-300 ease-in-out">ফলাফল দেখুন <HiOutlineArrowNarrowRight /></button>
                                 </div>
                             </div>
                         </div>
                     </div>
 
 
-                    <div class="group">
-                        <div class="flex flex-col w-full hover:shadow-lg hover:shadow-purple-100 rounded group overflow-hidden h-auto border border-purple-600  transition-all duration-200 ease-in-out rounded-tr-[115px] rounded-bl-[115px]">
-                            <div className=' w-full rounded-b-full rounded-r-full p-2 border border-purple-600 overflow-hidden '>
-                                <img class="block h-52 w-full group-hover:scale-[1.08] rounded-r-full transition-all duration-300 ease-in-out rounded-b-full  flex-none bg-cover " src={img4} />
+                    <div class="group  ">
+                        <div class="flex flex-col w-full hover:shadow-lg hover:shadow-purple-100 rounded-lg group overflow-hidden h-auto border border-purple-600  transition-all duration-500 ease-in-out">
+                            <div className=' w-full  h-48 p-1.5 border-b border-purple-600 overflow-hidden  '>
+                                <img class="block h-full rounded-lg w-full group-hover:scale-[1.08]  transition-all duration-500 ease-in-out  flex-none bg-cover " src={img1} />
                             </div>
-                            <div class=" p-4 py-6  flex flex-col justify-center leading-normal">
-                                <div class="text-black  font-bold text-lg mb-2 pl-1 leading-tight group-hover:text-purple-600">নার্সিং ভর্তি রেজাল্ট ২০২০-২১ইং প্রকাশিত হয়েছে</div>
-                                <p className=' px-1 text-justify'>নার্সিং ভর্তি পরীক্ষা ২০২০–২১ এর ফলাফল বাংলাদেশ নার্সিং এন্ড মিডওয়াইফারি কাউন্সিল (BNMC) এর ওয়েবসাইটে প্রকাশ করা হয়েছে।</p>
+                            <div class=" p-4 pt-2.5 pb-5  flex flex-col justify-center leading-normal">
+
+                                <p className=' px-1 text-justify mb-1.5'>নার্সিং ভর্তি পরীক্ষা ২০২০–২১ এর ফলাফল বাংলাদেশ নার্সিং এন্ড মিডওয়াইফারি কাউন্সিল (BNMC) এর ওয়েবসাইটে প্রকাশ করা হয়েছে।</p>
                                 <div className=' w-full flex items-center justify-end'>
-                                    <p class="text-grey-darker text-sm h-8 rounded-full bg-fuchsia-200 border border-fuchsia-200 w-32 text-fuchsia-500 flex items-center justify-center cursor-pointer">আরো পড়ুন</p>
+                                    <button class="text-grey-darker text-sm pt-1.5 pb-1  rounded-full bg-fuchsia-200 border border-fuchsia-200 w-32 text-fuchsia-600 hover:bg-transparent flex items-center justify-center cursor-pointer gap-2 transition-all duration-300 ease-in-out">ফলাফল দেখুন <HiOutlineArrowNarrowRight /></button>
                                 </div>
                             </div>
                         </div>
