@@ -26,6 +26,7 @@ import ExamCourse from './Page/Course/ExamCourse/ExamCourse';
 import BookFrom from './Components/BookFrom/BookFrom';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import TeacherTeam from './Page/TeacherTeam/TeacherTeam';
 
 
 function App() {
@@ -50,6 +51,7 @@ function App() {
         <Route path='/midwifcourse' element={<MidWifCourse />}></Route>
         <Route path='/niyogcourse' element={<NiyogCourse />}></Route>
         <Route path='/examcourse' element={<ExamCourse />}></Route>
+        <Route path='/teacherteam' element={<TeacherTeam />}></Route>
 
 
 

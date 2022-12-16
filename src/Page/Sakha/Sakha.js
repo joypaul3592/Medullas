@@ -4,6 +4,7 @@ import { FaChessKing, FaHome } from "react-icons/fa";
 import { AiTwotoneHome } from "react-icons/ai";
 import { ImHome, ImHome2, ImHome3 } from "react-icons/im";
 import { RiHome7Fill } from "react-icons/ri";
+import GiveSakha from './GiveSakha/GiveSakha';
 
 const Sakha = () => {
     const [hover, setHover] = useState(false)
@@ -120,6 +121,7 @@ const Sakha = () => {
                     </div>
                 </div>
             </div>
+            <GiveSakha />
         </div>
     );
 };

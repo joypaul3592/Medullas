@@ -3,20 +3,19 @@ import { NavLink } from 'react-router-dom';
 // import OutsideClickHandler from 'react-outside-click-handler';
 import { GrNotification } from "react-icons/gr";
 import logo from '../../../Assect/logo.png'
+import { MdKeyboardArrowDown } from 'react-icons/md';
+import { AiOutlineFolderOpen } from 'react-icons/ai';
 
 const Navbar = () => {
+
+
 
     // For Menu
     const ref = useRef()
 
     const [isMenuOpen, setIsMenuOpen] = useState(false)
-    const [countries, setCountries] = useState(false)
-    const [features, setFeatures] = useState(false)
-    const [price, setPrice] = useState(false)
-    const [learn, setLearn] = useState(false)
     const [scroll, setScroll] = useState(false)
-    const [notfiOpen, setNotifiOpen] = useState(false)
-
+    const [drop, setDrop] = useState(false)
 
     useEffect(() => {
         const checkIfClickedOutside = e => {
@@ -77,7 +76,6 @@ const Navbar = () => {
 
 
                                     <NavLink
-                                        onClick={() => setLearn(!learn)}
                                         to={'adfrom'}
                                         className={({ isActive }) => (`cursor-pointer rounded-md text-[15px] hover:text-purple-500 font-semibold  ${isActive ? 'text-purple-500' : 'text-gray-700'}`)}
                                     >ভর্তি ফরম
@@ -85,46 +83,75 @@ const Navbar = () => {
 
 
                                     <NavLink
-                                        onClick={() => setFeatures(!features)}
                                         to={'support'}
                                         className={({ isActive }) => (`cursor-pointer rounded-md text-[15px] hover:text-purple-500 font-semibold  ${isActive ? 'text-purple-500' : 'text-gray-700'}`)}
                                     >অনলাইন কেয়ার
                                     </NavLink>
 
                                     <NavLink
-                                        onClick={() => setPrice(!price)}
                                         to={'blog'}
                                         className={({ isActive }) => (`cursor-pointer rounded-md text-[15px] hover:text-purple-500 font-semibold  ${isActive ? 'text-purple-500' : 'text-gray-700'}`)}
                                     >ব্লগ
                                     </NavLink>
 
                                     <NavLink
-                                        onClick={() => setPrice(!price)}
                                         to={'/sakha'}
                                         className={({ isActive }) => (`cursor-pointer rounded-md text-[15px] hover:text-purple-500 font-semibold  ${isActive ? 'text-purple-500' : 'text-gray-700'}`)}
                                     >শাখা সমূহ
                                     </NavLink>
 
+
                                     <NavLink
-                                        onClick={() => setPrice(!price)}
+                                        to={'/result'}
+                                        className={({ isActive }) => (`cursor-pointer rounded-md text-[15px] hover:text-purple-500 font-semibold  ${isActive ? 'text-purple-500' : 'text-gray-700'}`)}
+                                    >রেজাল্ট
+                                    </NavLink>
+                                    <NavLink
+                                        to={'/course'}
+                                        className={({ isActive }) => (`cursor-pointer rounded-md text-[15px] hover:text-purple-500 font-semibold  ${isActive ? 'text-purple-500' : 'text-gray-700'}`)}
+                                    >কোর্স
+                                    </NavLink>
+
+                                    <NavLink
                                         to={'/bookshop'}
                                         className={({ isActive }) => (`cursor-pointer rounded-md text-[15px] hover:text-purple-500 font-semibold  ${isActive ? 'text-purple-500' : 'text-gray-700'}`)}
                                     >বুক শপ
                                     </NavLink>
 
                                     <NavLink
-                                        onClick={() => setPrice(!price)}
-                                        to={'/result'}
-                                        className={({ isActive }) => (`cursor-pointer rounded-md text-[15px] hover:text-purple-500 font-semibold  ${isActive ? 'text-purple-500' : 'text-gray-700'}`)}
-                                    >রেজাল্ট
-                                    </NavLink>
-                                    <NavLink
-                                        onClick={() => setPrice(!price)}
-                                        to={'/course'}
-                                        className={({ isActive }) => (`cursor-pointer rounded-md text-[15px] hover:text-purple-500 font-semibold  ${isActive ? 'text-purple-500' : 'text-gray-700'}`)}
-                                    >কোর্স
-                                    </NavLink>
+                                        onMouseEnter={() => setDrop(true)}
+                                        onMouseLeave={() => setDrop(false)}
+                                        to={'/nursingCollage'}
+                                        className={({ isActive }) => (`relative flex items-center gap-2 cursor-pointer rounded-md text-[15px] hover:text-purple-500 font-semibold  ${isActive ? 'text-purple-500' : 'text-gray-700'}`)}
+                                    >নার্সিং কলেজ <MdKeyboardArrowDown />
 
+
+                                        {
+                                            drop && <div onMouseEnter={() => setDrop(true)}
+                                                onMouseLeave={() => setDrop(false)}
+                                                className='pl-10 rounded absolute top-[23px] -right-6 bg-white border bg-opacity-60 backdrop-blur-lg border-purple-200 shadow-lg py-5 w-60 flex flex-col gap-3'>
+                                                <NavLink
+                                                    to={'/bsccollage'}
+                                                    className={({ isActive }) => (`cursor-pointer rounded-md text-[15px] flex items-center gap-2 hover:text-purple-500 font-semibold  ${isActive ? 'text-purple-500' : 'text-gray-700'}`)}
+                                                ><AiOutlineFolderOpen className=' text-xl' /> বিএসসি ইন নার্সিং
+                                                </NavLink>
+
+                                                <NavLink
+                                                    to={'/diplomacollage'}
+                                                    className={({ isActive }) => (`cursor-pointer rounded-md text-[15px] flex items-center gap-2 hover:text-purple-500 font-semibold  ${isActive ? 'text-purple-500' : 'text-gray-700'}`)}
+                                                ><AiOutlineFolderOpen className=' text-xl' /> ডিপ্লোমা ইন নার্সিং
+                                                </NavLink>
+
+                                                <NavLink
+                                                    to={'/midwifcollage'}
+                                                    className={({ isActive }) => (`cursor-pointer rounded-md text-[15px] flex items-center gap-2 hover:text-purple-500 font-semibold  ${isActive ? 'text-purple-500' : 'text-gray-700'}`)}
+                                                ><AiOutlineFolderOpen className=' text-xl' /> মিডওয়াইফারী নার্সিং
+                                                </NavLink>
+
+                                            </div>
+
+                                        }
+                                    </NavLink>
 
 
 
@@ -188,28 +215,24 @@ const Navbar = () => {
 
 
                                 <NavLink
-                                    onClick={() => setCountries(!countries)}
                                     to={'countries'}
                                     className={({ isActive }) => (`  text-[13px] hover:text-purple-500 font-semibold ${isActive ? 'text-purple-500' : 'text-black'}`)}
                                 >Countries
                                 </NavLink>
 
                                 <NavLink
-                                    onClick={() => setFeatures(!features)}
                                     to={'features'}
                                     className={({ isActive }) => (` rounded-md text-[13px] hover:text-purple-500 font-semibold  ${isActive ? 'text-purple-500' : 'text-black'}`)}
                                 >Features
                                 </NavLink>
 
                                 <NavLink
-                                    onClick={() => setPrice(!price)}
                                     to={'prices'}
                                     className={({ isActive }) => (` rounded-md text-[13px] hover:text-purple-500 font-semibold  ${isActive ? 'text-purple-500' : 'text-black'}`)}
                                 >Prices
                                 </NavLink>
 
                                 <NavLink
-                                    onClick={() => setLearn(!learn)}
                                     to={'learn'}
                                     className={({ isActive }) => (` rounded-md text-[13px] hover:text-purple-500 font-semibold  ${isActive ? 'text-purple-500' : 'text-black'}`)}
                                 >Learn
