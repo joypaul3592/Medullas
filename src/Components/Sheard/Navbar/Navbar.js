@@ -119,9 +119,15 @@ const Navbar = () => {
                                     </NavLink>
 
                                     <NavLink
+                                        to={'/aboutus'}
+                                        className={({ isActive }) => (`cursor-pointer rounded-md text-[15px] hover:text-purple-500 font-semibold  ${isActive ? 'text-purple-500' : 'text-gray-700'}`)}
+                                    >আমাদের সম্পর্কে
+                                    </NavLink>
+
+                                    <NavLink
                                         onMouseEnter={() => setDrop(true)}
                                         onMouseLeave={() => setDrop(false)}
-                                        to={'/nursingCollage'}
+                                        to={'/nursingbscclg'}
                                         className={({ isActive }) => (`relative flex items-center gap-2 cursor-pointer rounded-md text-[15px] hover:text-purple-500 font-semibold  ${isActive ? 'text-purple-500' : 'text-gray-700'}`)}
                                     >নার্সিং কলেজ <MdKeyboardArrowDown />
 
@@ -131,19 +137,19 @@ const Navbar = () => {
                                                 onMouseLeave={() => setDrop(false)}
                                                 className='pl-10 rounded absolute top-[23px] -right-6 bg-white border bg-opacity-60 backdrop-blur-lg border-purple-200 shadow-lg py-5 w-60 flex flex-col gap-3'>
                                                 <NavLink
-                                                    to={'/bsccollage'}
+                                                    to={'/nursingbscclg'}
                                                     className={({ isActive }) => (`cursor-pointer rounded-md text-[15px] flex items-center gap-2 hover:text-purple-500 font-semibold  ${isActive ? 'text-purple-500' : 'text-gray-700'}`)}
                                                 ><AiOutlineFolderOpen className=' text-xl' /> বিএসসি ইন নার্সিং
                                                 </NavLink>
 
                                                 <NavLink
-                                                    to={'/diplomacollage'}
+                                                    to={'/nursingdiploclg'}
                                                     className={({ isActive }) => (`cursor-pointer rounded-md text-[15px] flex items-center gap-2 hover:text-purple-500 font-semibold  ${isActive ? 'text-purple-500' : 'text-gray-700'}`)}
                                                 ><AiOutlineFolderOpen className=' text-xl' /> ডিপ্লোমা ইন নার্সিং
                                                 </NavLink>
 
                                                 <NavLink
-                                                    to={'/midwifcollage'}
+                                                    to={'/nursingmidwiclg'}
                                                     className={({ isActive }) => (`cursor-pointer rounded-md text-[15px] flex items-center gap-2 hover:text-purple-500 font-semibold  ${isActive ? 'text-purple-500' : 'text-gray-700'}`)}
                                                 ><AiOutlineFolderOpen className=' text-xl' /> মিডওয়াইফারী নার্সিং
                                                 </NavLink>

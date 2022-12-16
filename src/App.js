@@ -27,6 +27,10 @@ import BookFrom from './Components/BookFrom/BookFrom';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import TeacherTeam from './Page/TeacherTeam/TeacherTeam';
+import NursingBscClg from './Components/NursingClgC/NursingBscClg/NursingBscClg';
+import NursingDiploClg from './Components/NursingClgC/NursingDiploClg/NursingDiploClg';
+import NursingMidwifClg from './Components/NursingClgC/NursingMidwifClg/NursingMidwifClg';
+import AboutUs from './Components/AboutUs/AboutUs';
 
 
 function App() {
@@ -52,6 +56,10 @@ function App() {
         <Route path='/niyogcourse' element={<NiyogCourse />}></Route>
         <Route path='/examcourse' element={<ExamCourse />}></Route>
         <Route path='/teacherteam' element={<TeacherTeam />}></Route>
+        <Route path='/nursingbscclg' element={<NursingBscClg />}></Route>
+        <Route path='/nursingdiploclg' element={<NursingDiploClg />}></Route>
+        <Route path='/nursingmidwiclg' element={<NursingMidwifClg />}></Route>
+        <Route path='/aboutus' element={<AboutUs />}></Route>
 
 
 
