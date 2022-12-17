@@ -3,10 +3,12 @@ import blogBannar from '../../Assect/blogBannar.png'
 import style1 from '../../Assect/style1.png'
 import style2 from '../../Assect/style4.png'
 const Blog = () => {
+
+
+
+
     return (
         <div className='relative max-w-7xl mx-auto px-5 py-10'>
-
-
 
             <div className=' absolute top-0 right-0'>
                 <img className=' h-60 rotate-90 opacity-25' src={style1} alt="style1" />

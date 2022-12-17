@@ -1,6 +1,22 @@
 import React from 'react';
-
+import { toast } from 'react-toastify';
+import emailjs from '@emailjs/browser'
 const Contact = () => {
+
+    const sendEmail = (e) => {
+        e.preventDefault()
+        emailjs.sendForm('service_96j5mtj', 'template_3mwm2bj', e.target, 'ZBarvgnMPkgukqdo2').then(res => {
+            console.log(res)
+        }).catch(err => console.log(err));
+        toast.success("Your submission has been received. I'll get back to you very soon.", {
+            position: toast.POSITION.BOTTOM_RIGHT
+        });
+        e.target.reset();
+    }
+
+
+
+
     return (
         <div>
             <section class="bg-white max-w-7xl mx-auto px-5 ">
@@ -81,23 +97,23 @@ const Contact = () => {
                                 class="w-full  px-8 py-10 mx-auto overflow-hidden bg-white rounded-lg shadow-2xl  lg:max-w-xl shadow-gray-300/50 ">
                                 <h1 class="text-lg font-medium text-gray-700">আপনার জানতে চাওয়ার বিষয়</h1>
 
-                                <form class="mt-6">
+                                <form onSubmit={sendEmail} class="mt-6">
                                     <div class="flex-1">
                                         <label class="block mb-2 text-gray-600 ">পূর্ণ নাম</label>
-                                        <input type="text" placeholder="শাওন দাস" class="block w-full px-5 py-3 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-md dark:placeholder-gray-600   dark:border-gray-700 focus:border-blue-400 dark:focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40" />
+                                        <input type="text" name="from_name" placeholder="শাওন দাস" class="block w-full px-5 py-3 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-md dark:placeholder-gray-600   dark:border-gray-700 focus:border-blue-400 dark:focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40" />
                                     </div>
 
                                     <div class="flex-1 mt-6">
                                         <label class="block mb-2 text-gray-600 ">আপনার ইমেইল</label>
-                                        <input type="email" placeholder="johndoe@example.com" class="block w-full px-5 py-3 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-md dark:placeholder-gray-600   dark:border-gray-700 focus:border-blue-400 dark:focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40" />
+                                        <input type="email" name="from_email" placeholder="johndoe@example.com" class="block w-full px-5 py-3 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-md dark:placeholder-gray-600   dark:border-gray-700 focus:border-blue-400 dark:focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40" />
                                     </div>
 
                                     <div class="w-full mt-6">
                                         <label class="block mb-2 text text-gray-600 ">আপনার মেসেস</label>
-                                        <textarea class="block w-full h-32 px-5 py-3 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-md md:h-48 dark:placeholder-gray-600   dark:border-gray-700 focus:border-blue-400 dark:focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40" placeholder="আপনার মেসেস লিখুন"></textarea>
+                                        <textarea name="message" class="block w-full h-32 px-5 py-3 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-md md:h-48 dark:placeholder-gray-600   dark:border-gray-700 focus:border-blue-400 dark:focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40" placeholder="আপনার মেসেস লিখুন"></textarea>
                                     </div>
 
-                                    <button class="w-full px-6 py-3 mt-6  font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-blue-500 rounded-md hover:bg-blue-400 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-50">
+                                    <button type='submit' class="w-full px-6 py-3 mt-6  font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-blue-500 rounded-md hover:bg-blue-400 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-50">
                                         ইমেইল করুন
                                     </button>
                                 </form>

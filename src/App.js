@@ -31,6 +31,8 @@ import NursingBscClg from './Components/NursingClgC/NursingBscClg/NursingBscClg'
 import NursingDiploClg from './Components/NursingClgC/NursingDiploClg/NursingDiploClg';
 import NursingMidwifClg from './Components/NursingClgC/NursingMidwifClg/NursingMidwifClg';
 import AboutUs from './Components/AboutUs/AboutUs';
+import StudentDetails from './Components/Home/Testmonial/StudentDetails/StudentDetails';
+import BlogDetails from './Components/Blog/BlogDetails/BlogDetails';
 
 
 function App() {
@@ -60,6 +62,8 @@ function App() {
         <Route path='/nursingdiploclg' element={<NursingDiploClg />}></Route>
         <Route path='/nursingmidwiclg' element={<NursingMidwifClg />}></Route>
         <Route path='/aboutus' element={<AboutUs />}></Route>
+        <Route path='/studentdetails/:id' element={<StudentDetails />}></Route>
+        <Route path='/blogdetails/:id' element={<BlogDetails />}></Route>
 
 
 

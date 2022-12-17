@@ -3,8 +3,14 @@ import { BsArrowRight } from "react-icons/bs";
 import { RiUser2Fill } from "react-icons/ri";
 import { BsCalendar2Week, BsFileEarmarkRichtext } from "react-icons/bs";
 import { GrNotes } from "react-icons/gr";
+import { useNavigate } from 'react-router-dom';
 
 const Timeline = () => {
+
+    const navigate = useNavigate()
+
+
+
     return (
         <div className=' max-w-7xl mx-auto px-5 py-10  mt-10'>
             <div >
@@ -20,7 +26,7 @@ const Timeline = () => {
                     </div>
                     <h1 className=' text-[18px] font-medium mb-2'>অভিজ্ঞ শিক্ষকমন্ডলী</h1>
                     <p className=' text-gray-600 text-justify mb-7'>শিক্ষার্থীদের জন্য যেখানে রয়েছে অভিজ্ঞ শিক্ষকমন্ডলীর ক্লাস, লেকচার শিট সহ অনন্য সেবাসমূহ।</p>
-                    <button className=' flex items-center gap-3 text-purple-600 text-sm font-medium hover:gap-5 hover:text-green-600 transition-all duration-300 ease-in-out'>আরো পড়ুন <BsArrowRight /></button>
+                    <button onClick={() => navigate('/teacherteam')} className=' flex items-center gap-3 text-purple-600 text-sm font-medium hover:gap-5 hover:text-green-600 transition-all duration-300 ease-in-out'>আরো পড়ুন <BsArrowRight /></button>
                 </div>
 
                 <div className=' bg-sky-100 hover:bg-purple-100 bx cursor-pointer p-7 shadow-lg rounded-xl'>
@@ -29,7 +35,7 @@ const Timeline = () => {
                     </div>
                     <h1 className=' text-[18px] font-medium mb-2'>ম্যাক্সিমাম লেকচার ক্লাস</h1>
                     <p className=' text-gray-600 text-justify mb-7'>শিক্ষার্থীদের জন্য যেখানে রয়েছে সপ্তাহে ৬ দিন ক্লাস লেকচার শিট ও ডেইলি এক্সাম সহ অনন্য সেবাসমূহ।</p>
-                    <button className=' flex items-center gap-3 text-purple-600 text-sm font-medium hover:gap-5 hover:text-green-600 transition-all duration-300 ease-in-out'>আরো পড়ুন<BsArrowRight /></button>
+                    <button onClick={() => navigate('/bsccourse')} className=' flex items-center gap-3 text-purple-600 text-sm font-medium hover:gap-5 hover:text-green-600 transition-all duration-300 ease-in-out'>আরো পড়ুন<BsArrowRight /></button>
                 </div>
 
                 <div className=' bg-pink-100 hover:bg-purple-100 bx cursor-pointer p-7 shadow-lg rounded-xl'>
@@ -38,7 +44,7 @@ const Timeline = () => {
                     </div>
                     <h1 className=' text-[18px] font-medium mb-2'>সেরা নোটশীট ও ভর্তি গাইড</h1>
                     <p className=' text-gray-600 text-justify mb-7'>শিক্ষার্থীদের জন্য যেখানে রয়েছে লেকচার শিট, ভর্তি গাইড, হাইয়েস্ট প্র্যাকটিস সহ অনন্য সেবাসমূহ।</p>
-                    <button className=' flex items-center gap-3 text-purple-600 text-sm font-medium hover:gap-5 hover:text-green-600 transition-all duration-300 ease-in-out'>আরো পড়ুন <BsArrowRight /></button>
+                    <button onClick={() => navigate('/bookshop')} className=' flex items-center gap-3 text-purple-600 text-sm font-medium hover:gap-5 hover:text-green-600 transition-all duration-300 ease-in-out'>আরো পড়ুন <BsArrowRight /></button>
                 </div>
 
                 <div className=' bg-orange-50 hover:bg-purple-100 bx cursor-pointer transition-all duration-300 ease-in-out p-7 shadow-lg rounded-xl'>
@@ -47,7 +53,7 @@ const Timeline = () => {
                     </div>
                     <h1 className=' text-[18px] font-medium mb-2'>ডেইলি কোয়ালিটি এক্সাম</h1>
                     <p className=' text-gray-600 text-justify mb-7'>শিক্ষার্থীদের জন্য যেখানে রয়েছে ডেইলি এক্সাম, উইকলি এক্সাম, সাবজেক্ট ফাইনাল এক্সাম সহ অনন্য সেবাসমূহ।</p>
-                    <button className=' flex items-center gap-3 text-purple-600  text-sm font-medium hover:gap-5 hover:text-green-600 transition-all duration-300 ease-in-out'>আরো পড়ুন <BsArrowRight /></button>
+                    <button onClick={() => navigate('/diplomacourse')} className=' flex items-center gap-3 text-purple-600  text-sm font-medium hover:gap-5 hover:text-green-600 transition-all duration-300 ease-in-out'>আরো পড়ুন <BsArrowRight /></button>
                 </div>
 
 

@@ -1,9 +1,10 @@
 import React from "react";
 import { HiArrowDownTray } from "react-icons/hi2";
+import { useNavigate } from "react-router-dom";
 
 const CarosuleItem = ({ studentData }) => {
 
-
+    const navigate = useNavigate()
     return (
         <div className=" h-full py-10  ">
             <div class=" bg-no-repeat h-full flex justify-center items-center">
@@ -35,7 +36,7 @@ const CarosuleItem = ({ studentData }) => {
                                     studentData?.review.slice(0, 115)
                                 }
                                 .. </span>
-                            <button className=" ml-1 text-purple-600">আরো পড়ুন</button>
+                            <button onClick={() => navigate(`/studentdetails/${studentData?.id}`)} className=" ml-1 text-purple-600">আরো পড়ুন</button>
                         </div>
 
                     </div>

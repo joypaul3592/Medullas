@@ -1,65 +1,11 @@
-// Carousel.js
-import { useState } from 'react'
-import Slider from 'react-slick'
-import 'slick-carousel/slick/slick.css'
-import 'slick-carousel/slick/slick-theme.css'
-import CarosuleItem from './CarosuleItem/CarosuleItem'
-import { GrPrevious, GrNext } from 'react-icons/gr'
+import React from 'react';
+import { BsDiamondHalf } from 'react-icons/bs';
+import { useNavigate, useParams } from 'react-router-dom';
 
-function SampleNextArrow(props) {
-    console.log(props);
-    const { onClick } = props;
-    return (
-        <div
-        ><GrPrevious className='slick-arrow slick-prev h-40 bg-red-200' onClick={onClick} /></div>
-    );
-}
-
-function SamplePrevArrow(props) {
-    const { onClick } = props;
-    return (
-        <div
-        ><GrNext className='slick-arrow slick-next' onClick={onClick} /></div>
-    );
-}
-
-
-const Testmonial = () => {
-
-    var settings = {
-        dots: true,
-        infinite: true,
-        speed: 700,
-        slidesToShow: 3,
-        slidesToScroll: 1,
-        focusOnSelect: true,
-        autoplay: true,
-        autoplaySpeed: 3000,
-        nextArrow: <SamplePrevArrow />,
-        prevArrow: <SampleNextArrow />,
-        responsive: [{
-            breakpoint: 1024,
-            settings: {
-                slidesToShow: 2,
-                slidesToScroll: 1,
-            }
-        },
-        {
-            breakpoint: 768,
-            settings: {
-                slidesToShow: 1,
-                slidesToScroll: 2,
-            }
-        },
-        {
-            breakpoint: 480,
-            settings: {
-                slidesToShow: 1,
-                slidesToScroll: 1,
-            }
-        }
-        ]
-    };
+const StudentDetails = () => {
+    const navigate = useNavigate()
+    const { id } = useParams();
+    const studentId = (id - 1)
 
     const StudentsData = [
         {
@@ -108,21 +54,154 @@ const Testmonial = () => {
     ]
 
     return (
-        <div className=' max-w-7xl mx-auto px-10 pb-10'>
-            <div >
-                <h4 className=' font-bold text-purple-600'>#মতামত</h4>
-                <h1 className=' text-3xl font-bold mb-10'>কৃতি শিক্ষার্থীদের মতামত</h1>
+        <div className=' max-w-7xl mx-auto px-5 my-5 py-10'>
+            <div className='w-11/12  mx-auto lg:flex items-center bg-purple-100 rounded-b-xl rounded-l-xl shadow-xl'>
+                <div className=' lg:w-1/2 w-full'>
+                    <img className=' w-full h-full rounded-xl' src={StudentsData[studentId].img} alt="" />
+                </div>
+                <div className='lg:w-1/2 w-full bg-purple-100 px-4 py-5 rounded-b-xl'>
+
+                    <div className=' md:flex items-cente justify-between mb-3'>
+                        <h1 className=' text-2xl text-purple-600'><span className=' text-black'>নামঃ </span>{StudentsData[studentId].name}</h1>
+                        <h1 className=' text-2xl text-purple-600'><span className=' text-black'>শিক্ষাবর্ষঃ </span>{StudentsData[studentId].collage.slice(0, 7)}</h1></div>
+                    <h1 className=' text-2xl text-purple-600 mb-5'><span className=' text-black'>ইনস্টিটিউটঃ </span>{StudentsData[studentId].collage.slice(19)}</h1>
+                    <p>{StudentsData[studentId].review}</p>
+                </div>
             </div>
-            <div className=' mt-6' >
-                <Slider {...settings} className='h-[30rem] max-w-7xl mx-auto '>
-                    {
-                        StudentsData.map(studentData => <CarosuleItem key={studentData.id} studentData={studentData} />)
-                    }
-                </Slider>
-            </div >
-        </div >
 
+
+
+
+            <div className=' mt-12 flex items-center gap-3 text-lg'>
+                <BsDiamondHalf className=' text-purple-600' />
+                <h1>সম্পর্কিত পোস্ট..</h1>
+            </div>
+            <div className=' grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1'>
+
+
+                <div className=" h-full py-10  ">
+                    <div class=" bg-no-repeat h-full flex justify-center items-center">
+                        <div class="w-full max-w-[300px] h-[370px] border relative border-purple-600 p-2 py-6 rounded-xl text-gray-800 bg-no-repeat  overflow-hidden group hover:shadow-xl hover:shadow-purple-500/20 motion-safe:transition-all motion-safe:duration-700">
+                            <figure class="relative w-40 h-40 m-0 mx-auto rounded-full outline outline-offset-4  before:content-[''] before:absolute before:block before:pointer-events-none before:rounded-full before:h-full before:w-full before:bg-fuchsia-200 before:-z-[1] before:scale-[2.28] motion-safe:before:transition-all  motion-safe:transform-gpu motion-safe:before:duration-500 before:origin-center outline-white"
+                            >
+                                <img
+                                    class="rounded-full block max-w-full bg-purple-600 h-full object-cover z-10 relative"
+                                    src={StudentsData[2].img}
+                                    alt="Avatar"
+                                />
+                            </figure>
+                            <header class="motion-safe:translate-y-4 translate-y-0 motion-safe:transition-transform motion-safe:transform-gpu motion-safe:duration-500">
+                                <h3 class="font-semibold text-2xl text-center text-purple-600 mt-6   relative">
+                                    {StudentsData[2]?.name}
+                                </h3>
+                                <p class="text-center text-gray-700   relative">
+                                    {StudentsData[2]?.collage}
+                                </p>
+                            </header>
+
+                            <div class="flex justify-center  mt-16 text-gray-700 relative">
+                                <div class="  translate-y-[-40px] motion-safe:delay-200 motion-safe:transition">
+                                    <span className=" text-justify hidden md:inline text-ellipsis overflow-hidden ... ">
+                                        {
+                                            StudentsData[2]?.review.slice(0, 115)
+                                        }
+                                        .. </span>
+                                    <span className=" text-justify md:hidden text-ellipsis overflow-hidden ... ">
+                                        {
+                                            StudentsData[2]?.review.slice(0, 110)
+                                        }
+                                        .. </span>
+                                    <button onClick={() => navigate(`/studentdetails/${StudentsData[2]?.id}`)} className=" ml-1 text-purple-600">আরো পড়ুন</button>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div className=" h-full py-10  ">
+                    <div class=" bg-no-repeat h-full flex justify-center items-center">
+                        <div class="w-full max-w-[300px] h-[370px] border relative border-purple-600 p-2 py-6 rounded-xl text-gray-800 bg-no-repeat  overflow-hidden group hover:shadow-xl hover:shadow-purple-500/20 motion-safe:transition-all motion-safe:duration-700">
+                            <figure class="relative w-40 h-40 m-0 mx-auto rounded-full outline outline-offset-4  before:content-[''] before:absolute before:block before:pointer-events-none before:rounded-full before:h-full before:w-full before:bg-fuchsia-200 before:-z-[1] before:scale-[2.28] motion-safe:before:transition-all  motion-safe:transform-gpu motion-safe:before:duration-500 before:origin-center outline-white"
+                            >
+                                <img
+                                    class="rounded-full block max-w-full bg-purple-600 h-full object-cover z-10 relative"
+                                    src={StudentsData[1].img}
+                                    alt="Avatar"
+                                />
+                            </figure>
+                            <header class="motion-safe:translate-y-4 translate-y-0 motion-safe:transition-transform motion-safe:transform-gpu motion-safe:duration-500">
+                                <h3 class="font-semibold text-2xl text-center text-purple-600 mt-6   relative">
+                                    {StudentsData[1]?.name}
+                                </h3>
+                                <p class="text-center text-gray-700   relative">
+                                    {StudentsData[1]?.collage}
+                                </p>
+                            </header>
+
+                            <div class="flex justify-center  mt-16 text-gray-700 relative">
+                                <div class="  translate-y-[-40px] motion-safe:delay-200 motion-safe:transition">
+                                    <span className=" text-justify hidden md:inline text-ellipsis overflow-hidden ... ">
+                                        {
+                                            StudentsData[2]?.review.slice(0, 115)
+                                        }
+                                        .. </span>
+                                    <span className=" text-justify md:hidden text-ellipsis overflow-hidden ... ">
+                                        {
+                                            StudentsData[2]?.review.slice(0, 110)
+                                        }
+                                        .. </span>
+                                    <button onClick={() => navigate(`/studentdetails/${StudentsData[1]?.id}`)} className=" ml-1 text-purple-600">আরো পড়ুন</button>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div className=" h-full py-10  ">
+                    <div class=" bg-no-repeat h-full flex justify-center items-center">
+                        <div class="w-full max-w-[300px] h-[370px] border relative border-purple-600 p-2 py-6 rounded-xl text-gray-800 bg-no-repeat  overflow-hidden group hover:shadow-xl hover:shadow-purple-500/20 motion-safe:transition-all motion-safe:duration-700">
+                            <figure class="relative w-40 h-40 m-0 mx-auto rounded-full outline outline-offset-4  before:content-[''] before:absolute before:block before:pointer-events-none before:rounded-full before:h-full before:w-full before:bg-fuchsia-200 before:-z-[1] before:scale-[2.28] motion-safe:before:transition-all  motion-safe:transform-gpu motion-safe:before:duration-500 before:origin-center outline-white"
+                            >
+                                <img
+                                    class="rounded-full block max-w-full bg-purple-600 h-full object-cover z-10 relative"
+                                    src={StudentsData[4].img}
+                                    alt="Avatar"
+                                />
+                            </figure>
+                            <header class="motion-safe:translate-y-4 translate-y-0 motion-safe:transition-transform motion-safe:transform-gpu motion-safe:duration-500">
+                                <h3 class="font-semibold text-2xl text-center text-purple-600 mt-6   relative">
+                                    {StudentsData[4]?.name}
+                                </h3>
+                                <p class="text-center text-gray-700   relative">
+                                    {StudentsData[4]?.collage}
+                                </p>
+                            </header>
+
+                            <div class="flex justify-center  mt-16 text-gray-700 relative">
+                                <div class="  translate-y-[-40px] motion-safe:delay-200 motion-safe:transition">
+                                    <span className=" text-justify hidden md:inline  text-ellipsis overflow-hidden ... ">
+                                        {
+                                            StudentsData[2]?.review.slice(0, 115)
+                                        }
+                                        .. </span>
+                                    <span className=" text-justify md:hidden text-ellipsis overflow-hidden ... ">
+                                        {
+                                            StudentsData[2]?.review.slice(0, 110)
+                                        }
+                                        .. </span>
+                                    <button onClick={() => navigate(`/studentdetails/${StudentsData[4]?.id}`)} className=" ml-1 text-purple-600">আরো পড়ুন</button>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
     );
-}
+};
 
-export default Testmonial;
+export default StudentDetails;
