@@ -33,6 +33,7 @@ import NursingMidwifClg from './Components/NursingClgC/NursingMidwifClg/NursingM
 import AboutUs from './Components/AboutUs/AboutUs';
 import StudentDetails from './Components/Home/Testmonial/StudentDetails/StudentDetails';
 import BlogDetails from './Components/Blog/BlogDetails/BlogDetails';
+import Gallery from './Page/Gallery/Gallery';
 
 
 function App() {
@@ -52,6 +53,7 @@ function App() {
         <Route path='/bookshop' element={<BookShop />}></Route>
         <Route path='/result' element={<Result />}></Route>
         <Route path='/course' element={<Course />}></Route>
+        <Route path='/gallery' element={<Gallery />}></Route>
         <Route path='/bsccourse' element={<BscCourse />}></Route>
         <Route path='/diplomacourse' element={<DiplomaCourseC />}></Route>
         <Route path='/midwifcourse' element={<MidWifCourse />}></Route>

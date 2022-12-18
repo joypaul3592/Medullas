@@ -58,11 +58,11 @@ const BookComShop = () => {
                                 <ul role="list" class="space-y-4 py-6 text-gray-600">
                                     <li class="space-x-2 flex items-center">
                                         <span class="text-purple-500 font-semibold"><BsCheck /></span>
-                                        <span>৭৬০০ MCQ প্রশ্ন সংবলিত।</span>
+                                        <span>৭০০০ MCQ প্রশ্ন সংবলিত।</span>
                                     </li>
                                     <li class="space-x-2 flex items-center">
                                         <span class="text-purple-500 font-semibold"><BsCheck /></span>
-                                        <span>৬০ টি মানসম্মত মডেল টেস্ট।</span>
+                                        <span>৩০০০ টি মানসম্মত মডেল টেস্ট।</span>
                                     </li>
                                     <li class="space-x-2 flex items-center">
                                         <span class="text-purple-500 font-semibold"><BsCheck /></span>
@@ -70,11 +70,11 @@ const BookComShop = () => {
                                     </li>
                                     <li class="space-x-2 flex items-center">
                                         <span class="text-purple-500 font-semibold"><BsCheck /></span>
-                                        <span>বিগত সালের প্রশ্নের ব্যাখ্যাসহ সমাধান।</span>
+                                        <span>বিগত ১৫ সালের প্রশ্নের ব্যাখ্যাসহ সমাধান।</span>
                                     </li>
                                 </ul>
 
-                                <p class="text-gray-700 text-left">মেডুলা'স নার্সিং প্রশ্নব্যাংক এ রয়েছে আধুনিক প্রশ্ন সংবলিত ৭৬০০ টি MCQ এবং ৬০ টি মানসম্মত মডেল টেস্ট ও বিগত সালের প্রশ্নের ব্যাখ্যাসহ সমাধান। </p>
+                                <p class="text-gray-700 text-left">মেডুলা'স নার্সিং প্রশ্নব্যাংক এ রয়েছে আধুনিক প্রশ্ন সংবলিত ৭০০০ টি MCQ এবং ৩০০০ টি মানসম্মত মডেল টেস্ট ও বিগত ১৫ সালের প্রশ্নের ব্যাখ্যাসহ সমাধান। </p>
                                 <button onClick={() => navigate('/bookfrom')} type="submit" title="Submit" class="block w-full py-2 px-6 text-center rounded-xl transition-all duration-300 ease-in-out bg-purple-600 hover:bg-transparent border border-purple-600 hover:text-purple-600 text-white active:bg-purple-600 mt-5  ">
                                     <span >
                                         ক্রয় করুন
@@ -93,10 +93,10 @@ const BookComShop = () => {
 
 
 
-                        <div class="relative  md:w-6/12  lg:w-7/12  border border-purple-600 border-l-0">
+                        <div class="relative  md:w-6/12  lg:w-7/12  border border-purple-600 border-r-0">
                             <div class="relative p-6 pt-16 md:p-8 md:pl-12  md:rounded-r-2xl lg:pl-16 lg:p-10">
                                 <div className=' flex justify-between'>
-                                    <h1 className=' text-xl font-bold text-purple-600'>মেডুলা'স নার্সিং প্রশ্নব্যাংক </h1>
+                                    <h1 className=' text-xl font-bold text-purple-600'>মেডুলা'স নার্সিং ভর্তি সহায়িকা</h1>
 
                                     <div class="custom-number-input buo h-10 w-32">
                                         <div class="flex flex-row h-10 w-full rounded-lg relative bg-transparent mt-1">
@@ -116,11 +116,11 @@ const BookComShop = () => {
                                 <ul role="list" class="space-y-4 py-6 text-gray-600">
                                     <li class="space-x-2 flex items-center">
                                         <span class="text-purple-500 font-semibold"><BsCheck /></span>
-                                        <span>৭৬০০ MCQ প্রশ্ন সংবলিত।</span>
+                                        <span>বিষয়ভিত্তিক MCQ প্রশ্ন সংবলিত।</span>
                                     </li>
                                     <li class="space-x-2 flex items-center">
                                         <span class="text-purple-500 font-semibold"><BsCheck /></span>
-                                        <span>৬০ টি মানসম্মত মডেল টেস্ট।</span>
+                                        <span>বি.এসসি ও ডিপ্লোমা মডেল টেস্ট। </span>
                                     </li>
                                     <li class="space-x-2 flex items-center">
                                         <span class="text-purple-500 font-semibold"><BsCheck /></span>
@@ -132,7 +132,7 @@ const BookComShop = () => {
                                     </li>
                                 </ul>
 
-                                <p class="text-gray-700 text-left">মেডুলা'স নার্সিং প্রশ্নব্যাংক এ রয়েছে আধুনিক প্রশ্ন সংবলিত ৭৬০০ টি MCQ এবং ৬০ টি মানসম্মত মডেল টেস্ট ও বিগত সালের প্রশ্নের ব্যাখ্যাসহ সমাধান। </p>
+                                <p class="text-gray-700 text-left">মেডুলা'স নার্সিং প্রশ্নব্যাংক এ রয়েছে বিষয়ভিত্তিক MCQ প্রশ্ন সংবলিত আধুনিক বি.এসসি ও ডিপ্লোমা এর মানসম্মত মডেল টেস্ট ও বিগত সালের প্রশ্নের ব্যাখ্যাসহ সমাধান। </p>
                                 <button onClick={() => navigate('/bookfrom')} type="submit" title="Submit" class="block w-full py-2 px-6 text-center rounded-xl transition-all duration-300 ease-in-out bg-purple-600 hover:bg-transparent border border-purple-600 hover:text-purple-600 text-white active:bg-purple-600 mt-5  ">
                                     <span >
                                         ক্রয় করুন
@@ -170,7 +170,7 @@ const BookComShop = () => {
                         <div class="relative  md:w-6/12  lg:w-7/12  border border-purple-600 border-l-0">
                             <div class="relative p-6 pt-16 md:p-8 md:pl-12  md:rounded-r-2xl lg:pl-16 lg:p-10">
                                 <div className=' flex justify-between'>
-                                    <h1 className=' text-xl font-bold text-purple-600'>মেডুলা'স নার্সিং প্রশ্নব্যাংক </h1>
+                                    <h1 className=' text-xl font-bold text-purple-600'>মেডুলা'স নার্সিং ভর্তি সহায়িকা</h1>
 
                                     <div class="custom-number-input buo h-10 w-32">
                                         <div class="flex flex-row h-10 w-full rounded-lg relative bg-transparent mt-1">
@@ -190,11 +190,11 @@ const BookComShop = () => {
                                 <ul role="list" class="space-y-4 py-6 text-gray-600">
                                     <li class="space-x-2 flex items-center">
                                         <span class="text-purple-500 font-semibold"><BsCheck /></span>
-                                        <span>৭৬০০ MCQ প্রশ্ন সংবলিত।</span>
+                                        <span>বি.এসসি ও ডিপ্লোমা নার্সিং ও ম্যাটস/আইএইচটি।</span>
                                     </li>
                                     <li class="space-x-2 flex items-center">
                                         <span class="text-purple-500 font-semibold"><BsCheck /></span>
-                                        <span>৬০ টি মানসম্মত মডেল টেস্ট।</span>
+                                        <span>৩০০ টি মানসম্মত প্রশ্ন সংবলিত</span>
                                     </li>
                                     <li class="space-x-2 flex items-center">
                                         <span class="text-purple-500 font-semibold"><BsCheck /></span>
@@ -206,7 +206,7 @@ const BookComShop = () => {
                                     </li>
                                 </ul>
 
-                                <p class="text-gray-700 text-left">মেডুলা'স নার্সিং প্রশ্নব্যাংক এ রয়েছে আধুনিক প্রশ্ন সংবলিত ৭৬০০ টি MCQ এবং ৬০ টি মানসম্মত মডেল টেস্ট ও বিগত সালের প্রশ্নের ব্যাখ্যাসহ সমাধান। </p>
+                                <p class="text-gray-700 text-left">মেডুলা'স নার্সিং প্রশ্নব্যাংক এ রয়েছে বি.এসসি ও ডিপ্লোমা নার্সিং ও ম্যাটস/আইএইচটি আধুনিক প্রশ্ন সংবলিত মডেল টেস্ট ও বিগত সালের প্রশ্নের ব্যাখ্যাসহ সমাধান। </p>
                                 <button onClick={() => navigate('/bookfrom')} type="submit" title="Submit" class="block w-full py-2 px-6 text-center rounded-xl transition-all duration-300 ease-in-out bg-purple-600 hover:bg-transparent border border-purple-600 hover:text-purple-600 text-white active:bg-purple-600 mt-5  ">
                                     <span >
                                         ক্রয় করুন

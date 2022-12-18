@@ -1,8 +1,9 @@
 import React from 'react';
-import img1 from '../../Assect/result1.jpg'
-import img2 from '../../Assect/result2.jpg'
-import img3 from '../../Assect/result3.jpg'
-import img4 from '../../Assect/result4.jpg'
+import img1 from '../../Assect/result1.png'
+import img2 from '../../Assect/resylt4.png'
+import img3 from '../../Assect/resylt2.png'
+import img4 from '../../Assect/resylt5.png'
+import img5 from '../../Assect/resylt3.png'
 import CourseImg from '../../Assect/Course2.png'
 import { HiOutlineArrowNarrowRight } from "react-icons/hi";
 
@@ -29,9 +30,9 @@ const ResultCom = () => {
                             </div>
                             <div class=" p-4 pt-2.5 pb-5  flex flex-col justify-center leading-normal">
 
-                                <p className=' px-1 text-justify mb-1.5'>নার্সিং ভর্তি পরীক্ষা ২০২০–২১ এর ফলাফল বাংলাদেশ নার্সিং এন্ড মিডওয়াইফারি কাউন্সিল (BNMC) এর ওয়েবসাইটে প্রকাশ করা হয়েছে।</p>
+                                <p className=' px-1 text-justify mb-1.5'>নার্সিং ভর্তি পরীক্ষা ২০২০–২১ এর আপ্লিকেশন কপি বাংলাদেশ নার্সিং এন্ড মিডওয়াইফারি কাউন্সিল (BNMC) এর ওয়েবসাইটে প্রকাশ করা হয়েছে।</p>
                                 <div className=' w-full flex items-center justify-end'>
-                                    <button class="text-grey-darker text-sm pt-1.5 pb-1 rounded-full bg-fuchsia-200 border border-fuchsia-200 w-32 text-fuchsia-600 hover:bg-transparent flex items-center justify-center cursor-pointer gap-2 transition-all duration-300 ease-in-out">ফলাফল দেখুন <HiOutlineArrowNarrowRight /></button>
+                                    <a href='http://bnmc.teletalk.com.bd/' target='_blank' class="text-grey-darker text-sm pt-1.5 pb-1 rounded-full bg-fuchsia-200 border border-fuchsia-200 w-32 text-fuchsia-600 hover:bg-transparent flex items-center justify-center cursor-pointer gap-2 transition-all duration-300 ease-in-out">ফলাফল দেখুন <HiOutlineArrowNarrowRight /></a>
                                 </div>
                             </div>
                         </div>
@@ -45,9 +46,9 @@ const ResultCom = () => {
                             </div>
                             <div class=" p-4 pt-2.5 pb-5  flex flex-col justify-center leading-normal">
 
-                                <p className=' px-1 text-justify mb-1.5'>নার্সিং ভর্তি পরীক্ষা ২০২০–২১ এর ফলাফল বাংলাদেশ নার্সিং এন্ড মিডওয়াইফারি কাউন্সিল (BNMC) এর ওয়েবসাইটে প্রকাশ করা হয়েছে।</p>
+                                <p className=' px-1 text-justify mb-1.5'>নার্সিং ভর্তি পরীক্ষা ২০২১–২২ এর ফলাফল বাংলাদেশ নার্সিং এন্ড মিডওয়াইফারি কাউন্সিল (BNMC) এর ওয়েবসাইটে প্রকাশ করা হয়েছে।</p>
                                 <div className=' w-full flex items-center justify-end'>
-                                    <button class="text-grey-darker text-sm pt-1.5 pb-1  rounded-full bg-fuchsia-200 border border-fuchsia-200 w-32 text-fuchsia-600 hover:bg-transparent flex items-center justify-center cursor-pointer gap-2 transition-all duration-300 ease-in-out">ফলাফল দেখুন <HiOutlineArrowNarrowRight /></button>
+                                    <a href='http://bnmc.teletalk.com.bd/options/result.php?fbclid=IwAR1qwF9S9ZqjkRTSDqoBqyfVBqWU_B1fZ7POO2sG8_ELNqw7LtvKTpwpar4' target='_blank' class="text-grey-darker text-sm pt-1.5 pb-1  rounded-full bg-fuchsia-200 border border-fuchsia-200 w-32 text-fuchsia-600 hover:bg-transparent flex items-center justify-center cursor-pointer gap-2 transition-all duration-300 ease-in-out">ফলাফল দেখুন <HiOutlineArrowNarrowRight /></a>
                                 </div>
                             </div>
                         </div>
@@ -62,9 +63,9 @@ const ResultCom = () => {
                             </div>
                             <div class=" p-4 pt-2.5 pb-5  flex flex-col justify-center leading-normal">
 
-                                <p className=' px-1 text-justify mb-1.5'>নার্সিং ভর্তি পরীক্ষা ২০২০–২১ এর ফলাফল বাংলাদেশ নার্সিং এন্ড মিডওয়াইফারি কাউন্সিল (BNMC) এর ওয়েবসাইটে প্রকাশ করা হয়েছে।</p>
+                                <p className=' px-1 text-justify mb-1.5'>নার্সিং ভর্তি পরীক্ষা ২০২১–২২ এর ফলাফল বাংলাদেশ নার্সিং এন্ড মিডওয়াইফারি কাউন্সিল (BNMC) এর ওয়েবসাইটে প্রকাশ করা হয়েছে।</p>
                                 <div className=' w-full flex items-center justify-end'>
-                                    <button class="text-grey-darker text-sm pt-1.5 pb-1  rounded-full bg-fuchsia-200 border border-fuchsia-200 w-32 text-fuchsia-600 hover:bg-transparent flex items-center justify-center cursor-pointer gap-2 transition-all duration-300 ease-in-out">ফলাফল দেখুন <HiOutlineArrowNarrowRight /></button>
+                                    <a href='http://bnmc.teletalk.com.bd/options/result.php?fbclid=IwAR1qwF9S9ZqjkRTSDqoBqyfVBqWU_B1fZ7POO2sG8_ELNqw7LtvKTpwpar4' target='_blank' class="text-grey-darker text-sm pt-1.5 pb-1  rounded-full bg-fuchsia-200 border border-fuchsia-200 w-32 text-fuchsia-600 hover:bg-transparent flex items-center justify-center cursor-pointer gap-2 transition-all duration-300 ease-in-out">ফলাফল দেখুন <HiOutlineArrowNarrowRight /></a>
                                 </div>
                             </div>
                         </div>
@@ -77,9 +78,9 @@ const ResultCom = () => {
                             </div>
                             <div class=" p-4 pt-2.5 pb-5  flex flex-col justify-center leading-normal">
 
-                                <p className=' px-1 text-justify mb-1.5'>নার্সিং ভর্তি পরীক্ষা ২০২০–২১ এর ফলাফল বাংলাদেশ নার্সিং এন্ড মিডওয়াইফারি কাউন্সিল (BNMC) এর ওয়েবসাইটে প্রকাশ করা হয়েছে।</p>
+                                <p className=' px-1 text-justify mb-1.5'>নার্সিং ভর্তি পরীক্ষা ২০২১–২২ এর ফলাফল বাংলাদেশ নার্সিং এন্ড মিডওয়াইফারি কাউন্সিল (BNMC) এর ওয়েবসাইটে প্রকাশ করা হয়েছে।</p>
                                 <div className=' w-full flex items-center justify-end'>
-                                    <button class="text-grey-darker text-sm pt-1.5 pb-1  rounded-full bg-fuchsia-200 border border-fuchsia-200 w-32 text-fuchsia-600 hover:bg-transparent flex items-center justify-center cursor-pointer gap-2 transition-all duration-300 ease-in-out">ফলাফল দেখুন <HiOutlineArrowNarrowRight /></button>
+                                    <a href='http://bnmc.teletalk.com.bd/options/result.php?fbclid=IwAR1qwF9S9ZqjkRTSDqoBqyfVBqWU_B1fZ7POO2sG8_ELNqw7LtvKTpwpar4' target='_blank' class="text-grey-darker text-sm pt-1.5 pb-1  rounded-full bg-fuchsia-200 border border-fuchsia-200 w-32 text-fuchsia-600 hover:bg-transparent flex items-center justify-center cursor-pointer gap-2 transition-all duration-300 ease-in-out">ফলাফল দেখুন <HiOutlineArrowNarrowRight /></a>
                                 </div>
                             </div>
                         </div>
@@ -89,13 +90,13 @@ const ResultCom = () => {
                     <div class="group  ">
                         <div class="flex flex-col w-full hover:shadow-lg hover:shadow-purple-100 rounded-lg group overflow-hidden h-auto border border-purple-600  transition-all duration-500 ease-in-out">
                             <div className=' w-full  h-48 p-1.5 border-b border-purple-600 overflow-hidden  '>
-                                <img class="block h-full rounded-lg w-full group-hover:scale-[1.08]  transition-all duration-500 ease-in-out  flex-none bg-cover " src={img1} />
+                                <img class="block h-full rounded-lg w-full group-hover:scale-[1.08]  transition-all duration-500 ease-in-out  flex-none bg-cover " src={img5} />
                             </div>
                             <div class=" p-4 pt-2.5 pb-5  flex flex-col justify-center leading-normal">
 
                                 <p className=' px-1 text-justify mb-1.5'>নার্সিং ভর্তি পরীক্ষা ২০২০–২১ এর ফলাফল বাংলাদেশ নার্সিং এন্ড মিডওয়াইফারি কাউন্সিল (BNMC) এর ওয়েবসাইটে প্রকাশ করা হয়েছে।</p>
                                 <div className=' w-full flex items-center justify-end'>
-                                    <button class="text-grey-darker text-sm pt-1.5 pb-1  rounded-full bg-fuchsia-200 border border-fuchsia-200 w-32 text-fuchsia-600 hover:bg-transparent flex items-center justify-center cursor-pointer gap-2 transition-all duration-300 ease-in-out">ফলাফল দেখুন <HiOutlineArrowNarrowRight /></button>
+                                    <a href='http://bnmc.teletalk.com.bd/options/result.php?fbclid=IwAR1qwF9S9ZqjkRTSDqoBqyfVBqWU_B1fZ7POO2sG8_ELNqw7LtvKTpwpar4' target='_blank' class="text-grey-darker text-sm pt-1.5 pb-1  rounded-full bg-fuchsia-200 border border-fuchsia-200 w-32 text-fuchsia-600 hover:bg-transparent flex items-center justify-center cursor-pointer gap-2 transition-all duration-300 ease-in-out">ফলাফল দেখুন <HiOutlineArrowNarrowRight /></a>
                                 </div>
                             </div>
                         </div>

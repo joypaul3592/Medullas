@@ -67,7 +67,7 @@ const BlogDetails = () => {
 
     return (
         <div className=' max-w-7xl px-5 mx-auto my-12'>
-            <div class=" w-1/2 mx-auto bg-white border border-gray-200 rounded-lg shadow-md ">
+            <div class=" lg:w-1/2 md:w-2/3 w-full mx-auto bg-white border border-gray-200 rounded-lg shadow-md ">
                 <div>
                     <img class="rounded-t-lg h-80 mx-auto" src={blogDatas[studentId]?.img} alt="blogImg1" />
                 </div>
