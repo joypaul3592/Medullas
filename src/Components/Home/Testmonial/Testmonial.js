@@ -7,7 +7,6 @@ import CarosuleItem from './CarosuleItem/CarosuleItem'
 import { GrPrevious, GrNext } from 'react-icons/gr'
 
 function SampleNextArrow(props) {
-    console.log(props);
     const { onClick } = props;
     return (
         <div
@@ -29,10 +28,9 @@ const Testmonial = () => {
     var settings = {
         dots: true,
         infinite: true,
-        speed: 700,
+        speed: 1000,
         slidesToShow: 3,
         slidesToScroll: 1,
-        focusOnSelect: true,
         autoplay: true,
         autoplaySpeed: 3000,
         nextArrow: <SamplePrevArrow />,
@@ -56,6 +54,7 @@ const Testmonial = () => {
             settings: {
                 slidesToShow: 1,
                 slidesToScroll: 1,
+                focusOnSelect: true,
             }
         }
         ]
