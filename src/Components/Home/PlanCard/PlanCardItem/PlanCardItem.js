@@ -34,11 +34,11 @@ const PlanCardItem = () => {
                         <ul role="list" class="space-y-4 py-6 text-gray-600">
                             <li class="space-x-2 flex items-center">
                                 <span class="text-purple-500 font-semibold"><BsCheck /></span>
-                                <span>৭৬০০ MCQ প্রশ্ন সংবলিত।</span>
+                                <span>৭০০০ MCQ প্রশ্ন সংবলিত।</span>
                             </li>
                             <li class="space-x-2 flex items-center">
                                 <span class="text-purple-500 font-semibold"><BsCheck /></span>
-                                <span>৬০ টি মানসম্মত মডেল টেস্ট।</span>
+                                <span>৩০ টি মানসম্মত মডেল টেস্ট।</span>
                             </li>
                             <li class="space-x-2 flex items-center">
                                 <span class="text-purple-500 font-semibold"><BsCheck /></span>
@@ -49,7 +49,7 @@ const PlanCardItem = () => {
                                 <span>বিগত সালের প্রশ্নের ব্যাখ্যাসহ সমাধান।</span>
                             </li>
                         </ul>
-                        <p class="text-gray-700 text-left">মেডুলা'স নার্সিং প্রশ্নব্যাংক এ রয়েছে আধুনিক প্রশ্ন সংবলিত ৭৬০০ টি MCQ এবং ৬০ টি মানসম্মত মডেল টেস্ট ও বিগত সালের প্রশ্নের ব্যাখ্যাসহ সমাধান। </p>
+                        <p class="text-gray-700 text-left">মেডুলা'স নার্সিং প্রশ্নব্যাংক এ রয়েছে আধুনিক প্রশ্ন সংবলিত ৭০০০ টি MCQ এবং ৩০ টি মানসম্মত মডেল টেস্ট ও বিগত সালের প্রশ্নের ব্যাখ্যাসহ সমাধান। </p>
                         <div class="mt-6 flex justify-between items-center gap-6">
                             <img class="w-16 lg:w-24" src={payment1} loading="lazy" alt="airbnb" />
                             <img class="w-8 lg:w-20" src={payment2} loading="lazy" alt="bissell" />

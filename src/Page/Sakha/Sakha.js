@@ -20,7 +20,7 @@ const Sakha = () => {
                         </div>
                         <div className='flex justify-center  px-3 gap-2 mt-2'>
                             <h1 className=' text-purple-500 font-bold'>যোগাযোগ : </h1>
-                            <p className=' text-md'>০১৭২৫১২৮৩৮৭</p>
+                            <p className=' text-md'>০১৭২৫১২৮৩৮৭, ০১৯৭২৩৪৩৯২৫</p>
                         </div>
                     </div>
                 </div>
@@ -88,7 +88,7 @@ const Sakha = () => {
                         </div>
                         <div className='flex justify-center  px-3 gap-2 mt-2'>
                             <h1 className=' text-purple-500 font-bold'>যোগাযোগ : </h1>
-                            <p>০১৫৭২৬৪২০৯২</p>
+                            <p>০১৫৭২৩৪২০৯২</p>
                         </div>
                     </div>
                 </div>
@@ -116,7 +116,7 @@ const Sakha = () => {
                         </div>
                         <div className='flex justify-center  px-3 gap-2 mt-2'>
                             <h1 className=' text-purple-500 font-bold'>যোগাযোগ : </h1>
-                            <p>০১৫৭২৩৬৪৮০৪</p>
+                            <p>০১৯৭২৩৪৩৯২৫</p>
                         </div>
                     </div>
                 </div>

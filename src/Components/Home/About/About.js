@@ -22,7 +22,7 @@ const About = () => {
                         </div>
                         <div className=' flex items-center gap-3 bg-white hover:shadow-purple-300  py-4 p-2 rounded-lg shadow-md '>
                             <BsRecordCircle className=' text-xl text-purple-600' />
-                            <h1 className=' text-lg font-medium'>অভিজ্ঞ শিক্ষকমন্ডলীদ্বারা ক্লাস গ্রহ</h1>
+                            <h1 className=' text-lg font-medium'>অভিজ্ঞ শিক্ষক মন্ডলী দ্বারা ক্লাস গ্রহণ</h1>
                         </div>
                         <div className=' flex items-center gap-3 bg-white hover:shadow-purple-300  py-4 p-2 rounded-lg shadow-md '>
                             <BsRecordCircle className=' text-xl text-purple-600' />

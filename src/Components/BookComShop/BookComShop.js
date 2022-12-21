@@ -120,7 +120,7 @@ const BookComShop = () => {
                                     </li>
                                     <li class="space-x-2 flex items-center">
                                         <span class="text-purple-500 font-semibold"><BsCheck /></span>
-                                        <span>বি.এসসি ও ডিপ্লোমা মডেল টেস্ট। </span>
+                                        <span>বি.এসসি ও ডিপ্লোমা বিষয়ভিত্তিক টেস্ট। </span>
                                     </li>
                                     <li class="space-x-2 flex items-center">
                                         <span class="text-purple-500 font-semibold"><BsCheck /></span>
@@ -148,9 +148,6 @@ const BookComShop = () => {
                                 <div className=' flex items-center gap-1 text-4xl mx-auto justify-center'><TbCurrencyTaka className=' text-5xl -mt-1 text-purple-600' />৩৯০</div>
                             </div>
                         </div>
-
-
-
                     </div>
                 </div>
 
@@ -194,7 +191,7 @@ const BookComShop = () => {
                                     </li>
                                     <li class="space-x-2 flex items-center">
                                         <span class="text-purple-500 font-semibold"><BsCheck /></span>
-                                        <span>৩০০ টি মানসম্মত প্রশ্ন সংবলিত</span>
+                                        <span>৩০০০ টি মানসম্মত প্রশ্ন সংবলিত।</span>
                                     </li>
                                     <li class="space-x-2 flex items-center">
                                         <span class="text-purple-500 font-semibold"><BsCheck /></span>

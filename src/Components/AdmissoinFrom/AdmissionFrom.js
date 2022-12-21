@@ -153,7 +153,7 @@ const AdmissionFrom = () => {
                                     <select id="countries" class="bg-gray-50 border border-gray-300 text-gray-900  rounded-lg focus:ring-blue-500 focus:border-purple-600 block w-full p-2.5 " required>
                                         <option selected>মুসলিম</option>
                                         <option value="US">হিন্দু</option>
-                                        <option value="CA">অনন্যা</option>
+                                        <option value="CA">অন্যান্য</option>
                                     </select>
                                 </div>
 
@@ -204,7 +204,7 @@ const AdmissionFrom = () => {
                             </div>
 
                             <div class=" py-5 ">
-                                <h1 className=' text-xl pt-5 text-black font-bold flex items-center gap-4'><VscActivateBreakpoints />প্রতিষ্ঠানিক তথ্য (এইস.এস.সি)</h1>
+                                <h1 className=' text-xl pt-5 text-black font-bold flex items-center gap-4'><VscActivateBreakpoints />প্রতিষ্ঠানিক তথ্য (এইচ.এস.সি)</h1>
                                 <div className=' grid md:grid-cols-2 grid-cols-1 md:gap-10'>
                                     <div class="relative mt-5">
                                         <input type="text" id="floating_outlined19" class="block px-2.5 pb-2.5 pt-4 w-full text-sm  bg-transparent rounded-lg border border-gray-400 appearance-none    focus:outline-none focus:ring-0 focus:border-purple-600 peer" placeholder=" " required />
