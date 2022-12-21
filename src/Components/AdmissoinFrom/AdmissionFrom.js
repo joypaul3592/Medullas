@@ -33,7 +33,7 @@ const AdmissionFrom = () => {
                         <form onSubmit={handelsubmit} className='  relative md:pt-10' novalidate="novalidate" data-status="init">
 
 
-                            <div class="row  bg-white py-4 mt-10 md:grid md:grid-cols-3 flex flex-col items-center justify-center  lg:max-w-3xl mx-auto  gap-10 ">
+                            <div class="row  py-4 mt-10  md:flex-row flex flex-col items-center justify-center  mx-auto  gap-8 ">
                                 <div >
                                     <label className='  pt-2.5 pb-1.5  px-[38px] rounded-md border border-purple-600 accent-purple-600 cursor-pointer'><input className=' mr-5' type="radio" name="input-subject" value="BSC in Nursing" /><span class="wpcf7-list-item-label">বিএসসি ইন নার্সিং</span></label>
                                 </div>
@@ -43,7 +43,7 @@ const AdmissionFrom = () => {
                                 </div>
 
                                 <div>
-                                    <label className='  pt-2.5 pb-1.5 px-8 rounded-md border border-purple-600 accent-purple-600 cursor-pointer'><input className=' mr-5' type="radio" name="input-subject" value="BSC in Nursing" /><span class="wpcf7-list-item-label">মিডওয়াইফারী নার্সিং</span></label>
+                                    <label className='  pt-2.5 pb-1.5 px-8  rounded-md border border-purple-600 accent-purple-600 cursor-pointer'><input className=' mr-5' type="radio" name="input-subject" value="BSC in Nursing" /><span class="wpcf7-list-item-label">ডিপ্লোমা ইন মিডওয়াইফারী</span></label>
                                 </div>
                             </div>
 
@@ -90,7 +90,7 @@ const AdmissionFrom = () => {
 
                                     <div class="relative mt-5">
                                         <input type="text" id="floating_outlined7" class="block px-2.5 pb-2.5 pt-4 w-full text-sm  bg-transparent rounded-lg border border-gray-400 appearance-none    focus:outline-none focus:ring-0 focus:border-purple-600 peer" placeholder=" " />
-                                        <label for="floating_outlined7" class="absolute  text-gray-700 text-lg  duration-300 transform -translate-y-4 scale-75 top-2 z-10 origin-[0] bg-white  px-2 peer-focus:px-2 peer-focus:text-purple-600  peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:top-1/2 peer-focus:top-2 peer-focus:scale-75 peer-focus:-translate-y-4 left-1 flex items-center gap-3"><TbBuildingPavilon className='  text-purple-600' />বিভাগ</label>
+                                        <label for="floating_outlined7" class="absolute  text-gray-700 text-lg  duration-300 transform -translate-y-4 scale-75 top-2 z-10 origin-[0] bg-white  px-2 peer-focus:px-2 peer-focus:text-purple-600  peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:top-1/2 peer-focus:top-2 peer-focus:scale-75 peer-focus:-translate-y-4 left-1 flex items-center gap-3"><TbBuildingPavilon className='  text-purple-600' />জেলা</label>
                                     </div>
                                 </div>
 
@@ -121,7 +121,7 @@ const AdmissionFrom = () => {
 
                                     <div class="relative mt-5">
                                         <input type="text" id="floating_outlined11" class="block px-2.5 pb-2.5 pt-4 w-full text-sm  bg-transparent rounded-lg border border-gray-400 appearance-none    focus:outline-none focus:ring-0 focus:border-purple-600 peer" placeholder=" " />
-                                        <label for="floating_outlined11" class="absolute  text-gray-700 text-lg  duration-300 transform -translate-y-4 scale-75 top-2 z-10 origin-[0] bg-white  px-2 peer-focus:px-2 peer-focus:text-purple-600  peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:top-1/2 peer-focus:top-2 peer-focus:scale-75 peer-focus:-translate-y-4 left-1 flex items-center gap-3"><TbBuildingPavilon className='  text-purple-600' />বিভাগ</label>
+                                        <label for="floating_outlined11" class="absolute  text-gray-700 text-lg  duration-300 transform -translate-y-4 scale-75 top-2 z-10 origin-[0] bg-white  px-2 peer-focus:px-2 peer-focus:text-purple-600  peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:top-1/2 peer-focus:top-2 peer-focus:scale-75 peer-focus:-translate-y-4 left-1 flex items-center gap-3"><TbBuildingPavilon className='  text-purple-600' />জেলা</label>
                                     </div>
                                 </div>
 
@@ -168,8 +168,9 @@ const AdmissionFrom = () => {
 
                                 <div >
                                     <select id="countries" class="bg-gray-50 border border-gray-300 text-gray-900  rounded-lg focus:ring-blue-500 focus:border-purple-600 block w-full p-2.5 " required>
-                                        <option selected>ছেলে</option>
-                                        <option value="US">মেয়ে</option>
+                                        <option selected>জেন্ডার </option>
+                                        <option value='chele'>ছেলে</option>
+                                        <option value="meye">মেয়ে</option>
                                     </select>
                                 </div>
 
@@ -241,20 +242,20 @@ const AdmissionFrom = () => {
                                 </div>
                                 <div class=" pb-5 grid md:grid-cols-3 grid-cols-1 md:gap-10 ">
                                     <div class="relative mt-5">
-                                        <input type="number" id="floating_outlined12" class="block px-2.5 pb-2.5 pt-4 w-full text-sm  bg-transparent rounded-lg border border-gray-400 appearance-none    focus:outline-none focus:ring-0 focus:border-purple-600 peer" placeholder=" " />
-                                        <label for="floating_outlined12" class="absolute  text-gray-700 text-lg  duration-300 transform -translate-y-4 scale-75 top-2 z-10 origin-[0] bg-white  px-2 peer-focus:px-2 peer-focus:text-purple-600  peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:top-1/2 peer-focus:top-2 peer-focus:scale-75 peer-focus:-translate-y-4 left-1 flex items-center gap-3"><HiOutlinePhoneMissedCall className='  text-purple-600' />পেমেন্ট নাম</label>
+                                        <input type="number" id="floating_outlined142" class="block px-2.5 pb-2.5 pt-4 w-full text-sm  bg-transparent rounded-lg border border-gray-400 appearance-none    focus:outline-none focus:ring-0 focus:border-purple-600 peer" placeholder=" " />
+                                        <label for="floating_outlined142" class="absolute  text-gray-700 text-lg  duration-300 transform -translate-y-4 scale-75 top-2 z-10 origin-[0] bg-white  px-2 peer-focus:px-2 peer-focus:text-purple-600  peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:top-1/2 peer-focus:top-2 peer-focus:scale-75 peer-focus:-translate-y-4 left-1 flex items-center gap-3"><HiOutlinePhoneMissedCall className='  text-purple-600' />পেমেন্ট নাম</label>
                                     </div>
 
 
                                     <div class="relative mt-5">
-                                        <input type="number" id="floating_outlined13" class="block px-2.5 pb-2.5 pt-4 w-full text-sm  bg-transparent rounded-lg border border-gray-400 appearance-none    focus:outline-none focus:ring-0 focus:border-purple-600 peer" placeholder=" " required />
-                                        <label for="floating_outlined13" class="absolute  text-gray-700 text-lg  duration-300 transform -translate-y-4 scale-75 top-2 z-10 origin-[0] bg-white  px-2 peer-focus:px-2 peer-focus:text-purple-600  peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:top-1/2 peer-focus:top-2 peer-focus:scale-75 peer-focus:-translate-y-4 left-1 flex items-center gap-3"><BiMobileVibration className='  text-purple-600' />পেমেন্ট পরিমান</label>
+                                        <input type="number" id="floating_outlined143" class="block px-2.5 pb-2.5 pt-4 w-full text-sm  bg-transparent rounded-lg border border-gray-400 appearance-none    focus:outline-none focus:ring-0 focus:border-purple-600 peer" placeholder=" " required />
+                                        <label for="floating_outlined143" class="absolute  text-gray-700 text-lg  duration-300 transform -translate-y-4 scale-75 top-2 z-10 origin-[0] bg-white  px-2 peer-focus:px-2 peer-focus:text-purple-600  peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:top-1/2 peer-focus:top-2 peer-focus:scale-75 peer-focus:-translate-y-4 left-1 flex items-center gap-3"><BiMobileVibration className='  text-purple-600' />পেমেন্ট পরিমান</label>
                                     </div>
 
 
                                     <div class="relative mt-5">
-                                        <input type="email" id="floating_outlined14" class="block px-2.5 pb-2.5 pt-4 w-full text-sm  bg-transparent rounded-lg border border-gray-400 appearance-none  focus:outline-none focus:ring-0 focus:border-purple-600 peer" placeholder=" " required />
-                                        <label for="floating_outlined14" class="absolute  text-gray-700 text-lg  duration-300 transform -translate-y-4 scale-75 top-2 z-10 origin-[0] bg-white  px-2 peer-focus:px-2 peer-focus:text-purple-600  peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:top-1/2 peer-focus:top-2 peer-focus:scale-75 peer-focus:-translate-y-4 left-1 flex items-center gap-3"><HiOutlineMail className='  text-purple-600' />ট্রান্‌জ্যাক্‌শন্ আইডি</label>
+                                        <input type="email" id="floating_outlined174" class="block px-2.5 pb-2.5 pt-4 w-full text-sm  bg-transparent rounded-lg border border-gray-400 appearance-none  focus:outline-none focus:ring-0 focus:border-purple-600 peer" placeholder=" " required />
+                                        <label for="floating_outlined174" class="absolute  text-gray-700 text-lg  duration-300 transform -translate-y-4 scale-75 top-2 z-10 origin-[0] bg-white  px-2 peer-focus:px-2 peer-focus:text-purple-600  peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:top-1/2 peer-focus:top-2 peer-focus:scale-75 peer-focus:-translate-y-4 left-1 flex items-center gap-3"><HiOutlineMail className='  text-purple-600' />ট্রান্‌জ্যাক্‌শন্ আইডি</label>
                                     </div>
                                 </div>
                             </div>
@@ -270,7 +271,6 @@ const AdmissionFrom = () => {
                                     <input id="dropzone-file" type="file" class="hidden" required />
                                 </label>
                             </div>
-
 
                             <div class="mb-16 text-center">
                                 <input type="submit" value="জমা দিন" class=" pt-3 pb-2 hover:bg-transparent border border-purple-600 hover:text-purple-600 transition-all duration-300 ease-in-out rounded-md md:mt-4 mt-8 bg-purple-600 text-white px-16 cursor-pointer  text-lg" /><span class="wpcf7-spinner"></span>
