@@ -79,7 +79,7 @@ const NiyogCourseC = () => {
 
                                         <tr class="bg-white hover:bg-blue-50 border-b border-blue-300 text-base font-bold ">
                                             <th scope="row" class="py-2 px-6 font-medium text-gray-900 border-r border-blue-300 whitespace-nowrap ">
-                                                জীব বিজ্ঞান
+                                                সাধারন বিজ্ঞান
                                             </th>
                                             <td class="py-2 px-6">
                                                 ১৬
@@ -89,29 +89,6 @@ const NiyogCourseC = () => {
                                             </td>
                                         </tr>
 
-                                        <tr class="bg-white hover:bg-blue-50 border-b border-blue-300 text-base font-bold ">
-                                            <th scope="row" class="py-2 px-6 font-medium text-gray-900 border-r border-blue-300 whitespace-nowrap ">
-                                                রসায়ন
-                                            </th>
-                                            <td class="py-2 px-6">
-                                                ১৬
-                                            </td>
-                                            <td class="py-2 px-6 border-l border-blue-300">
-                                                ১৬
-                                            </td>
-                                        </tr>
-
-                                        <tr class="bg-white hover:bg-blue-50 border-b border-blue-300 text-base font-bold ">
-                                            <th scope="row" class="py-2 px-6 font-medium text-gray-900 border-r border-blue-300 whitespace-nowrap ">
-                                                পদার্থ বিজ্ঞান
-                                            </th>
-                                            <td class="py-2 px-6">
-                                                ১৬
-                                            </td>
-                                            <td class="py-2 px-6 border-l border-blue-300">
-                                                ১৬
-                                            </td>
-                                        </tr>
 
                                         <tr class="bg-white hover:bg-blue-50 border-b border-blue-300 text-base font-bold ">
                                             <th scope="row" class="py-2 px-6 font-medium text-gray-900 border-r border-blue-300 whitespace-nowrap ">
@@ -132,7 +109,7 @@ const NiyogCourseC = () => {
                                                 সর্বমোট
                                             </th>
                                             <th scope="col" class="py-2 px-6">
-                                                ১১২
+                                                ৮০
                                             </th>
                                             <th scope="col" class="py-2 px-6">
                                                 ১১২
@@ -193,57 +170,13 @@ const NiyogCourseC = () => {
 
                                         <tr class="bg-white hover:bg-blue-50 border-b border-blue-300 text-base font-bold ">
                                             <th scope="row" class="py-2 px-6 font-medium text-gray-900 border-r border-blue-300 whitespace-nowrap ">
-                                                জীব বিজ্ঞান ১ম পত্র
+                                                সাধারন বিজ্ঞান
                                             </th>
                                             <td class="py-2 px-6">
                                                 ১০
                                             </td>
                                         </tr>
 
-                                        <tr class="bg-white hover:bg-blue-50 border-b border-blue-300 text-base font-bold ">
-                                            <th scope="row" class="py-2 px-6 font-medium text-gray-900 border-r border-blue-300 whitespace-nowrap ">
-                                                জীব বিজ্ঞান ২য় পত্র
-                                            </th>
-                                            <td class="py-2 px-6">
-                                                ১০
-                                            </td>
-                                        </tr>
-
-                                        <tr class="bg-white hover:bg-blue-50 border-b border-blue-300 text-base font-bold ">
-                                            <th scope="row" class="py-2 px-6 font-medium text-gray-900 border-r border-blue-300 whitespace-nowrap ">
-                                                রসায়ন ১ম পত্র
-                                            </th>
-                                            <td class="py-2 px-6">
-                                                ১০
-                                            </td>
-                                        </tr>
-
-                                        <tr class="bg-white hover:bg-blue-50 border-b border-blue-300 text-base font-bold ">
-                                            <th scope="row" class="py-2 px-6 font-medium text-gray-900 border-r border-blue-300 whitespace-nowrap ">
-                                                রসায়ন ২য় পত্র
-                                            </th>
-                                            <td class="py-2 px-6">
-                                                ১০
-                                            </td>
-                                        </tr>
-
-                                        <tr class="bg-white hover:bg-blue-50 border-b border-blue-300 text-base font-bold ">
-                                            <th scope="row" class="py-2 px-6 font-medium text-gray-900 border-r border-blue-300 whitespace-nowrap ">
-                                                পদার্থ বিজ্ঞান ১ম পত্র
-                                            </th>
-                                            <td class="py-2 px-6">
-                                                ১০
-                                            </td>
-                                        </tr>
-
-                                        <tr class="bg-white hover:bg-blue-50 border-b border-blue-300 text-base font-bold ">
-                                            <th scope="row" class="pt-2 pb-2.5 px-6 font-medium text-gray-900 border-r border-blue-300 whitespace-nowrap ">
-                                                পদার্থ বিজ্ঞান ২য় পত্র
-                                            </th>
-                                            <td class="pt-2 pb-2.5 px-6">
-                                                ১০
-                                            </td>
-                                        </tr>
 
                                         <tr class="bg-white hover:bg-blue-50 border-b border-blue-300 text-base font-bold ">
                                             <th scope="row" class="py-2 px-6 font-medium text-gray-900 border-r border-blue-300 whitespace-nowrap ">
@@ -261,7 +194,7 @@ const NiyogCourseC = () => {
                                                 সর্বমোট
                                             </th>
                                             <th scope="col" class="py-2 px-6">
-                                                ১০০
+                                                ৫০
                                             </th>
                                         </tr>
                                     </thead>
@@ -319,30 +252,13 @@ const NiyogCourseC = () => {
 
                                         <tr class="bg-white hover:bg-blue-50 border-b border-blue-300 text-base font-bold ">
                                             <th scope="row" class="pb-2 pt-2.5  font-medium text-gray-900 border-r border-blue-300 whitespace-nowrap ">
-                                                জীব বিজ্ঞান
+                                                সাধারন বিজ্ঞান
                                             </th>
                                             <td class="pb-2 pt-2.5 ">
                                                 ৭
                                             </td>
                                         </tr>
 
-                                        <tr class="bg-white hover:bg-blue-50 border-b border-blue-300 text-base font-bold ">
-                                            <th scope="row" class="pb-2 pt-2.5 px-6 font-medium text-gray-900 border-r border-blue-300 whitespace-nowrap ">
-                                                রসায়ন
-                                            </th>
-                                            <td class="pb-2 pt-2.5 px-6">
-                                                ৭
-                                            </td>
-                                        </tr>
-
-                                        <tr class="bg-white hover:bg-blue-50 border-b border-blue-300 text-base font-bold ">
-                                            <th scope="row" class="pb-2 pt-2.5 px-6 font-medium text-gray-900 border-r border-blue-300 whitespace-nowrap ">
-                                                পদার্থ বিজ্ঞান
-                                            </th>
-                                            <td class="pb-2 pt-2.5 px-6">
-                                                ৭
-                                            </td>
-                                        </tr>
 
                                         <tr class="bg-white hover:bg-blue-50 border-b border-blue-300 text-base font-bold ">
                                             <th scope="row" class="py-2 px-6 font-medium text-gray-900 border-r border-blue-300 whitespace-nowrap ">
@@ -360,7 +276,7 @@ const NiyogCourseC = () => {
                                                 সর্বমোট
                                             </th>
                                             <th scope="col" class="pt-2 pb-2.25 px-6">
-                                                ৭৭
+                                                ৩৫
                                             </th>
                                         </tr>
                                     </thead>

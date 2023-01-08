@@ -35,15 +35,15 @@ const AdmissionFrom = () => {
 
                             <div class="row  py-4 mt-10  md:flex-row flex flex-col items-center justify-center  mx-auto  gap-8 ">
                                 <div >
-                                    <label className='  pt-2.5 pb-1.5  px-[38px] rounded-md border border-purple-600 accent-purple-600 cursor-pointer'><input className=' mr-5' type="radio" name="input-subject" value="BSC in Nursing" /><span class="wpcf7-list-item-label">বিএসসি ইন নার্সিং</span></label>
+                                    <label className='  pt-2.5 pb-1.5  lg:px-[38px] px-3 rounded-md border border-purple-600 accent-purple-600 cursor-pointer'><input className=' mr-5' type="radio" name="input-subject" value="BSC in Nursing" /><span class="wpcf7-list-item-label">বিএসসি ইন নার্সিং</span></label>
                                 </div>
 
                                 <div>
-                                    <label className='  pt-2.5 pb-1.5 px-[38px] rounded-md border border-purple-600 accent-purple-600 cursor-pointer'><input className=' mr-5' type="radio" name="input-subject" value="BSC in Nursing" /><span class="wpcf7-list-item-label">ডিপ্লোমা ইন নার্সিং</span></label>
+                                    <label className='  pt-2.5 pb-1.5 lg:px-[38px] px-3 rounded-md border border-purple-600 accent-purple-600 cursor-pointer'><input className=' mr-5' type="radio" name="input-subject" value="BSC in Nursing" /><span class="wpcf7-list-item-label">ডিপ্লোমা ইন নার্সিং</span></label>
                                 </div>
 
                                 <div>
-                                    <label className='  pt-2.5 pb-1.5 px-8  rounded-md border border-purple-600 accent-purple-600 cursor-pointer'><input className=' mr-5' type="radio" name="input-subject" value="BSC in Nursing" /><span class="wpcf7-list-item-label">ডিপ্লোমা ইন মিডওয়াইফারী</span></label>
+                                    <label className='  pt-2.5 pb-1.5 lg:px-8 px-3  rounded-md border border-purple-600 accent-purple-600 cursor-pointer'><input className=' mr-5' type="radio" name="input-subject" value="BSC in Nursing" /><span class="wpcf7-list-item-label">ডিপ্লোমা ইন মিডওয়াইফারী</span></label>
                                 </div>
                             </div>
 

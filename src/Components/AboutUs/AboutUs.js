@@ -15,9 +15,9 @@ const AboutUs = () => {
                     <BsCircleSquare />
                     <h1><span className=' text-pink-600'>পরিচালনা পরিষদ</span></h1>
                 </div>
-                <div className=' flex items-center gap-10 justify-center'>
+                <div className=' md:flex  grid grid-cols-1 items-center gap-10 justify-center'>
 
-                    <div class="rounded-3xl overflow-hidden shadow-xl max-w-xs my-3 bg-pink-300">
+                    <div class="rounded-3xl mx-auto md:mx-0 overflow-hidden shadow-xl max-w-xs my-3 bg-pink-300">
                         <img src={aboutBgimg} class="w-full" />
                         <div class="flex justify-center -mt-8">
                             <img src={susantoImg} class="rounded-full h-40 w-40 border-solid border-white border-2 -mt-3" />
@@ -29,7 +29,7 @@ const AboutUs = () => {
 
                     </div>
 
-                    <div class="rounded-3xl overflow-hidden shadow-xl max-w-xs my-3 bg-pink-300">
+                    <div class="rounded-3xl mx-auto md:mx-0 overflow-hidden shadow-xl max-w-xs my-3 bg-pink-300">
                         <img src={aboutBgimg} class="w-full" />
                         <div class="flex justify-center -mt-8 ">
                             <img src={shaonImg} class="rounded-full h-40 w-40 border-solid border-white border-2 -mt-3" />
@@ -46,7 +46,7 @@ const AboutUs = () => {
 
 
 
-            <div className='text-lg text-justify w-2/3 mx-auto border border-purple-600  p-5 rounded shadow-md shadow-gray-300 hover:shadow-purple-300 my-10'>
+            <div className='text-lg text-justify lg:w-2/3 w-full mx-auto border border-purple-600  p-5 rounded shadow-md shadow-gray-300 hover:shadow-purple-300 my-10'>
                 <span className=' font-bold '>পরিচালকের বাণী </span>
                 <h1 className='  text-justify my-1'> সুপ্রিয় শিক্ষার্থী বন্ধুরা, </h1>
                 <h1 className=' my-2'>আস্সালামু আলাইকুম। খাজা খানজাহান আলী এর স্মৃতি বিজড়িত পূণ্যভূমি এবং পদ্মা বিধৌত এই শিক্ষানগরী খুলনাতে তোমাদের সু-স্বাগতম। “এ তুফান ভারি দিতে হবে পাড়ি, নিতে হবে তরী পার” জীবন নামের এই তরীকে তীরে পৌছাতে হলে এইচ.এস.সি পরিক্ষার পরে বিশ্রামের কোন সুযোগ নেই। তোমরা জান যে, প্রতিযোগীদের তুলনায় সরকারী নার্সিং গুলোতে আসন সংখ্যা কম। হাজার হাজার প্রতিযোগির মধ্যে তোমাকে জায়গা করে নিতে হবে তোমার কাঙ্খিত স্থানে, পৌছাতে হবে তোমার কাঙ্খিত লক্ষ্যে এজন্য প্রয়োজন তোমার প্রত্যয়দীপ্ত বাসনা এবং পরিশ্রম মুখর পড়াশোনার পাশাপাশি মেধার যথাযথ যত্ন ও সঠিক দিক নির্দেশনা। তোমার মেধাকে ভর্তির এই মহাযুদ্ধে উপযোগী করে গড়ে তোলাই আমাদের দায়িত্ব।</h1>
@@ -61,7 +61,7 @@ const AboutUs = () => {
                 <p className=' font-bold'>মেডুলা'স  কোচিং, খুলনা শাখা</p>
             </div>
 
-            <div className=' flex items-center justify-between'>
+            <div className=' lg:flex items-center justify-between'>
                 <div>
                     <img src={aboutusImg} alt="aboutusImg" />
                 </div>
@@ -84,11 +84,11 @@ const AboutUs = () => {
             </div>
 
 
-            <div className='w-2/3 mx-auto border border-purple-600 text-lg  p-5 rounded shadow-md shadow-gray-300 hover:shadow-purple-300 my-10 text-justify'>
+            <div className='lg:w-2/3 w-full mx-auto border border-purple-600 text-lg  p-5 rounded shadow-md shadow-gray-300 hover:shadow-purple-300 my-10 text-justify'>
                 <h1 className=' text-xl font-bold mb-2 text-purple-600'>ভর্তি কোচিং এর প্রয়োজনীয়তা:</h1>
-                <p>মাধ্যমিক ও উচ্চ মাধ্যমিক পর্যায়ে ভালো রেজাল্ট করা যত না কঠিন তার চেয়ে অনেক কঠিন IHT-MATS & Nursing এ চান্স পাওয়া। কারণ বিপুল সংখ্যক ছাত্র/ছাত্রীর প্রত্যাশা থাকে উচ্চ শিক্ষা গ্রহনের কিন্তু ভর্তিচ্ছুদের তুলনাই আসন স্বল্পতা ছাত্র/ছাত্রীদের মুখোমুখিভর্তি কোচিং এর প্রয়োজনীয়তা করে দিচ্ছে তীব্র প্রতিযোগীতা। ভর্তি পরীক্ষার প্রশ্নসমূহ পাঠ্যপুস্তক থেকে ভিন্নরূপ ও টেকনিক্যাল হয়ে থাকে যা একজন শিক্ষার্থীর পক্ষে ব্যতিক্রম অনুশিলন ছাড়া সীমিত সময়ের মধ্যে আয়ত করা সম্ভব হয়ে উঠে না। এ ছাড়া সাধারণত মাধ্যমিক পর্যায়ে ছাত্র/ছাত্রীরাও পুরো সলেবাস না পড়ে সাজেশন আকারে সীমিত অধ্যায় সম্পর্কে ধারণা নেয় ফলে Conception কখনো Clear থাকে না। কিন্তু ভর্তি পরীক্ষা পুরো সিলেবাসের উপর হওয়ায় অনেক ভালো ছাত্রছাত্রীর পক্ষে চান্স পাওয়া সম্ভব হয়ে উঠে না। অনীবার্যভাবে কাঙ্খিত রেজাল্ট অনিশ্চিত হয়ে পড়ে। আর এর যোগ্যতা কেবল মাত্র কেচিং এর মাধ্যমেই অর্জন করা সম্ভব। তাই বর্তমান সময়ে কোচিং এর গুরুত্ব সর্বজন শ্বীকৃত এবং পরিক্ষিত। SSC ও HSC পরীক্ষার ৩/৪ মাস ছাত্রছাত্রীদের জীবনে অত্যান্ত গুরুত্বপূর্ণ। এই স্বল্প সময়ের মাঝে টিকে থাকবে তারাই যারা কৌশলী ও পরিশ্রমী। কৌশল ও পরিশ্রমকে পুঁজি করে ভাল ফলাফলের অধিকারী ছাত্রছাত্রীরা যেমন ভর্তি যুদ্ধে উত্তীর্ণ হয়।</p>
+                <p>মাধ্যমিক ও উচ্চ মাধ্যমিক পর্যায়ে ভালো রেজাল্ট করা যত না কঠিন তার চেয়ে অনেক কঠিন নার্সিং এ চান্স পাওয়া। কারণ বিপুল সংখ্যক ছাত্র/ছাত্রীর প্রত্যাশা থাকে উচ্চ শিক্ষা গ্রহনের কিন্তু ভর্তিচ্ছুদের তুলনাই আসন স্বল্পতা ছাত্র/ছাত্রীদের মুখো-মুখি ভর্তি কোচিং এর প্রয়োজনীয়তা করে দিচ্ছে তীব্র প্রতিযোগীতা। ভর্তি পরীক্ষার প্রশ্নসমূহ পাঠ্যপুস্তক থেকে ভিন্নরূপ ও টেকনিক্যাল হয়ে থাকে যা একজন শিক্ষার্থীর পক্ষে ব্যতিক্রম অনুশিলন ছাড়া সীমিত সময়ের মধ্যে আয়ত করা সম্ভব হয়ে উঠে না। এ ছাড়া সাধারণত মাধ্যমিক পর্যায়ে ছাত্র/ছাত্রীরাও পুরো সিলেবাস না পড়ে সাজেশন আকারে সীমিত অধ্যায় সম্পর্কে ধারণা নেয় ফলে Conception কখনো Clear থাকে না। কিন্তু ভর্তি পরীক্ষা পুরো সিলেবাসের উপর হওয়ায় অনেক ভালো ছাত্রছাত্রীর পক্ষে চান্স পাওয়া সম্ভব হয়ে উঠে না। অনীবার্যভাবে কাঙ্খিত রেজাল্ট অনিশ্চিত হয়ে পড়ে। আর এর যোগ্যতা কেবল মাত্র কেচিং এর মাধ্যমেই অর্জন করা সম্ভব। তাই বর্তমান সময়ে কোচিং এর গুরুত্ব সর্বজন শ্বীকৃত এবং পরিক্ষিত। SSC ও HSC পরীক্ষার ৩/৪ মাস ছাত্রছাত্রীদের জীবনে অত্যান্ত গুরুত্বপূর্ণ। এই স্বল্প সময়ের মাঝে টিকে থাকবে তারাই যারা কৌশলী ও পরিশ্রমী। কৌশল ও পরিশ্রমকে পুঁজি করে ভাল ফলাফলের অধিকারী ছাত্রছাত্রীরা যেমন ভর্তি যুদ্ধে উত্তীর্ণ হয়।</p>
             </div>
-            <div className='w-2/3 mx-auto border border-purple-600 text-lg  p-5 rounded shadow-md shadow-gray-300 hover:shadow-purple-300 my-10 text-justify mb-16'>
+            <div className='lg:w-2/3 w-full mx-auto border border-purple-600 text-lg  p-5 rounded shadow-md shadow-gray-300 hover:shadow-purple-300 my-10 text-justify mb-16'>
                 <h1 className=' text-xl font-bold mb-2 text-purple-600'>অন্যান্য কোচিং থেকে মেডুলা'স কেন আলাদা:</h1>
                 <div>মেডুলা'স একমাত্র কোচিং যেখানে ক্লাস এবং পরীক্ষা মেডিকেল, ইঞ্জিনিয়ারিং ও বিশ্ববিদ্যালয়ের ছাত্র ও পরিচালকের সরাসরি তত্ত্বাবধানে অনুষ্ঠিত হয়ে থাকে। অথচ অন্য সকল প্রতিষ্ঠানে পরিচালক নিজে পড়ান না বরং জুনিয়র শিক্ষক নিয়ে ক্লাস করান। তাই ছাত্র-ছাত্রীরা ক্লাসে তেমন উপকৃত হয় না।
                     আমরা কেবলমাত্র অভিজ্ঞ শিক্ষক দ্বারা সমস্ত কোর্সের কার্যক্রম পরিচালনা করি। তাই আমাদের পড়ানোর মান সব সময় অন্য সব কোচিং সেন্টারের চেয়ে হাজার গুণ উন্নত থাকে। <br />
@@ -96,7 +96,7 @@ const AboutUs = () => {
             </div>
 
 
-            <div className=' my-10'>
+            <div className=' my-10 lg:block hidden'>
                 <div className=' flex items-start text-xl gap-3'>
                     <BsCircleSquare />
                     <h1><span className=' text-pink-600'>এক নজরে মেডুলা'স ও অন্যান্য কোচিং সেন্টার এর পার্থ্যক্য</span></h1>

@@ -16,7 +16,7 @@ const CourseCom = () => {
             <div className=' h-60 w-screen bg-gradient-to-r from-pink-50 to-sky-100'>
                 <div className=' max-w-7xl mx-auto  h-full flex items-center justify-between'>
                     <div></div>
-                    <h1 className=' text-5xl font-bold ml-40 text-purple-600'>#কোর্স </h1>
+                    <h1 className=' text-5xl font-bold md:ml-40 text-purple-600'>#কোর্স </h1>
                     <img className=' h-full' src={CourseImg} alt="CourseImg" />
                 </div>
             </div>

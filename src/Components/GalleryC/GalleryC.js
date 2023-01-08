@@ -122,7 +122,7 @@ const GalleryC = () => {
 
 
 
-            <div className={` h-full  ${isHover ? 'gallery-display' : ''}`} onMouseEnter={toggleHover} onMouseLeave={toggleHover}>
+            <div className={` h-full lg:inline hidden  ${isHover ? 'gallery-display' : ''}`} onMouseEnter={toggleHover} onMouseLeave={toggleHover}>
                 <div>
                     {rows.map((row, rowIndex) => (
                         <div className='gallery__row  mt-10' key={rowIndex}>
@@ -148,12 +148,12 @@ const GalleryC = () => {
 
 
             <div className=' my-20'>
-                <div className=' flex items-center gap-3 text-3 text-lg font-bold '>
+                <div className=' flex items-center  gap-3 text-3 text-lg font-bold '>
                     <SiPointy className=' text-purple-600' />
                     <h1>সমাপনী ও পুরস্কার বিতরণী অনুষ্ঠান ২০২২</h1>
                 </div>
 
-                <div className=' grid grid-cols-3 gap-10 mt-5'>
+                <div className=' grid lg:grid-cols-3  md:grid-cols-2 grid-cols-1 gap-10 mt-5'>
                     {
                         images.map(i =>
                             <img className=' rounded-lg shadow-lg hover:scale-105 transition-all duration-300 ease-in-out' src={i} alt="images" />

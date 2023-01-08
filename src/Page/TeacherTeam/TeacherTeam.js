@@ -40,7 +40,7 @@ const TeacherTeam = () => {
                     <div class="flex flex-col items-center p-8 transition-colors duration-300 transform border border-purple-600  cursor-pointer rounded-xl hover:border-transparent group hover:bg-fuchsia-700 ">
                         <img class="object-cover w-32 h-32 rounded-full ring-4 ring-gray-300" src={img3} alt="img3" />
                         <h1 class="mt-4 text-2xl font-semibold text-gray-700 capitalize  group-hover:text-white">মাহবুবুর রহমান রাফি</h1>
-                        <p class="mt-2 text-gray-500 capitalize  group-hover:text-gray-300 text-center">পিযুষ কুমার দত্ত<br />
+                        <p class="mt-2 text-gray-500 capitalize  group-hover:text-gray-300 text-center">কুয়েট সিভিল ইঞ্জিনিয়ারিং-১৭<br />
                             <span className=' text-purple-600  group-hover:text-gray-300'>শিক্ষক-রসায়ন বিজ্ঞান</span></p>
                     </div>
 
@@ -65,7 +65,7 @@ const TeacherTeam = () => {
                         <img class="object-cover w-32 h-32 rounded-full ring-4 ring-gray-300" src={img7} alt="img3" />
                         <h1 class="mt-4 text-2xl font-semibold text-gray-700 capitalize  group-hover:text-white">পিযুষ কুমার দত্ত</h1>
                         <p class="mt-2 text-gray-500 capitalize  group-hover:text-gray-300 text-center">কুয়েট সিভিল ইঞ্জিনিয়ারিং-১৭<br />
-                            <span className=' text-purple-600  group-hover:text-gray-300'>পিযুষ কুমার দত্ত</span></p>
+                            <span className=' text-purple-600  group-hover:text-gray-300'>শিক্ষক-পদার্থ বিজ্ঞান</span></p>
                     </div>
 
                     <div class="flex flex-col items-center p-8 transition-colors duration-300 transform border border-purple-600  cursor-pointer rounded-xl hover:border-transparent group hover:bg-fuchsia-700 ">

@@ -31,7 +31,7 @@ const Sakha = () => {
                 <div className=' w-[1px] h-[26px] bg-purple-500 absolute top-0 left-[50%]'></div>
                 <div className=' w-[1px] h-[26px] bg-purple-500 absolute top-0 right-0'></div>
             </div>
-            <div className=' flex items-center justify-between mt-6'>
+            <div className=' flex items-center md:flex-nowrap flex-wrap justify-between mt-6'>
                 <div className='relative h-40 w-80 border border-purple-500 mx-auto rounded-md flex items-center justify-center '>
                     <div>
                         <div className=' text-center'>
@@ -78,7 +78,7 @@ const Sakha = () => {
                 </div>
             </div>
 
-            <div className=' flex items-center justify-between mt-6'>
+            <div className=' flex items-center md:flex-nowrap flex-wrap justify-between mt-6'>
                 <div className=' h-40 w-80 border border-purple-500 mx-auto rounded-md flex items-center justify-center '>
                     <div>
                         <div className=' w-10 h-10 rounded-full bg-purple-100 flex items-center justify-center mx-auto'><ImHome2 /></div>

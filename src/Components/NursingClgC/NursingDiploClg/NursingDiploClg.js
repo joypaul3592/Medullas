@@ -17,7 +17,7 @@ const NursingDiploClg = () => {
                     <AiOutlineSend className=' text-black mt-1' />
                     <h1>সরকারি নার্সিং ইনস্টিটিউট এর নাম ও আসন সংখ্যা:</h1>
                 </div>
-                <div className=' mt-4 md:w-3/4 w-full mx-auto'>
+                <div className=' mt-4 lg:w-3/4 w-full mx-auto'>
                     <div class="overflow-x-auto relative shadow-md sm:rounded-lg">
                         <table class="w-full text-sm text-center text-gray-500 ">
                             <thead class=" text-gray-700 text-lg uppercase  bg-gradient-to-r from-white via-amber-200 to-white ">

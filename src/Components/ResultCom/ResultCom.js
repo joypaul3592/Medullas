@@ -13,7 +13,7 @@ const ResultCom = () => {
             <div className=' h-60 w-screen bg-gradient-to-r from-pink-50 to-sky-100'>
                 <div className=' max-w-7xl m-auto  h-full flex items-center justify-between'>
                     <div></div>
-                    <h1 className=' text-5xl font-bold ml-40 text-purple-600'>#রেজাল্ট </h1>
+                    <h1 className=' text-5xl font-bold md:ml-40 text-purple-600'>#রেজাল্ট </h1>
                     <img className=' h-full' src={CourseImg} alt="CourseImg" />
                 </div>
             </div>
@@ -21,7 +21,7 @@ const ResultCom = () => {
                 <div className=' text-lg font-bold  text-purple-600 mb-5'>
                     <p>#রিসেন্ট পাবলিশ</p>
                 </div>
-                <div className='gap-10  grid grid-cols-3  items-center justify-start max-w-5xl mx-auto'>
+                <div className='gap-10  grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1   items-center justify-start max-w-5xl mx-auto'>
 
                     <div class="group  ">
                         <div class="flex flex-col w-full hover:shadow-lg hover:shadow-purple-100 rounded-lg group overflow-hidden h-auto border border-purple-600  transition-all duration-500 ease-in-out">

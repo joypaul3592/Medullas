@@ -414,7 +414,7 @@ const BscCourseC = () => {
                                             বাংলা
                                         </th>
                                         <td class="py-2 px-6">
-                                            ২০
+                                            ১০
                                         </td>
                                     </tr>
 
@@ -423,25 +423,34 @@ const BscCourseC = () => {
                                             ইংরেজী
                                         </th>
                                         <td class="py-2 px-6">
-                                            ২০
-                                        </td>
-                                    </tr>
-
-                                    <tr class="bg-white hover:bg-pink-50 border-b border-pink-300 text-base font-bold ">
-                                        <th scope="row" class="pb-2 pt-2.5 font-medium text-gray-900 border-r border-pink-300 whitespace-nowrap ">
-                                            সাধারণ গণিত
-                                        </th>
-                                        <td class="pb-2 pt-2.5">
                                             ১০
                                         </td>
                                     </tr>
 
                                     <tr class="bg-white hover:bg-pink-50 border-b border-pink-300 text-base font-bold ">
                                         <th scope="row" class="pb-2 pt-2.5  font-medium text-gray-900 border-r border-pink-300 whitespace-nowrap ">
-                                            সাধারণ বিজ্ঞান
+                                            জীব বিজ্ঞান
                                         </th>
                                         <td class="pb-2 pt-2.5 ">
                                             ৩০
+                                        </td>
+                                    </tr>
+
+                                    <tr class="bg-white hover:bg-pink-50 border-b border-pink-300 text-base font-bold ">
+                                        <th scope="row" class="pb-2 pt-2.5 px-6 font-medium text-gray-900 border-r border-pink-300 whitespace-nowrap ">
+                                            রসায়ন
+                                        </th>
+                                        <td class="pb-2 pt-2.5 px-6">
+                                            ২০
+                                        </td>
+                                    </tr>
+
+                                    <tr class="bg-white hover:bg-pink-50 border-b border-pink-300 text-base font-bold ">
+                                        <th scope="row" class="pb-2 pt-2.5 px-6 font-medium text-gray-900 border-r border-pink-300 whitespace-nowrap ">
+                                            পদার্থ বিজ্ঞান
+                                        </th>
+                                        <td class="pb-2 pt-2.5 px-6">
+                                            ২০
                                         </td>
                                     </tr>
 
@@ -451,7 +460,7 @@ const BscCourseC = () => {
                                             সাধারণ জ্ঞান
                                         </th>
                                         <td class="py-2 px-6">
-                                            ২০
+                                            ১০
                                         </td>
                                     </tr>
 
