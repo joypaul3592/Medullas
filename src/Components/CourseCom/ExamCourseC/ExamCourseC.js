@@ -162,20 +162,38 @@ const ExamCourseC = () => {
                                     </tr>
 
                                     <tr class="bg-white hover:bg-red-50 border-b border-red-300 text-base font-bold ">
-                                        <th scope="row" class="pb-2 pt-2.5 font-medium text-gray-900 border-r border-red-300 whitespace-nowrap ">
-                                            সাধারণ গণিত
+                                        <th scope="row" class="py-2 px-6 font-medium text-gray-900 border-r border-red-300 whitespace-nowrap ">
+                                            গণিত
                                         </th>
-                                        <td class="pb-2 pt-2.5">
+                                        <td class="py-2 px-6">
                                             ১০
                                         </td>
                                     </tr>
 
                                     <tr class="bg-white hover:bg-red-50 border-b border-red-300 text-base font-bold ">
                                         <th scope="row" class="pb-2 pt-2.5  font-medium text-gray-900 border-r border-red-300 whitespace-nowrap ">
-                                            সাধারণ বিজ্ঞান
+                                            জীব বিজ্ঞান
                                         </th>
                                         <td class="pb-2 pt-2.5 ">
-                                            ৩০
+                                            ১০
+                                        </td>
+                                    </tr>
+
+                                    <tr class="bg-white hover:bg-red-50 border-b border-red-300 text-base font-bold ">
+                                        <th scope="row" class="pb-2 pt-2.5 px-6 font-medium text-gray-900 border-r border-red-300 whitespace-nowrap ">
+                                            রসায়ন
+                                        </th>
+                                        <td class="pb-2 pt-2.5 px-6">
+                                            ১০
+                                        </td>
+                                    </tr>
+
+                                    <tr class="bg-white hover:bg-red-50 border-b border-red-300 text-base font-bold ">
+                                        <th scope="row" class="pb-2 pt-2.5 px-6 font-medium text-gray-900 border-r border-red-300 whitespace-nowrap ">
+                                            পদার্থ বিজ্ঞান
+                                        </th>
+                                        <td class="pb-2 pt-2.5 px-6">
+                                            ১০
                                         </td>
                                     </tr>
 
